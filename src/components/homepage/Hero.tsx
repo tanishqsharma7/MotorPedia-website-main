@@ -31,8 +31,8 @@ function Hero() {
           <p className=" text-base  lg:text-[25px] font-semibold">
             Driving Success Together{" "}
           </p>
-          <div className="display-2   ">
-            We Empower{" "}
+          <div className="display-2 lg:text-nowrap">
+            We Empower<br></br>
             <div className="text-s3 inline-flex">
               {animateWord.map((word, idx) => (
                 <StaggerEffectTwo key={idx} id={idx}>
@@ -44,7 +44,7 @@ function Hero() {
           </div>
           <p className="max-w-[550px] text-[18px]">
             We streamline your Dealership with Effortless Digitalization,
-            Seamless RTO Operations, Enhanced Leads, Maximized Conversions
+            Seamless RTO Operations, Enhanced Leads, Maximized Conversions
           </p>
           <div className="flex justify-start items-center gap-4 pt-6 lg:pt-8 pb-15">
             <Link

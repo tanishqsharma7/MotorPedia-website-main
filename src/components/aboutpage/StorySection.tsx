@@ -21,11 +21,11 @@ function StorySection() {
             <img
               src={img}
               alt=""
-              className="rounded-full w-[100px] h-[100px]"
+              className="rounded-full w-[120px] h-[132px]"
             />
             <div className="">
               <p>Rajat Upadhyaya</p>
-              <p className=" text-bodyText text-sm">CEO Motorpedia</p>
+              <p className=" text-bodyText text-sm">CEO, Motorpedia</p>
             </div>
           </div>
         </div>

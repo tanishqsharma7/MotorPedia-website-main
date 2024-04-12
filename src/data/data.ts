@@ -815,7 +815,7 @@ export const storyData = [
   {
     id: uuidv4(),
     title: "Expert Team",
-    desc: "Our team of experienced professionals brings a wealth of knowledge to every client interaction. From payroll processing to financial advisory, we have the expertise to guide your business.",
+    desc: "Our team of seasoned automotive specialists offers extensive expertise in every client engagement. From maintenance to performance enhancements, we're equipped to navigate your automotive needs with precision and care",
   },
 ];
 
@@ -824,25 +824,25 @@ export const ourValues = [
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
     title: "Customer Empathy",
-    desc: "We are transparent and do the right thing for the right reason",
+    desc: "Understanding and addressing customer needs with compassion and consideration",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiCheckCircleFill),
-    title: "Biased for Action",
-    desc: "We take ownership of outcomes and deliver on our commitments",
+    title: "Bias for Action",
+    desc: "Taking proactive steps swiftly and decisively to drive progress and achieve goals",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
     title: "Commitment to Excellence",
-    desc: "We seek and leverage differences and unique perspectives",
+    desc: " Dedicated to achieving the highest standards of performance and continuous improvement in all endeavors",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
     title: "Trustworthy",
-    desc: "We start with the customer in everything we do",
+    desc: "Consistently demonstrating reliability, integrity, and honesty in all interactions",
   },
 ];
 
