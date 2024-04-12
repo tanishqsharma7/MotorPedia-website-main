@@ -1,10 +1,8 @@
 import LinkButton from "../ui/LinkButton";
-import img from "/images/car-gif.webm";
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
+
 
 function DedicatedSupport() {
-  const [isOpen, setOpen] = useState(false);
+  
  
 
   return (
