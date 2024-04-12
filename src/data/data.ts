@@ -507,7 +507,7 @@ export const stepByStepCard = [
   },
   {
     id: uuidv4(),
-    title: "AI-driven Unifies integration ",
+    title: "AI-driven Unified integration ",
     desc: "Implement Motorpedia's AI tools for a unified dashboard integrating procurement, sales, digital presence, and operational efficiency in dealership operations.",
     icon: React.createElement(PiUserFill),
   },
