@@ -22,8 +22,8 @@ function ContactUsSection() {
              
             </p>
           </FadeTop>
-          <div className="flex gap-5">
-          <div className="w-[200px] h-[150px]">
+          <div className="lg:flex lg:gap-5">
+          <div className="w-[200px] h-[100px]">
             <img src={download_google} alt="download" className="bg-white rounded-xl" />
             {/* <img src={download_apple} alt="download" /> */}
           </div>
