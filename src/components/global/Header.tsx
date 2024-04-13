@@ -60,7 +60,7 @@ function Header() {
               <Link to={"/"}>
                 <img
                   src={logo}
-                  className="w-48 lg:-translate-x-[70px]"
+                  className="w-48 "
                   alt="motorpedia logo"
                 />
               </Link>
@@ -131,7 +131,7 @@ function Header() {
                 +91 99999-61887
               </Link>
             </div> */}
-            <div className="translate-x-[70px]">
+            <div className="">
               <LinkButton link="/contact" text="Contact Us" />
             </div>
           </div>
