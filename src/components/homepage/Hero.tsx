@@ -59,7 +59,7 @@ function Hero() {
           </div>
         </div>
         <div className="col-span-9 lg:col-span-6 lg:col-start-7 ">
-          <img src={heroIllus} className="pt-[50px] mr-[100px]  w-[750px] h-[500px]"  alt="" />
+          <img src={heroIllus} className=" mr-[100px] mt-7  w-[750px] h-[400px]"  alt="" />
         </div>
       </div>
     </section>
