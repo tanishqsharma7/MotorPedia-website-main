@@ -11,8 +11,7 @@ function Footer() {
             <img src={logo} alt="" />
           </div>
           <p className="">
-            Your trusted partner in accounting and payroll solutions. We deliver
-            precision, efficiency, and tailored services
+            Expertily created automotive solutions by automotive professionals.
           </p>
           <ul className="flex justify-start items-center gap-2">
             {socialLinks.map(({ id, link, icon }, idx) => (

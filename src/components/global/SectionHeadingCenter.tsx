@@ -12,12 +12,12 @@ function SectionHeadingCenter({ sectionTitle, sectionDesc }: Props) {
     <div className="flex justify-center items-center max-xxl:overflow-hidden">
       <div className="  max-w-[700px] text-center flex justify-center items-center flex-col">
         <FadeLeft>
-          <h1 className="display-4 text-[30px]  pt-4 pb-4 lg:pb-6">
+          <h1 className="display-4 text-[35px]  pt-4 pb-4 lg:pb-6">
             {sectionTitle}
           </h1>
         </FadeLeft>
         <FadeTop>
-          <p className=" text-black">{sectionDesc}</p>
+          <p className=" text-black text-lg">{sectionDesc}</p>
         </FadeTop>
       </div>
     </div>

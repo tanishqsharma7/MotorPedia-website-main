@@ -43,12 +43,12 @@ function Hero() {
             <br /> Dealerships
           </div>
           <p className="max-w-[550px] text-[18px]">
-            We streamline your Dealership with Effortless Digitalization,
-            Seamless RTO Operations, Enhanced Leads, Maximized Conversions
+            We streamline your dealership with Effortless Digitalization,
+            Seamless RTO Operations, Enhanced Leads and Maximized Conversions
           </p>
           <div className="flex justify-start items-center gap-4 pt-6 lg:pt-8 pb-15">
             <Link
-              to={"/contact"}
+              to={"/services"}
               className="font-medium bg-s2 py-2 lg:py-3 px-4 lg:px-6 rounded-full text-mainTextColor"
             >
               Know More
@@ -59,7 +59,11 @@ function Hero() {
           </div>
         </div>
         <div className="col-span-9 lg:col-span-6 lg:col-start-7 ">
-          <img src={heroIllus} className=" mr-[100px] mt-7 lg:w-[750px] lg:h-[400px]"  alt="" />
+          <img
+            src={heroIllus}
+            className=" mr-[50px] mt-7 lg:w-auto lg:h-auto pr-[90px] "
+            alt=""
+          />
         </div>
       </div>
     </section>

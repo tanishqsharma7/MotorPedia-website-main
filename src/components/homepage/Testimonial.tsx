@@ -19,12 +19,8 @@ function Testimonial() {
       <div className="container">
         <div className="flex justify-center items-cneter gap-6 max-lg:flex-col max-lg:items-center">
           <div className="  max-w-[600px] flex justify-center items-center flex-col">
-            <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-              Testimonial
-            </p>
             <h1 className="display-4  pt-4 ">Testimonials</h1>
           </div>
-          
         </div>
       </div>
       <div className="sponsors stp-15">

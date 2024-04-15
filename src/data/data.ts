@@ -1,13 +1,25 @@
 import React from "react";
-import { AiFillFileText } from "react-icons/ai";
+// import {
+//   AiFillBehanceCircle,
+//   AiFillCiCircle,
+//   AiFillFileText,
+//   AiFillPlusCircle,
+//   AiFillQqCircle,
+//   AiFillWeiboCircle,
+// } from "react-icons/ai";
 import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaUsers,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
+import { FaPeopleGroup, FaXTwitter } from "react-icons/fa6";
+import {
+  MdOutlineEmail,
+  MdOutlineInventory,
+  MdOutlineLocationOn,
+  MdOutlineScreenSearchDesktop,
+} from "react-icons/md";
 import {
   //PiBinocularsFill,
   PiBuildingsFill,
@@ -23,7 +35,8 @@ import {
   PiCheckCircleFill,
   PiCheckSquareDuotone,
   PiCoinFill,
-  PiDesktopDuotone,
+  // PiCrownDuotone,
+  // PiDesktopDuotone,
   // PiDesktopFill,
   // PiDeviceMobileFill,
   PiEnvelopeFill,
@@ -46,14 +59,11 @@ import {
   PiPhoneCallBold,
   PiPhoneCallDuotone,
   PiPhoneCallFill,
-  PiRocketLaunchFill,
   PiSealCheckFill,
   PiStarFill,
   PiTimerFill,
   PiToothFill,
   PiUserFill,
-  PiUserGearFill,
-  PiUserPlusFill,
   PiUsersThreeFill,
   PiWalletFill,
   PiWebhooksLogoFill,
@@ -63,10 +73,10 @@ import {
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
 
-//import whyMotorpediaCard1 from "/images/whyAccoupayCard_1.png";
-import whyMotorpediaCard2 from "/images/RTO1.png";
-import whyMotorpediaCard3 from "/images/cars12.jpg";
-import whyMotorpediaCard4 from "/images/personal.jpg";
+import whyMotorpediaCard1 from "/images/img1.jpg";
+import whyMotorpediaCard2 from "/images/whyus2.jpg";
+import whyMotorpediaCard3 from "/images/whyus3.jpg";
+import whyMotorpediaCard4 from "/images/whyus4.jpg";
 // import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
 // import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
 
@@ -83,8 +93,8 @@ import blogImg1 from "/images/blogImg1.png";
 import blogImg2 from "/images/blogImg2.png";
 import blogImg3 from "/images/blogImg3.png";
 
-import { BsFillRocketTakeoffFill } from "react-icons/bs";
-import { GiKite } from "react-icons/gi";
+import { BsFillRocketTakeoffFill, BsRobot } from "react-icons/bs";
+import { GiKite, GiTakeMyMoney } from "react-icons/gi";
 // import { HiCurrencyDollar } from "react-icons/hi2";
 import { SlPlane } from "react-icons/sl";
 
@@ -121,10 +131,18 @@ import recentPostImg3 from "/images/recent_post_img3.png";
 import recentPostImg4 from "/images/recent_post_img4.png";
 // import { TbMapPinSearch } from "react-icons/tb";
 import {
+  SiConvertio,
+  //SiPiaggiogroup,
   // SiPicardsurgeles,
   SiPivotaltracker,
   SiPrivateinternetaccess,
 } from "react-icons/si";
+//import { RiGroup2Fill } from "react-icons/ri";
+import { GrServices } from "react-icons/gr";
+// import { Link } from "react-router-dom";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
+import { TbDeviceDesktopStar } from "react-icons/tb";
+import { IoMailUnread } from "react-icons/io5";
 
 export const headerMenu = [
   {
@@ -158,17 +176,17 @@ export const headerMenu = [
       },
       {
         id: uuidv4(),
-        name: "DigitalizePro Services",
+        name: "Digitalization",
         link: "/services/DigitalizePro",
       },
       {
         id: uuidv4(),
-        name: "RTO Services",
+        name: "RTO",
         link: "/services/RTO",
       },
       {
         id: uuidv4(),
-        name: "Sale Enablement Services",
+        name: "Sale Enablement",
         link: "/services/saleEnablement",
       },
       // {
@@ -237,75 +255,9 @@ export const headerMenu = [
 
   {
     id: uuidv4(),
-    name: "More",
-    isSubmenu: true,
-    submenu: [
-      // {
-      //   id: uuidv4(),
-      //   name: "Appointment",
-      //   link: "/appointment",
-      // },
-      // {
-      //   id: uuidv4(),
-      //   name: "Case Study",
-      //   link: "/case-study",
-      // },
-      // {
-      //   id: uuidv4(),
-      //   name: "Case Study Detials",
-      //   link: "/case-study/case-study-details",
-      // },
-      {
-        id: uuidv4(),
-        name: "Our Team",
-        link: "/team",
-      },
-      // {
-      //   id: uuidv4(),
-      //   name: "Team Details",
-      //   link: "/team/team-details",
-      // },
-      // {
-      //   id: uuidv4(),
-      //   name: "About",
-      //   link: "/about",
-      // },
-      // {
-      //   id: uuidv4(),
-      //   name: "Pricing",
-      //   link: "/pricing",
-      // },
-      {
-        id: uuidv4(),
-        name: "FAQ Page",
-        link: "/faq",
-      },
-      // {
-      //   id: uuidv4(),
-      //   name: "Login",
-      //   link: "/login",
-      // },
-      // {
-      //   id: uuidv4(),
-      //   name: "Register",
-      //   link: "/register",
-      // },
-      {
-        id: uuidv4(),
-        name: "Privacy Policy",
-        link: "/privacy-policy",
-      },
-      {
-        id: uuidv4(),
-        name: "Terms & Conditions",
-        link: "/terms-conditions",
-      },
-      // {
-      //   id: uuidv4(),
-      //   name: "Error",
-      //   link: "/error",
-      // },
-    ],
+    name: "FAQs",
+    link: "/faq",
+    isSubmenu: false,
   },
 ];
 
@@ -354,8 +306,8 @@ export const footerLinks = [
 
       {
         id: uuidv4(),
-        name: "Blog",
-        link: "/blog",
+        name: "Services",
+        link: "/services",
       },
       {
         id: uuidv4(),
@@ -375,17 +327,17 @@ export const footerLinks = [
       },
       {
         id: uuidv4(),
-        name: "DigitalizePro Services",
+        name: "Digitalization",
         link: "/services/DigitalizePro",
       },
       {
         id: uuidv4(),
-        name: "RTO Services",
+        name: "RTO",
         link: "/services/RTO",
       },
       {
         id: uuidv4(),
-        name: "Sale Enablement Services",
+        name: "Sale Enablement",
         link: "/services/saleEnablement",
       },
       // {
@@ -404,21 +356,21 @@ export const getInTouch = [
     links: [
       {
         id: uuidv4(),
-        name: "themotorpedia@gmail.com",
-        link: "mailto:themotorpedia@gmail.com",
+        name: "contact@themotorpedia.com",
+        link: "mailto:contact@themotorpedia.com",
         isLink: true,
         icon: React.createElement(MdOutlineEmail),
       },
       {
         id: uuidv4(),
-        name: "+91 99999-61887",
+        name: "+91 9205522250",
         isLink: true,
-        link: "tel:+91 99999-61887",
+        link: "tel:+91 9205522250",
         icon: React.createElement(PiPhoneCallBold),
       },
       {
         id: uuidv4(),
-        name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
+        name: "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122002",
         isLink: false,
         icon: React.createElement(MdOutlineLocationOn),
       },
@@ -429,19 +381,19 @@ export const getInTouch = [
 export const teamContactDetails = [
   {
     id: uuidv4(),
-    name: "themotorpedia@gmail.com",
-    link: "themotorpedia@gmail.com",
+    name: "contact@themotorpedia.com",
+    link: "contact@themotorpedia.com",
     icon: React.createElement(PiEnvelopeFill),
   },
   {
     id: uuidv4(),
-    name: "+91 99999-61887",
-    link: "tel:+91 99999-61887",
+    name: "+91 9205522250",
+    link: "tel:+91 9205522250",
     icon: React.createElement(PiPhoneCallFill),
   },
   {
     id: uuidv4(),
-    name: "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
+    name: "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
     link: "",
     icon: React.createElement(PiMapPinFill),
   },
@@ -450,24 +402,28 @@ export const teamContactDetails = [
 export const solutionsFeatures = [
   {
     id: uuidv4(),
-    name: "RTO Services",
-    icon: React.createElement(AiFillFileText),
+    name: "RTO Assistance Network",
+    icon: React.createElement(FaUsers),
+    linkto: "/services/RTO",
   },
   {
     id: uuidv4(),
-    name: "Digitalization",
-    icon: React.createElement(PiLightbulbFilamentFill),
+    name: "Comprehensive Digitalization Platform",
+    icon: React.createElement(MdOutlineScreenSearchDesktop),
+    linkto: "/services/DigitalizePro",
   },
   {
     id: uuidv4(),
-    name: "Procurement Solution",
-    icon: React.createElement(PiHandCoinsFill),
+    name: "Sales Optimization Suite",
+    icon: React.createElement(GiTakeMyMoney),
+    linkto: "/services/saleEnablement",
   },
 
   {
     id: uuidv4(),
-    name: "Sale Enablement",
-    icon: React.createElement(PiRocketLaunchFill),
+    name: "Procurement Powerhouse",
+    icon: React.createElement(GrServices),
+    linkto: "/services/saleEnablement",
   },
 ];
 
@@ -476,72 +432,76 @@ export const featuresCard = [
     id: uuidv4(),
     icon: React.createElement(FaUsers),
     name: "RTO Assistance Network",
-    desc: "Covering all RTO requirements including ownership transfer, challan management, NOC procurement, and Vahancheck services. ",
+    desc: "Covering all RTO requirements including ownership transfer, challan management, NOC procurement, and Vahancheck services",
+    linkto: "/services/RTO",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiHandCoinsFill),
+    icon: React.createElement(MdOutlineScreenSearchDesktop),
     name: "Comprehensive Digitization Platform",
-    desc: "Offering online and offline marketing, 360-degree photo capabilities with virtual studio, and centralized website for inventory management. ",
+    desc: "Offering online and offline marketing, 360-degree photo capabilities with virtual studio, and centralized website for inventory management",
+    linkto: "/services/DigitalizePro",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiUserGearFill),
-    name: "Procurement Powerhouse",
-    desc: "Providing predictive buying price analysis, lead generation for procurement, vehicle inspection services, and streamlined procurement processes.",
-  },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiUserPlusFill),
+    icon: React.createElement(GiTakeMyMoney),
     name: "Sales Optimization Suite",
-    desc: "Including lead management, inventory oversight, insurance facilitation, and finance assistance to enhance sales efficiency.",
+    desc: "Including lead management, inventory oversight, insurance facilitation, and finance assistance to enhance sales efficiency ",
+    linkto: "/services/saleEnablement",
+  },
+  {
+    id: uuidv4(),
+    icon: React.createElement(GrServices),
+    name: "Procurement Powerhouse",
+    desc: "Providing predictive buying price analysis, lead generation for procurement, vehicle inspection services, and streamlined procurement processes ",
+    linkto: "/services/saleEnablement",
   },
 ];
 
 export const stepByStepCard = [
   {
     id: uuidv4(),
-    title: "Strategic consultation  ",
-    desc: "Engage in comprehensive discussions and effective liaising, dedicating 30 minutes to grasp challenges and prioritize objectives.",
-    icon: React.createElement(PiFilePlusFill),
+    title: "Strategic Consultation  ",
+    desc: "Engage in comprehensive discussions and effective liaising, dedicating 30 minutes to grasp challenges and prioritize objectives",
+    icon: React.createElement(LiaChalkboardTeacherSolid),
   },
   {
     id: uuidv4(),
-    title: "AI-driven Unified integration ",
-    desc: "Implement Motorpedia's AI tools for a unified dashboard integrating procurement, sales, digital presence, and operational efficiency in dealership operations.",
-    icon: React.createElement(PiUserFill),
+    title: "AI-driven Unified Integration ",
+    desc: "Implement Motorpedia's AI tools for a unified dashboard integrating procurement, sales, digital presence, and operational efficiency in dealership operations",
+    icon: React.createElement(BsRobot),
   },
   {
     id: uuidv4(),
-    title: "Conversion-centric excellence    ",
-    desc: "Prioritize conversion with world-class automotive solutions, ensuring exceptional customer experiences.",
-    icon: React.createElement(PiHandCoinsFill),
+    title: "Conversion-Centric Excellence",
+    desc: "Prioritize conversion with world-class automotive solutions, ensuring exceptional customer experiences",
+    icon: React.createElement(SiConvertio),
   },
 ];
 
 export const whyMotorpediaCard = [
   {
     id: uuidv4(),
-    img: "/images/img1.jpeg",
-    title: "Expertly tailored ",
+    img: whyMotorpediaCard1,
+    title: "Expertly Tailored ",
     des: "We empathize with dealership challenges, offering centralized solutions to meet every need",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard2,
-    title: "Timely coordination ",
+    title: "Timely Coordination ",
     des: "We deliver solutions within the allocated time frame, ensuring a single point of contact.",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard3,
-    title: "Value-based billing    ",
+    title: "Value-Based Billing",
     des: "We'll charge only when it benefits you, ensuring affordability and transparent pricing",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard4,
-    title: "Personalized management    ",
+    title: "Personalized Management",
     des: "Assigned auto expert manager catering exclusively to all your requirements",
   },
   // {
@@ -739,19 +699,19 @@ export const contactCard = [
   // },
   {
     id: uuidv4(),
-    icon: React.createElement(PiDesktopDuotone),
-    title: "Write us     ",
-    desc: "Curious about our services? Request a demo to experience firsthand",
+    icon: React.createElement(IoMailUnread),
+    title: "Write to us     ",
+    desc: "Curious about our services? Send an email to know more",
     linkText: "contact@themotorpedia.com",
-    linkto: "/contact",
+    linkto: "mailto:contact@themotorpedia.com",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiPhoneCallDuotone),
-    title: "Give Us a Ring ",
-    desc: "Monday through Friday from 11AM - 7PM IST ",
+    title: "Give us a ring ",
+    desc: "Monday through Saturday from 9AM - 8PM IST ",
     linkText: "Call Us",
-    linkto: "/contact",
+    linkto: "tel:+919205522250",
   },
   {
     id: uuidv4(),
@@ -759,45 +719,45 @@ export const contactCard = [
     title: "Chat with us",
     desc: "Looking for answers? Chat with us and clear all your doubts",
     linkText: "Ping Us",
-    linkto: "https://wa.me/9999961887",
+    linkto: "https://wa.me/+919205522250",
   },
 ];
 
 export const integrationsCard = [
   {
     id: uuidv4(),
-    icon: React.createElement(PiMoneyFill),
-    title: "Central Dashboard for RTO ",
+    icon: React.createElement(FaPeopleGroup),
+    title: "Dealership Management Solution (DMS)",
     description:
-      "Streamline RTO requirements with a centralized dashboard for efficient management.",
+      "Transform your dealership via our all-in-one digital platform providing comprehensive services such as RTO, finance, insurance and invocing",
+  },
+  {
+    id: uuidv4(),
+    icon: React.createElement(MdOutlineInventory),
+    title: "Central Inventory Management ",
+    description:
+      "Enhance efficiency in marketing, procurement and sales with centralized inventory management solutions",
   },
   {
     id: uuidv4(),
     icon: React.createElement(SiPrivateinternetaccess),
-    title: "Central Inventory Management ",
-    description:
-      "Enhance efficiency in marketing, procurement and sales with centralized inventory management solutions.",
-  },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiUsersThreeFill),
-    title: "AI powered used Auto Pricing Tool     ",
+    title: "AI powered Pricing Tool     ",
     description:
       "Drive informed decisions with predictive analysis of buying/selling prices.",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiTimerFill),
+    icon: React.createElement(TbDeviceDesktopStar),
     title: "Digital Hub ",
     description:
-      "Establish a cohesive digital presence across all social media platforms along with your website with a centralized hub.",
+      "Establish a cohesive digital presence across all social media platforms along with your own website and digital catalogue",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
     title: "Lead Management ",
     description:
-      "Boost procurement and sales performance through lead improvisation strategies",
+      "Boost procurement and sales performance through lead improvisation strategies",
   },
 ];
 

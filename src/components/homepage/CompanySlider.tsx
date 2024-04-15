@@ -45,8 +45,8 @@ function CompanySlider() {
 
           <span className="text-[20px] font-bold">
             {" "}
-            Trusted by countless businesses,<br></br> loved by thousand of
-            customers.
+            Trusted by countless businesses,<br></br> loved by thousands of
+            customers
           </span>
         </p>
       </div>

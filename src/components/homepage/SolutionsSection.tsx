@@ -5,6 +5,7 @@ import LinkButton from "../ui/LinkButton";
 import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
 import solutionIllus from "/images/design2.png";
+import { Link } from "react-router-dom";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">
@@ -22,8 +23,8 @@ function SolutionsSection() {
         <div className="flex justify-center items-center ">
           <SectionHeadingCenter
             sectionName="Solutions"
-            sectionTitle="Why digitalization matters ?"
-            sectionDesc="Digitalization is key for auto dealership for better customer engagement and operations. It provides tools like online configurators, meeting modern needs. By optimizing processes and enabling data-driven decisions, it cuts costs and boosts efficiency. Effective digital use also enhances marketing, satisfaction, and conversion in a Competitive market."
+            sectionTitle="Why Digitalization Matters ?"
+            sectionDesc="In today's increasingly online world, digitalization is key for auto dealerships for enhanced customer engagement and improved operations. It provides tools like online vehicle configurators, AI lead photoshoots, meeting the needs of modern customers. By optimizing processes and enabling data-driven decisions, it cuts costs and boosts efficiency. Effective digital use also enhances marketing,customer satisfaction, and conversion in a hyper competitive market."
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
@@ -37,23 +38,24 @@ function SolutionsSection() {
             </div>
           </div>
           <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-center  lg:items-center flex-col">
-            <h1 className="heading-1 pb-3 ">Upgrade your Driving </h1>
-            <h1 className="heading-1 pb-2">Experience</h1>
+            <h1 className="heading-1 pb-3 text-4xl">Upgrade your Dealership</h1>
             <p className="text-bodyText text-xl">
-            Tailored selection just for you
+              Tailored solutions just for you
             </p>
             <div className="grid grid-cols-2  gap-4 lg:gap-6 py-6 lg:py-10 w-full">
-              {solutionsFeatures.map(({ id, name, icon }, idx) => (
+              {solutionsFeatures.map(({ id, name, icon, linkto }, idx) => (
                 <div className=" group col-span-2 sm:col-span-1" key={id}>
                   <StaggerEffect id={idx}>
-                    <div className="flex justify-start items-center gap-5">
-                      <span className="rounded-full border border-strokeColor bg-softBg p-3 sm:p-5 text-3xl text-s1 group-hover:text-mainTextColor group-hover:bg-s2 group-hover:border-mainTextColor duration-500">
-                        {icon}
-                      </span>
-                      <p className="text-lg font-medium group-hover:text-s1 duration-500">
-                        {name}
-                      </p>
-                    </div>
+                    <Link to={linkto}>
+                      <div className="flex justify-start items-center gap-5">
+                        <span className="rounded-full border border-strokeColor bg-softBg p-3 sm:p-5 text-3xl text-s1 group-hover:text-mainTextColor group-hover:bg-s2 group-hover:border-mainTextColor duration-500">
+                          {icon}
+                        </span>
+                        <p className="text-lg font-medium group-hover:text-s1 duration-500">
+                          {name}
+                        </p>
+                      </div>
+                    </Link>
                   </StaggerEffect>
                 </div>
               ))}
