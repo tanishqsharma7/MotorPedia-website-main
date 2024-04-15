@@ -10,8 +10,8 @@ function ContactSection({ isPaddingTop }: { isPaddingTop?: boolean }) {
       <div className="container">
         <SectionHeadingCenter
           sectionName="Contact"
-          sectionTitle="Redefine your journey digital"
-          sectionDesc="GET IN TOUCH"
+          sectionTitle="GET IN TOUCH"
+          sectionDesc=""
         />
         <div className="grid grid-cols-9 gap-8   stp-15">
           {contactCard.map(
