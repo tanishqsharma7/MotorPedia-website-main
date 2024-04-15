@@ -1,12 +1,12 @@
 import React from "react";
-import {
-  AiFillBehanceCircle,
-  AiFillCiCircle,
-  AiFillFileText,
-  AiFillPlusCircle,
-  AiFillQqCircle,
-  AiFillWeiboCircle,
-} from "react-icons/ai";
+// import {
+//   AiFillBehanceCircle,
+//   AiFillCiCircle,
+//   AiFillFileText,
+//   AiFillPlusCircle,
+//   AiFillQqCircle,
+//   AiFillWeiboCircle,
+// } from "react-icons/ai";
 import {
   FaFacebookF,
   FaInstagram,
@@ -35,8 +35,8 @@ import {
   PiCheckCircleFill,
   PiCheckSquareDuotone,
   PiCoinFill,
-  PiCrownDuotone,
-  PiDesktopDuotone,
+  // PiCrownDuotone,
+  // PiDesktopDuotone,
   // PiDesktopFill,
   // PiDeviceMobileFill,
   PiEnvelopeFill,
@@ -46,7 +46,6 @@ import {
   PiFilePlusFill,
   PiFileTextFill,
   PiGearFill,
-  PiGlobeSimpleDuotone,
   PiHandCoinsFill,
   PiHandshakeFill,
   PiHeadphonesFill,
@@ -60,16 +59,11 @@ import {
   PiPhoneCallBold,
   PiPhoneCallDuotone,
   PiPhoneCallFill,
-  PiPhonePlusDuotone,
-  PiRocketLaunchFill,
   PiSealCheckFill,
-  PiShareNetworkDuotone,
   PiStarFill,
   PiTimerFill,
   PiToothFill,
   PiUserFill,
-  PiUserGearFill,
-  PiUserPlusFill,
   PiUsersThreeFill,
   PiWalletFill,
   PiWebhooksLogoFill,
@@ -100,7 +94,7 @@ import blogImg2 from "/images/blogImg2.png";
 import blogImg3 from "/images/blogImg3.png";
 
 import { BsFillRocketTakeoffFill, BsRobot } from "react-icons/bs";
-import { GiHumanPyramid, GiKite, GiTakeMyMoney } from "react-icons/gi";
+import { GiKite, GiTakeMyMoney } from "react-icons/gi";
 // import { HiCurrencyDollar } from "react-icons/hi2";
 import { SlPlane } from "react-icons/sl";
 
@@ -138,14 +132,14 @@ import recentPostImg4 from "/images/recent_post_img4.png";
 // import { TbMapPinSearch } from "react-icons/tb";
 import {
   SiConvertio,
-  SiPiaggiogroup,
+  //SiPiaggiogroup,
   // SiPicardsurgeles,
   SiPivotaltracker,
   SiPrivateinternetaccess,
 } from "react-icons/si";
-import { RiGroup2Fill } from "react-icons/ri";
-import { GrServer, GrServices } from "react-icons/gr";
-import { Link } from "react-router-dom";
+//import { RiGroup2Fill } from "react-icons/ri";
+import { GrServices } from "react-icons/gr";
+// import { Link } from "react-router-dom";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { TbDeviceDesktopStar } from "react-icons/tb";
 import { IoMailUnread } from "react-icons/io5";
