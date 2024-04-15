@@ -15,7 +15,7 @@ function Features() {
           </div>
           <p className="text-white max-w-[500px] text-xl">
             "Optimize the experience of your dealership with our comprehensive
-            suite of solutions, streamlining operations and enhanced efficiency
+            suite of solutions, streamlined operations and enhanced efficiency
             for greater success."
           </p>
         </div>
@@ -33,12 +33,14 @@ function Features() {
                   <p className=" text-white group-hover:text-mainTextColor pb-4">
                     {desc}
                   </p>
-                  <Link
-                    to={linkto}
-                    className="flex justify-start bg-white w-[140px] rounded-2xl  text-s1 h-[40px] p-3 items-center gap-2 font-medium"
-                  >
-                    Learn more <GoArrowRight />
-                  </Link>
+                  <div className="bottom-3">
+                    <Link
+                      to={linkto}
+                      className="flex justify-start bg-white w-[140px] rounded-2xl  text-s1 h-[40px] p-3 items-center gap-2 font-medium"
+                    >
+                      Learn more <GoArrowRight />
+                    </Link>
+                  </div>
                 </div>
               </StaggerEffect>
             </div>

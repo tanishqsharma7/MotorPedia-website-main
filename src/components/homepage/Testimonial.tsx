@@ -64,7 +64,7 @@ function Testimonial() {
         >
           {testimonials.map(({ id, name, designation, review }) => (
             <SwiperSlide key={id}>
-              <div className="border  p-12 flex flex-col rounded-2xl shadow-sm bg-gray-100 justify-center items-center hover:bg-gray-200  hover:shadow-lg hover:scale-90 hover:border-mainTextColor duration-700 h-[230px]">
+              <div className="border  p-12 flex flex-col rounded-2xl shadow-sm bg-gray-100 justify-center items-center hover:bg-gray-200  hover:shadow-lg hover:scale-90 hover:border-mainTextColor duration-100 h-[250px]">
                 <p className="text-bodyText text-center">"{review}"</p>
                 <div className="flex gap-3 pt-3">
                   <div className="">

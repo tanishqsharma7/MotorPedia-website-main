@@ -8,17 +8,22 @@ import React from "react";
 //   AiFillWeiboCircle,
 // } from "react-icons/ai";
 import {
+  FaCartArrowDown,
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaUsers,
+  //FaUsers,
 } from "react-icons/fa";
-import { FaPeopleGroup, FaXTwitter } from "react-icons/fa6";
+import {
+  FaPeopleGroup,
+  FaTachographDigital,
+  FaXTwitter,
+} from "react-icons/fa6";
 import {
   MdOutlineEmail,
   MdOutlineInventory,
   MdOutlineLocationOn,
-  MdOutlineScreenSearchDesktop,
+  //MdOutlineScreenSearchDesktop,
 } from "react-icons/md";
 import {
   //PiBinocularsFill,
@@ -27,6 +32,7 @@ import {
   PiCalendarBlankFill,
   PiCarDuotone,
   PiCarProfileDuotone,
+  PiCarSimpleBold,
   PiChartLineFill,
   // PiChartLineUpFill,
   // PiChatCenteredFill,
@@ -84,17 +90,21 @@ import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
 import testimonial3 from "/images/testimonial3.png";
 import testimonial4 from "/images/testimonial4.png";
-import testimonial5 from "/images/testimonial5.png";
-import testimonial6 from "/images/testimonial6.png";
-import testimonial7 from "/images/testimonial7.png";
-import testimonial8 from "/images/testimonial8.png";
+// import testimonial5 from "/images/testimonial5.png";
+// import testimonial6 from "/images/testimonial6.png";
+// import testimonial7 from "/images/testimonial7.png";
+// import testimonial8 from "/images/testimonial8.png";
 
 import blogImg1 from "/images/blogImg1.png";
 import blogImg2 from "/images/blogImg2.png";
 import blogImg3 from "/images/blogImg3.png";
 
-import { BsFillRocketTakeoffFill, BsRobot } from "react-icons/bs";
-import { GiKite, GiTakeMyMoney } from "react-icons/gi";
+import {
+  BsFillRocketTakeoffFill,
+  BsGraphUpArrow,
+  BsRobot,
+} from "react-icons/bs";
+import { GiKite } from "react-icons/gi";
 // import { HiCurrencyDollar } from "react-icons/hi2";
 import { SlPlane } from "react-icons/sl";
 
@@ -138,7 +148,7 @@ import {
   SiPrivateinternetaccess,
 } from "react-icons/si";
 //import { RiGroup2Fill } from "react-icons/ri";
-import { GrServices } from "react-icons/gr";
+// import { GrServices } from "react-icons/gr";
 // import { Link } from "react-router-dom";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { TbDeviceDesktopStar } from "react-icons/tb";
@@ -186,7 +196,7 @@ export const headerMenu = [
       },
       {
         id: uuidv4(),
-        name: "Sale Enablement",
+        name: "Sales Enablement",
         link: "/services/saleEnablement",
       },
       // {
@@ -403,26 +413,26 @@ export const solutionsFeatures = [
   {
     id: uuidv4(),
     name: "RTO Assistance Network",
-    icon: React.createElement(FaUsers),
+    icon: React.createElement(PiCarSimpleBold),
     linkto: "/services/RTO",
   },
   {
     id: uuidv4(),
     name: "Comprehensive Digitalization Platform",
-    icon: React.createElement(MdOutlineScreenSearchDesktop),
+    icon: React.createElement(FaTachographDigital),
     linkto: "/services/DigitalizePro",
   },
   {
     id: uuidv4(),
     name: "Sales Optimization Suite",
-    icon: React.createElement(GiTakeMyMoney),
+    icon: React.createElement(BsGraphUpArrow),
     linkto: "/services/saleEnablement",
   },
 
   {
     id: uuidv4(),
     name: "Procurement Powerhouse",
-    icon: React.createElement(GrServices),
+    icon: React.createElement(FaCartArrowDown),
     linkto: "/services/saleEnablement",
   },
 ];
@@ -430,30 +440,30 @@ export const solutionsFeatures = [
 export const featuresCard = [
   {
     id: uuidv4(),
-    icon: React.createElement(FaUsers),
+    icon: React.createElement(PiCarSimpleBold),
     name: "RTO Assistance Network",
-    desc: "Covering all RTO requirements including ownership transfer, challan management, NOC procurement, and Vahancheck services",
+    desc: "Covering all RTO requirements such as ownership transfer, challan clearance, NOC issuance, and Vahan check services",
     linkto: "/services/RTO",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(MdOutlineScreenSearchDesktop),
+    icon: React.createElement(FaTachographDigital),
     name: "Comprehensive Digitization Platform",
-    desc: "Offering online and offline marketing, 360-degree photo capabilities with virtual studio, and centralized website for inventory management",
+    desc: "Offering online and offline marketing, 360-degree photoshoot capabilities with virtual studio, and centralized website for inventory management",
     linkto: "/services/DigitalizePro",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(GiTakeMyMoney),
+    icon: React.createElement(BsGraphUpArrow),
     name: "Sales Optimization Suite",
     desc: "Including lead management, inventory oversight, insurance facilitation, and finance assistance to enhance sales efficiency ",
     linkto: "/services/saleEnablement",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(GrServices),
+    icon: React.createElement(FaCartArrowDown),
     name: "Procurement Powerhouse",
-    desc: "Providing predictive buying price analysis, lead generation for procurement, vehicle inspection services, and streamlined procurement processes ",
+    desc: "Providing predictive buying price analysis, lead generation for procurement, vehicle inspection services, and inventory funding ",
     linkto: "/services/saleEnablement",
   },
 ];
@@ -490,19 +500,19 @@ export const whyMotorpediaCard = [
     id: uuidv4(),
     img: whyMotorpediaCard2,
     title: "Timely Coordination ",
-    des: "We deliver solutions within the allocated time frame, ensuring a single point of contact.",
+    des: "We consistently deliver solutions within the allocated time frame, ensuring timely coordination and client satisfaction",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard3,
     title: "Value-Based Billing",
-    des: "We'll charge only when it benefits you, ensuring affordability and transparent pricing",
+    des: "We charge only when it benefits you, ensuring affordability and transparent pricing",
   },
   {
     id: uuidv4(),
     img: whyMotorpediaCard4,
     title: "Personalized Management",
-    des: "Assigned auto expert manager catering exclusively to all your requirements",
+    des: "We assign auto expert manager catering exclusively to all your requirements",
   },
   // {
   //   id: uuidv4(),
@@ -565,67 +575,67 @@ export const testimonials = [
   {
     id: uuidv4(),
     img: testimonial1,
-    name: "Ashok Shukla",
-    designation: "Small Business Owner",
+    name: "Amit",
+    designation: "Used Car Dealer in Delhi",
     review:
-      "Outstanding service! Motorpedia RTO Services impressed me with their professionalism and expertise.",
+      "I highly recommend anyone looking for quick and reliable RC transfer services. Thank you for outstanding support!",
   },
   {
     id: uuidv4(),
     img: testimonial2,
-    name: "Priyanshu Kumar",
-    designation: "HR Manager",
+    name: "Rizwan",
+    designation: "Used Bike Dealer in Gurgaon",
     review:
-      "Impeccable service! Motorpedia   Affordable solutions, top-quality results.Highly recommended for all automotive needs.",
+      "What impress me the most was their innovative lead generation strategies. They utilize cutting-edge tools to connect with potential buyers like me, making the entire bike-buying experience effortless and convenient",
   },
   {
     id: uuidv4(),
     img: testimonial3,
-    name: "Vinay Patel",
-    designation: "Finance Director",
+    name: "Gurpreet",
+    designation: "Used Car Dealer in Ghaziabad",
     review:
-      "Remarkable service! Motorpedia showcased unparalleled professionalism and expertise. They're my go-to for all automotive needs. ",
+      "Thanks to their exceptional photoshoot and inventory presentation, I was able to find the perfect car for my needs without any hassle. The entire experience was seamless",
   },
   {
     id: uuidv4(),
     img: testimonial4,
-    name: "Vinit Sharma",
-    designation: "CEO, Tech Innovations",
+    name: "Rajiv",
+    designation: "Used Commercial Vehicle Dealer in Sonipat",
     review:
-      "Their affordable rates and superior service quality make them my preferred option for all automotive needs. ",
+      "The team made the entire process hassle-free and straightforward. They handled the NOC and Challan clearance with utmost care and attention to detail, ensuring all necessary paperwork was completed accurately and promptly",
   },
-  {
-    id: uuidv4(),
-    img: testimonial5,
-    name: "Lav Kush",
-    designation: "Restaurant Owner",
-    review:
-      "Highly impressed and satisfied with their commitment to excellence. My go-to choice for all car servicing needs",
-  },
-  {
-    id: uuidv4(),
-    img: testimonial6,
-    name: "Parveen Shekhawat",
-    designation: "CEO, Tech Innovations",
-    review:
-      "Their cost-effective solutions and impeccable service quality make them my top recommendation for automotive needs.",
-  },
-  {
-    id: uuidv4(),
-    img: testimonial7,
-    name: "Jiya Arya ",
-    designation: "Product Manager",
-    review:
-      "Absolutely thrilled with the service! Motorpedia showed unmatched professionalism and expertise",
-  },
-  {
-    id: uuidv4(),
-    img: testimonial8,
-    name: "Shreya Sharma",
-    designation: "CFO, Solutions",
-    review:
-      " With their affordable solutions and top-notch service quality, they've earned my trust. I highly recommend them for reliable car assistance",
-  },
+  // {
+  //   id: uuidv4(),
+  //   img: testimonial5,
+  //   name: "Lav Kush",
+  //   designation: "Restaurant Owner",
+  //   review:
+  //     "Highly impressed and satisfied with their commitment to excellence. My go-to choice for all car servicing needs",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   img: testimonial6,
+  //   name: "Parveen Shekhawat",
+  //   designation: "CEO, Tech Innovations",
+  //   review:
+  //     "Their cost-effective solutions and impeccable service quality make them my top recommendation for automotive needs.",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   img: testimonial7,
+  //   name: "Jiya Arya ",
+  //   designation: "Product Manager",
+  //   review:
+  //     "Absolutely thrilled with the service! Motorpedia showed unmatched professionalism and expertise",
+  // },
+  // {
+  //   id: uuidv4(),
+  //   img: testimonial8,
+  //   name: "Shreya Sharma",
+  //   designation: "CFO, Solutions",
+  //   review:
+  //     " With their affordable solutions and top-notch service quality, they've earned my trust. I highly recommend them for reliable car assistance",
+  // },
 ];
 
 export const pricing = [
@@ -743,7 +753,7 @@ export const integrationsCard = [
     icon: React.createElement(SiPrivateinternetaccess),
     title: "AI powered Pricing Tool     ",
     description:
-      "Drive informed decisions with predictive analysis of buying/selling prices.",
+      "Drive informed decisions with predictive analysis of buying/selling prices",
   },
   {
     id: uuidv4(),
