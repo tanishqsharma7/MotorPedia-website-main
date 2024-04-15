@@ -38,7 +38,7 @@ function SolutionsSection() {
             </div>
           </div>
           <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-center  lg:items-center flex-col">
-            <h1 className="heading-1 pb-3 text-4xl">Upgrade your Dealership</h1>
+            <h1 className="heading-1 pb-3 text-4xl">Dealership</h1>
             <p className="text-bodyText text-xl">
               Tailored solutions just for you
             </p>
@@ -61,7 +61,7 @@ function SolutionsSection() {
               ))}
             </div>
             <div className=" flex justify-start  items-start w-full">
-              <LinkButton link="/contact" text="Contact Us" />
+              <LinkButton link="/services" text="Contact Us" />
             </div>
           </div>
         </div>
