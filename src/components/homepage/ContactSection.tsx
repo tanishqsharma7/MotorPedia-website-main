@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
 import { contactCard } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import SectionHeadingCenter from "../global/SectionHeadingCenter";
 
 function ContactSection({ isPaddingTop }: { isPaddingTop?: boolean }) {
   return (
     <section className={`sbp-30 ${isPaddingTop ? "stp-30" : ""}`}>
       <br></br>
       <div className="container">
-        <SectionHeadingCenter
-          sectionName="Contact"
-          sectionTitle="GET IN TOUCH"
-          sectionDesc=""
-        />
+        <div className="flex justify-center items-cneter gap-6 max-lg:flex-col max-lg:items-center">
+          <div className="  max-w-[600px] flex justify-center items-center flex-col">
+            <h1 className="display-4  pt-4 ">Get In Touch</h1>
+          </div>
+        </div>
         <div className="grid grid-cols-9 gap-8   stp-15">
           {contactCard.map(
             ({ id, icon, title, desc, linkText, linkto }, idx) => (

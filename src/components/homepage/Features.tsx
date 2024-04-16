@@ -30,13 +30,13 @@ function Features() {
                   <h4 className="heading-4 group-hover:text-mainTextColor text-white pb-5">
                     {name}
                   </h4>
-                  <p className=" text-white group-hover:text-mainTextColor pb-4">
+                  <p className=" text-white group-hover:text-mainTextColor pb-4 ">
                     {desc}
                   </p>
-                  <div className="bottom-3">
+                  <div className="relative top-8">
                     <Link
                       to={linkto}
-                      className="flex justify-start bg-white w-[140px] rounded-2xl  text-s1 h-[40px] p-3 items-center gap-2 font-medium"
+                      className="flex  bg-white w-[140px] rounded-2xl  text-s1 h-[40px] p-3 items-center gap-2 font-medium"
                     >
                       Learn more <GoArrowRight />
                     </Link>

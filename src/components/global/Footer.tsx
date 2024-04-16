@@ -11,7 +11,7 @@ function Footer() {
             <img src={logo} alt="" />
           </div>
           <p className="">
-            Expertily created automotive solutions by automotive professionals.
+            Expertly created automotive solutions by automotive professionals.
           </p>
           <ul className="flex justify-start items-center gap-2">
             {socialLinks.map(({ id, link, icon }, idx) => (

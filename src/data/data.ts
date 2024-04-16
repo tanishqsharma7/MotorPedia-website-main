@@ -152,7 +152,7 @@ import {
 // import { Link } from "react-router-dom";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { TbDeviceDesktopStar } from "react-icons/tb";
-import { IoMailUnread } from "react-icons/io5";
+import { IoMailUnreadOutline } from "react-icons/io5";
 
 export const headerMenu = [
   {
@@ -442,14 +442,14 @@ export const featuresCard = [
     id: uuidv4(),
     icon: React.createElement(PiCarSimpleBold),
     name: "RTO Assistance Network",
-    desc: "Covering all RTO requirements such as ownership transfer, challan clearance, NOC issuance, and Vahan check services",
+    desc: "Covering all RTO requirements such as ownership transfer, challan clearance, NOC issuance, and Vahan check services in just few clicks",
     linkto: "/services/RTO",
   },
   {
     id: uuidv4(),
     icon: React.createElement(FaTachographDigital),
     name: "Comprehensive Digitization Platform",
-    desc: "Offering online and offline marketing, 360-degree photoshoot capabilities with virtual studio, and centralized website for inventory management",
+    desc: "Offering online and offline marketing, 360-degree photo- shoot capabilities with virtual studio, and centralized website for inventory management",
     linkto: "/services/DigitalizePro",
   },
   {
@@ -463,7 +463,7 @@ export const featuresCard = [
     id: uuidv4(),
     icon: React.createElement(FaCartArrowDown),
     name: "Procurement Powerhouse",
-    desc: "Providing predictive buying price analysis, lead generation for procurement, vehicle inspection services, and inventory funding ",
+    desc: "Providing the predictive buying  price analysis , lead generation for procurement , vehicle inspection services , and inventory funding ",
     linkto: "/services/saleEnablement",
   },
 ];
@@ -500,7 +500,7 @@ export const whyMotorpediaCard = [
     id: uuidv4(),
     img: whyMotorpediaCard2,
     title: "Timely Coordination ",
-    des: "We consistently deliver solutions within the allocated time frame, ensuring timely coordination and client satisfaction",
+    des: "We consistently deliver solutions within the allocated time frame, ensuring client satisfaction",
   },
   {
     id: uuidv4(),
@@ -512,7 +512,7 @@ export const whyMotorpediaCard = [
     id: uuidv4(),
     img: whyMotorpediaCard4,
     title: "Personalized Management",
-    des: "We assign auto expert manager catering exclusively to all your requirements",
+    des: "We assign auto expert relationship manager catering exclusively to all your requirements",
   },
   // {
   //   id: uuidv4(),
@@ -586,7 +586,7 @@ export const testimonials = [
     name: "Rizwan",
     designation: "Used Bike Dealer in Gurgaon",
     review:
-      "What impress me the most was their innovative lead generation strategies. They utilize cutting-edge tools to connect with potential buyers like me, making the entire bike-buying experience effortless and convenient",
+      "What impresses me the most was their innovative lead generation strategies. They utilize cutting-edge tools to connect with potential buyers like me, making the entire bike-buying experience effortless and convenient",
   },
   {
     id: uuidv4(),
@@ -709,7 +709,7 @@ export const contactCard = [
   // },
   {
     id: uuidv4(),
-    icon: React.createElement(IoMailUnread),
+    icon: React.createElement(IoMailUnreadOutline),
     title: "Write to us     ",
     desc: "Curious about our services? Send an email to know more",
     linkText: "contact@themotorpedia.com",
@@ -739,7 +739,7 @@ export const integrationsCard = [
     icon: React.createElement(FaPeopleGroup),
     title: "Dealership Management Solution (DMS)",
     description:
-      "Transform your dealership via our all-in-one digital platform providing comprehensive services such as RTO, finance, insurance and invocing",
+      "Transform your dealership via our all-in-one digital platform providing comprehensive services such as RTO, finance, insurance and invoicing",
   },
   {
     id: uuidv4(),

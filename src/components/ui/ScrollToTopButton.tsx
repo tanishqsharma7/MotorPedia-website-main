@@ -1,32 +1,30 @@
 import { useEffect, useState } from "react";
-import { PiArrowUp } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 export default function ScrollToTopButton() {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 1) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
     });
   }, []);
-  const backtoTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
-    <button
-      className={`fixed ${
-        scrolled ? " bottom-12 sm:bottom-16" : "-bottom-40"
-      } text-white text-xl sm:text-2xl rounded-full bg-p1 hover:bg-s2 border border-p1 hover:border-white right-6 md:right-10 p-2 sm:p-3  z-40 jumping1 duration-700`}
-      onClick={backtoTop}
-      aria-label="bottom to top button"
-    >
-      <span className=" block">
-        <PiArrowUp />
-      </span>
-    </button>
+    <Link to="https://wa.me/+919205522250">
+      <button
+        className={`fixed ${
+          scrolled ? " bottom-12 sm:bottom-16" : "-bottom-40"
+        }  text-xl sm:text-2xl  rounded-full hover:border-white right-6 md:right-10 p-2 sm:p-3  z-40 jumping1 duration-700 size-[50px]`}
+        aria-label="bottom to top button"
+      >
+        <span className=" block size-[50px] ">
+          <img src="/images/whatsapp.png" />
+        </span>
+      </button>
+    </Link>
   );
 }
