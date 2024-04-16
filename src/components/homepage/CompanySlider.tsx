@@ -53,11 +53,11 @@ function CompanySlider() {
           modules={[FreeMode, Autoplay]}
           autoplay={{
             delay: 1,
-            disableOnInteraction: true,
+            disableOnInteraction: false,
           }}
           slidesPerView="auto"
           loop={true}
-          speed={1000}
+          speed={4000}
           centeredSlides={true}
           breakpoints={{
             0: {
