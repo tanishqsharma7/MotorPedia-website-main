@@ -7,8 +7,9 @@ const offeringsItems = [
   "Immersive Virtual Showroom",
   "Interactive Experience",
   "Personalized Recommendations",
+  "Digital Catalogue",
   "Seamless Booking",
-  "Expert Assistance",
+  "Chatbot Assistance",
 ];
 function WeHelpSection() {
   return (
@@ -17,10 +18,10 @@ function WeHelpSection() {
         <div className="col-span-12 md:col-span-6">
           <h1 className="display-4">Digital Showroom</h1>
           <p className=" text-bodyText pt-4 pb-6 lg:pb-8">
-            Experience automotive excellence redefined at Digital Showroom. Our
-            immersive digital platform brings the showroom to your fingertips,
-            offering a seamless exploration of top-tier vehicles with
-            unparalleled convenience and sophistication
+            Experience automotive excellence redefined via our Digital Showroom.
+            Our immersive digital platform brings your showroom to the
+            customer's fingertips, offering a seamless exploration of all
+            vehicles with unparalleled convenience
           </p>
           <h3 className="heading-3 pb-6">Our Digital Showroom Offerings:</h3>
           <ul className="flex flex-col gap-5 justify-start items-start">

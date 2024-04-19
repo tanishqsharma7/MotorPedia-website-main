@@ -3,16 +3,16 @@
 import "../../../node_modules/react-modal-video/scss/modal-video.scss";
 import BreadCrumb from "../ui/BreadCrumb";
 import vector from "/images/about_vector.png";
-// import circleIcon from "/images/circleIcon.png";
+import circleIcon from "/images/bg_car.png";
 function AboutSection() {
   // const [isOpen, setOpen] = useState(false);
   return (
     <section className="pt-24 lg:pt-30 sbp-30 bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden relative">
-      {/* <img
+      <img
         src={circleIcon}
         alt=""
-        className="absolute top-60 -left-20 max-lg:h-[400px] max-sm:hidden bg-p1"
-      /> */}
+        className="absolute top-35 -right-40 max-lg:h-2 max-sm:hidden"
+      />
       <img
         src={vector}
         alt=""
@@ -21,13 +21,17 @@ function AboutSection() {
       <div className="container pb-10">
         <BreadCrumb pageName="About Us" />
       </div>
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex justify-center place-items-start pl-20 pt-10 flex-col">
         <div className="flex justify-center items-center pb-10 lg:pb-16 xl:pb-24">
-          <div className="  max-w-[600px] text-center flex justify-center items-center flex-col">
-            <p className="bg-p1 py-3 px-5 rounded-full text-white ">About</p>
-            <h1 className="display-4  pt-4 pb-6">Welcome to Motorpedia</h1>
-            <p className="text-bodyText">
-            Your Ultimate Destination for Revolutionizing Auto Dealerships! Our mission is to transform traditional dealership experiences into AI-powered hubs of innovation and efficiency. At Motorpedia, our dedicated team is committed to streamlining every aspect of your dealership operations, ensuring exceptional customer experiences and unparalleled success.
+          <div className="  max-w-[600px]  flex justify-center items-center flex-col ">
+            <h1 className="display-4 pt-4 pb-6">Welcome to Motorpedia</h1>
+            <p className="text-bodyText text-lg">
+              Your ultimate destination for revolutionizing auto dealerships!
+              Our mission is to transform traditional dealership experiences
+              into AI-powered hubs of innovation and efficiency. At Motorpedia,
+              our dedicated team is committed to streamlining every aspect of
+              your dealership operations, ensuring exceptional customer
+              experiences and unparalleled growth
             </p>
           </div>
         </div>

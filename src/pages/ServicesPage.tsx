@@ -13,8 +13,8 @@ function ServicesPage() {
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="All Services"
-        pageDesc="At Motorpedia, we offer a huge variety of services to ease your motor journey. From RTO Services, fancy numbers, ownership transfer to digitalising your store, you just name it, we've got it!"
-        pageTitle="Our All Services"
+        pageDesc="At Motorpedia, we offer a variety of services to make your dealership efficient. From ownership transfer, fancy numbers, insurance and finance to digitalising your store, you just name it, we've got it!"
+        pageTitle="Our Services"
       />
 
       <CoreServices />

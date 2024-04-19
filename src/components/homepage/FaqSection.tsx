@@ -18,8 +18,8 @@ function FaqSection() {
       <div className="container ">
         <SectionHeadingCenter
           sectionName="FAQS"
-          sectionTitle="Frequently asked questions answers"
-          sectionDesc="Explore our FAQ section for quick answers to common queries about our Accounting & Payroll Processing Services. "
+          sectionTitle="Frequently Asked Questions (FAQs)"
+          sectionDesc=""
         />
         <div className="grid grid-cols-12 stp-15 max-xl:gap-6">
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex justify-center items-center overflow-hidden">

@@ -11,16 +11,9 @@ function AccountSection() {
         <div className="col-span-12 lg:col-span-6">
           <FadeLeft>
             <div className="  flex flex-col justify-start items-start">
-              <p className=" py-3 px-5 rounded-full text-white ">
-                Challan Clearance
-              </p>
-              <h1 className="display-4 pt-4 pb-4 lg:pb-6">
-                Time for a hassle free Challan Clearance
+              <h1 className="display-4 pt-4 pb-4 lg:pb-9">
+                Time for hassle free challan clearance
               </h1>
-              <p className=" text-bodyText pb-6 lg:pb-8">
-                Feel neglected by your accountant? Experience the attentive and
-                personalized service you deserve with Motorpedia.
-              </p>
 
               <ul className="flex flex-col gap-6 justify-start items-start w-full">
                 {accountantFeatures.map(({ id, title, desc }, idx) => (
