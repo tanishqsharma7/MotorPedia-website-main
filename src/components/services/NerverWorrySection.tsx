@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { neverWorry } from "../../data/data";
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
@@ -20,11 +19,13 @@ function NerverWorrySection() {
 
         <div className="xxl:col-start-7 col-span-12 lg:col-span-6">
           <FadeRight>
-            <h1 className="display-4 ">Never Worry About Your RTO Again</h1>
+            <h1 className="display-4 ">
+              Never worry about your RTO services again
+            </h1>
             <p className="pt-6 text-white pb-6 xl:pb-8">
-              Navigating the bureaucracy of vehicle registration can be a
-              daunting task. Let us take the stress out of the process with our
-              comprehensive registration services.
+              Navigating the bureaucracy of vehicle registration and transfer
+              can be a daunting task. Let us take the stress out of the process
+              with our comprehensive RTO services.
             </p>
             <div className="flex flex-col gap-6 xl:gap-10 justify-start items-start pb-6 xl:pb-12">
               {neverWorry.map(({ id, title, desc, icon }) => (
@@ -39,13 +40,13 @@ function NerverWorrySection() {
                 </div>
               ))}
             </div>
-            <Link
+            {/* <Link
               to={"/contact"}
               className="bg-s2 rounded-full py-3 px-4 text-black"
             >
               {" "}
               Contact Us
-            </Link>
+            </Link> */}
           </FadeRight>
         </div>
       </div>

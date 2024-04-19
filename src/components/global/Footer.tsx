@@ -3,13 +3,16 @@ import { footerLinks, getInTouch, socialLinks } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
 import logo from "/images/logo-white1.png";
 function Footer() {
+  const backtoTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <footer className=" bg-mainTextColor  text-white/60">
       <div className="container grid grid-cols-12  stp-30 sbp-30 gap-6 max-xxl:pr-4">
         <div className=" col-span-12 min-[450px]:col-span-6 lg:col-span-3 flex flex-col gap-6 lg:gap-8">
-          <div className="">
-            <img src={logo} alt="" />
-          </div>
+          <Link to="/" className="">
+            <img src={logo} onClick={backtoTop} alt="" />
+          </Link>
           <p className="">
             Expertly created automotive solutions by automotive professionals.
           </p>
@@ -19,7 +22,7 @@ function Footer() {
                 <StaggerEffect id={idx}>
                   <Link
                     className="bg-s1/50 p-3 rounded-full
-                     hover:bg-s1 duration-500 hover:-translate-y-1 block text-black bg-s2"
+                     hover:bg-white duration-500 hover:-translate-y-1 block text-black bg-s2"
                     to={link}
                   >
                     {icon}

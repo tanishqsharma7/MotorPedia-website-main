@@ -10,8 +10,8 @@ function CoreServices() {
           <div className="flex justify-center items-center max-w-[600px]  flex-col">
             <h1 className="display-4">Our Core Services</h1>
             <p className="text-bodyText text-center pt-6">
-              Though our roots expand to nearly all your need in motor journey,
-              yet we have narrouwede it own into three core services.
+              We cater to nearly all your needs in the vehicle transaction
+              journey, broadly classified across three domains.
             </p>
           </div>
         </div>
@@ -19,7 +19,7 @@ function CoreServices() {
           {coreServices.map(({ id, icon, title, desc, link }, idx) => (
             <div className="col-span-12 sm:col-span-6 md:col-span-4 " key={id}>
               <StaggerEffect id={idx}>
-                <div className="flex justify-start items-start flex-col p-6 lg:p-10 group border border-strokeColor hover:bg-s2 hover:border-mainTextColor duration-500">
+                <div className="flex justify-start items-start flex-col p-6 lg:p-10 group border border-strokeColor hover:bg-s2 hover:border-mainTextColor rounded-lg duration-500">
                   <div className="bg-softBg1 p-4 rounded-full text-s1 group-hover:bg-mainTextColor group-hover:text-white duration-500 text-5xl">
                     {icon}
                   </div>

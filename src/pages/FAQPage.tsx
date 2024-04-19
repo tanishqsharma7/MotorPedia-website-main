@@ -7,9 +7,9 @@ function FAQPage() {
     <main>
       <BreadcrumbSection
         img={breadcrumpIllus}
-        pageName="FAQ"
+        pageName="FAQs"
         pageDesc="Discover seamless accounting and payroll processing services tailored to your business needs. Our expert team ensures accuracy,"
-        pageTitle="FAQ"
+        pageTitle="FAQs"
       />
 
       <FaqSection />

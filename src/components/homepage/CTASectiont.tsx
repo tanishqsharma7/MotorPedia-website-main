@@ -19,7 +19,7 @@ function CTASectiont() {
     }
   }
   return (
-    <section className="relative after:absolute after:bg-mainTextColor after:bottom-0 after:right-0 after:left-0 after:h-1/2 ">
+    <section className="relative after:absolute pt-20 after:bg-mainTextColor after:bottom-0 after:right-0 after:left-0 after:h-1/2 ">
       <div className="container bg-p1 py-12 sm:py-20 px-4 sm:px-10 md:px-20 lg:px-40 relative z-10 rounded-2xl shadow-xl">
         <img
           src={icon}

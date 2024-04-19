@@ -35,11 +35,6 @@ function CompanySlider() {
     <section className="stp-15 sbp-15 container grid grid-cols-12 gap-6 border-b border-strokeColor">
       <div className="col-span-12 sm:col-span-6 xl:col-span-3">
         <p className="text-xl lg:text-2xl text-bodyText relative max-xxl:after:content-none">
-          {/* <span className="font-bold text-[22px] text-mainTextColor">
-            {" "}
-            Our automotive software solutions <br></br>
-          </span> */}
-
           <span className="text-[20px] font-bold">
             {" "}
             Trusted by countless businesses,<br></br> loved by thousands of
@@ -47,7 +42,7 @@ function CompanySlider() {
           </span>
         </p>
       </div>
-      <div className="col-span-12 sm:col-span-6  xl:col-span-8 flex pt-4">
+      <div className="col-span-12 sm:col-span-6  xl:col-span-9 flex pt-4 ">
         <Swiper
           className="!justify-center !items-center sponsors "
           modules={[FreeMode, Autoplay]}

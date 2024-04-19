@@ -9,14 +9,14 @@ function AccountingServicesSection() {
         <SectionHeadingCenter
           sectionName="RTO Services"
           sectionTitle="Explore Our RTO Services"
-          sectionDesc="At Motorpedia, our RTO Services are designed to provide you with a comprehensive and accurate RTO services. "
+          sectionDesc="At Motorpedia, our RTO assistance services are designed to provide you with comprehensive coverage of all your RTO related needs such as ownership transfer, NOC Issuance, hypothecation addition/termination, challan clearance, etc."
         />
-        <div className="grid grid-cols-12 stp-15 gap-6">
+        <div className="grid grid-cols-12 stp-15 gap-6 ">
           {accountingServices.map(({ id, icon, title, desc }, idx) => (
             <div className="col-span-12 sm:col-span-6 xl:col-span-3" key={id}>
               <StaggerEffect id={idx}>
                 <div
-                  className=" flex justify-start items-start flex-col p-6 xl:p-10 group border border-strokeColor hover:bg-slate-200 rounded-xl hover:scale-105 shadow-lg hover:border-mainTextColor duration-500 "
+                  className=" flex justify-start items-start flex-col p-6 xl:p-10 group border border-strokeColor hover:bg-slate-200 rounded-xl hover:scale-105 shadow-lg hover:border-mainTextColor duration-500 h-[420px]"
                   key={id}
                 >
                   <div className="bg-softBg1 p-4 rounded-full text-s1 group-hover:bg-mainTextColor group-hover:text-white duration-500 text-5xl">
