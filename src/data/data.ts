@@ -14,9 +14,10 @@ import {
   FaLinkedinIn,
   FaRunning,
   FaCarAlt,
-  FaMoneyBillTransfer,
+  
   //FaUsers,
 } from "react-icons/fa";
+import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { RiFundsBoxFill,
   RiExchangeFundsLine, } from "react-icons/ri";
 import {
