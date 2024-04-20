@@ -11,15 +11,13 @@ function WhatWeDoTaxation() {
               Insurance
             </p>
             <h1 className="display-4  text-white pt-4 ">
-              Drive with Confidence: Car Insurance Solutions
+              Drive with Confidence: Vehicle Insurance Solutions
             </h1>
           </div>
           <p className="text-white max-w-[500px]">
-            Secure peace of mind on the road with our comprehensive car
+            Secure peace of mind on the road for your customers with our comprehensive car
             insurance options. From basic coverage to premium packages, we offer
-            policies tailored to your needs and budget. Drive confidently
-            knowing your vehicle, passengers, and assets are safeguarded against
-            unexpected events
+            policies tailored to everyone's needs and budget.
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">
