@@ -13,7 +13,6 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaRunning,
-
   FaCarAlt,
   FaMoneyBillTransfer,
   //FaUsers,
