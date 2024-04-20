@@ -1012,7 +1012,7 @@ export const taxationFeatures = [
   {
     id: uuidv4(),
     title: "Used Vehicle Financing",
-    desc: " Apply for used vehicle loans at best-in-market interest rates ",
+    desc: " Apply for used vehicle loans at best-in-market interest rates and best commission",
     icon: React.createElement(FaMoneyBillTransfer),
   },
   {
