@@ -10,9 +10,7 @@ function TaxationSection() {
         <div className="col-span-12 lg:col-span-6 xxl:col-span-5">
           <FadeLeft>
             <div className=" flex justify-start items-start flex-col">
-              <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-                Finance
-              </p>
+             
               <h2 className="display-4 pt-4 pb-6">
                 Our </br> Finance Expertise
               </h2>
