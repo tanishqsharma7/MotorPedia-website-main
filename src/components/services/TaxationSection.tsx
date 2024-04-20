@@ -29,7 +29,7 @@ function TaxationSection() {
             </div>
           </FadeLeft>
         </div>
-        <div className="col-span-12 lg:col-span-6 xxl:col-start-7 flex flex-col gap-6 xl:gap-10 justify-center items-center">
+        <div className="col-span-12 lg:col-span-6 xxl:col-start-7 flex flex-col gap-6 xl:gap-10 justify-start items-start">
           {taxationFeatures.map(({ id, title, desc, icon }, idx) => (
             <div className="" key={id}>
               <StaggerEffect id={idx}>
