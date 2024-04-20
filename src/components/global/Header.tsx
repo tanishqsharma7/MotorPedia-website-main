@@ -83,7 +83,7 @@ function Header() {
                         </span>
                       </div>
                       <ul
-                        className={`absolute top-12 left-0 pointer-events-none group-hover:eventunset flex justify-start items-start flex-col w-[180px] py-6 gap-3 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:z-50 bg-s1 text-white/80  rounded-lg ${
+                        className={`absolute top-12 left-0 pointer-events-none group-hover:eventunset flex justify-start items-start flex-col w-[230px] py-6 gap-3 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:z-50 bg-s1 text-white/80  rounded-lg ${
                           menuToggle === menu.id
                             ? "translate-y-0 scale-100"
                             : "translate-y-8 scale-75"
