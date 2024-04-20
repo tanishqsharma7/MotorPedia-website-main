@@ -12,7 +12,7 @@ function TaxationSection() {
             <div className=" flex justify-start items-start flex-col">
              
               <h2 className="display-4 pt-4 pb-6">
-                Our </br> Finance Expertise
+                Our <br></br> Finance Expertise
               </h2>
               <p className=" text-bodyText pb-10">
                 We offer competitive rates and
