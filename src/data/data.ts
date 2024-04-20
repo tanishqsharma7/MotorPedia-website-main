@@ -1041,19 +1041,19 @@ export const taxationFeatures = [
 export const whtaWeDoTaxationData = [
   {
     id: uuidv4(),
-    icon: React.createElement(PiUserFill),
+    icon: React.createElement(TbQuotes),
     title: "Cheapest Quotes",
     desc: "Get the best priced quotes for your insurance",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiUsersThreeFill),
+    icon: React.createElement(BiSelectMultiple),
     title: "Multiple Insurance",
     desc: "Be Spoilt for choice with offers from multitude of insurers for every vehicle",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiLightbulbFilamentFill),
+    icon: React.createElement(BiSolidOffer),
     title: "Best Offers",
     desc: "Avail best discount and cashbacks on every case done through MotorPedia",
   },
