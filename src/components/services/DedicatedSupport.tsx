@@ -5,7 +5,7 @@ function DedicatedSupport() {
     <section className="stp-30 sbp-30 bg-[url(/images/counter_bg.jpeg)] ">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 md:col-span-6 lg:col-span-5 max-md:order-2 overflow-hidden">
-        <iframe src="https://spins.impel.io/motorpedia/up83bb2565" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+        <iframe src="https://spins.impel.io/motorpedia/up83bb2565"  #ffffff none;" name="myiFrame" scrolling="no" height="400px" width="600px" ></iframe>
           {/* <img
             src={img}
             alt=""
