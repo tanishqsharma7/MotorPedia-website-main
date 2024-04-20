@@ -13,12 +13,13 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaRunning,
-  RiFundsBoxFill,
-  RiExchangeFundsLine,
+
   FaCarAlt,
   FaMoneyBillTransfer,
   //FaUsers,
 } from "react-icons/fa";
+import { RiFundsBoxFill,
+  RiExchangeFundsLine, } from "react-icons/ri";
 import {
   FaHandshakeSimple,
   FaPeopleGroup,
