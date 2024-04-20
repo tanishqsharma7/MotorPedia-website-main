@@ -29,7 +29,7 @@ function Hero() {
         />
         <div className="col-span-12 lg:col-span-5 flex flex-col justify-center gap-2">
           <p className=" text-base  lg:text-[25px] font-semibold">
-            Drivingss Success Together{" "}
+            Driving Success Together{" "}
           </p>
           <div className="display-2 lg:text-nowrap">
             We Empower<br></br>
