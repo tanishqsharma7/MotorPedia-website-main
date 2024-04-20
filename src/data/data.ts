@@ -17,6 +17,8 @@ import {
   
   //FaUsers,
 } from "react-icons/fa";
+import { TbQuotes } from "react-icons/tb";
+import { BiSelectMultiple } from "react-icons/bi";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { RiFundsBoxFill,
   RiExchangeFundsLine, } from "react-icons/ri";
@@ -26,6 +28,7 @@ import {
   FaTachographDigital,
   FaXTwitter,
 } from "react-icons/fa6";
+import { BiSolidOffer } from "react-icons/bi";
 import {
   MdEditDocument,
   MdOutlineEmail,
