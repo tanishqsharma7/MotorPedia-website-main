@@ -1039,20 +1039,20 @@ export const whtaWeDoTaxationData = [
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Expert Tax Professionals",
-    desc: "Our team of tax professionals brings extensive knowledge and expertise to handle various tax scenarios.",
+    title: "Cheapest Quotes",
+    desc: "Get the best priced quotes for your insurance",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Personalized Consultations",
-    desc: "We understand that every business is unique. Our personalized consultations ensure that our tax services.",
+    title: "Multiple Insurance",
+    desc: "Be Spoilt for choice with offers from multitude of insurers for every vehicle",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiLightbulbFilamentFill),
-    title: "Strategic Advice",
-    desc: "Beyond compliance, we offer strategic advice to help you make informed financial decisions that benefit your business.",
+    title: "Best Offers",
+    desc: "Avail best discount and cashbacks on every case done through MotorPedia",
   },
 ];
 
