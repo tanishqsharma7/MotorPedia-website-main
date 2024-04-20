@@ -14,8 +14,8 @@ function saleEnablement() {
       <BreadcrumbSection
         img={breadcrumbImg}
         middlePage="Services"
-        pageName="Sale Enablement Services"
-        pageDesc="At MotorPedia, we offer personalized consultations, transparent pricing, and educational resources to empower you. With a convenient booking process and quality assurance, trust us to keep your car running smoothly. Experience the difference today"
+        pageName="Sales Enablement Services"
+        pageDesc="At MotorPedia, we offer all ancillary services associated with a vehicle transaction such as inusrance, finance, warranty, RSA, inventory funding, refurbishment services, etc. all this through our one-stop solution. Experience the difference today."
         pageTitle="Sale Enablement Services"
       />
       <TaxationSection />
