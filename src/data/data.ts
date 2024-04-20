@@ -13,6 +13,10 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaRunning,
+  RiFundsBoxFill,
+  RiExchangeFundsLine,
+  FaCarAlt,
+  FaMoneyBillTransfer,
   //FaUsers,
 } from "react-icons/fa";
 import {
