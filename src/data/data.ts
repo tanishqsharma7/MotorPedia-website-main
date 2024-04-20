@@ -66,7 +66,7 @@ import {
   PiHandshakeFill,
   PiHeadphonesFill,
   PiHeartbeatFill,
-  PiLightbulbFilamentFill,
+  //PiLightbulbFilamentFill,
   PiMapPinFill,
   PiMoneyFill,
   PiPhoneCallBold,
