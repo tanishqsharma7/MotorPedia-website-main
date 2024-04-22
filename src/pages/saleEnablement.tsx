@@ -1,7 +1,5 @@
 import CTASectiont from "../components/homepage/CTASectiont";
-
 import HealthCareSection from "../components/services/HealthCareSection";
-import ManageHealthSection from "../components/services/ManageHealthSection";
 import SearvicesFeaturesSection from "../components/services/SearvicesFeaturesSection";
 import TaxationSection from "../components/services/TaxationSection";
 import TaxationVideoSection from "../components/services/TaxationVideoSection";
@@ -22,9 +20,7 @@ function saleEnablement() {
       <WhatWeDoTaxation />
       <HealthCareSection />
       <TaxationVideoSection />
-      <ManageHealthSection />
       <SearvicesFeaturesSection />
-
       <CTASectiont />
     </main>
   );
