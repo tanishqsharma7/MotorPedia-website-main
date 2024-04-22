@@ -8,19 +8,15 @@ function PrivacyPolicy() {
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="Privacy Policy"
-        pageDesc="We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy."
+        pageDesc=""
         pageTitle="Privacy Policy"
       />
 
-      <section className="container stp-30 sbp-30 flex flex-col gap-2">
+      <section className="container pt-10 flex flex-col gap-2">
         <div className=" flex justify-start items-start flex-col">
-          <p className="bg-p1 py-3 px-5 text-white rounded-full">
-            Privacy Policy
-          </p>
-          <h2 className="display-4 py-6">Privacy Policy</h2>
           <p className=" text-bodyText">
-            We use Your Personal data to provide and improve the Service. By
-            using the Service, You agree to the collection and use of
+            We use your personal data to provide and improve the service. By
+            using the service, you agree to the collection and use of
             information in accordance with this Privacy Policy.
           </p>
         </div>
@@ -59,19 +55,19 @@ function PrivacyPolicy() {
         <div className="">
           <h3 className="heading-2 py-6">Use of information</h3>
           <p className=" text-bodyText">
-            Usage Data is collected automatically when using the Service. Usage
-            Data may include information such as Your Device's Internet Protocol
-            address (e.g. IP address), browser type, browser version, the pages
-            of our Service that You visit, the time and date of Your visit, the
+            Usage data is collected automatically when using the service. Usage
+            data may include information such as your device's internet protocol
+            address (e.g. Ip address), browser type, browser version, the pages
+            of our service that you visit, the time and date of your visit, the
             time spent on those pages, unique device identifiers and other
-            diagnostic data. When You access the Service by or through a mobile
-            device, We may collect certain information automatically, including,
-            but not limited to, the type of mobile device You use, Your mobile
-            device unique ID, the IP address of Your mobile device, Your mobile
-            operating system, the type of mobile Internet browser You use,
+            diagnostic data. When you access the service by or through a mobile
+            device, we may collect certain information automatically, including,
+            but not limited to, the type of mobile device you use, your mobile
+            device unique id, the ip address of your mobile device, your mobile
+            operating system, the type of mobile internet browser you use,
             unique device identifiers and other diagnostic data. We may also
-            collect information that Your browser sends whenever You visit our
-            Service or when You access the Service by or through a mobile
+            collect information that your browser sends whenever you visit our
+            service or when you access the service by or through a mobile
             device.
           </p>
         </div>
@@ -131,42 +127,32 @@ function PrivacyPolicy() {
         </div>
 
         <div className="">
-          <h3 className="heading-3 py-6">Data Sharing and Third Part</h3>
+          <h3 className="heading-3 py-6">Data Sharing with Third Party</h3>
           <p className=" text-bodyText">
-            We may share Your personal information in the following situations:
+            We collect certain personal information and other information from
+            You and when You access the platform or our services, or when You
+            register with out platform. The personal information we collect
+            includes your name, residential address, contact number, E-mail
+            address, or any other data or information as may be required. We may
+            disclose your personal information and other information to any of
+            our associated brands, associated entities, subsidiary, group
+            entitles, vendors, and other service providers who work for us or
+            provide services through platform and are bound by contractual
+            obligations to keep such personal information confidential and use
+            it only on purpose.
           </p>
-          <ul className="pt-6 flex flex-col gap-4">
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              With Service Providers
-            </li>
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              For business transfers
-            </li>
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              With Affiliate
-            </li>
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              With business partners
-            </li>
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              With Your consent
-            </li>
-          </ul>
+          <br></br>
+          <p>
+            We may share information we think we have to in order to comply with
+            the law or to protect ourselves. We will share information to
+            respond to a court order or judicial summons. We may also share it
+            if a governmental agency or investigatory body requests. Your
+            consent. By using the site you shall be deemed to have expressly
+            consented to our use of information and data as aforementioned. By
+            providing us with yiur information or using the site, you consent to
+            the transfer and processing of your information outside your country
+            of residence.
+          </p>
         </div>
 
         <div className="">
@@ -184,37 +170,14 @@ function PrivacyPolicy() {
             functionality of Our Service, or We are legally obligated to retain
             this data for longer time periods.
           </p>
-
-          <ul className="pt-6 flex flex-col gap-4">
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              We believe in minimizing data storage while ensuring compliance
-              with regulations
-            </li>
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              For specific details on our data retention practices
-            </li>
-            <li className="flex justify-start items-center gap-1">
-              <span className="text-2xl text-p1">
-                <PiCheckCircle />
-              </span>
-              please refer to our comprehensive Privacy Policy. Your trust is
-              paramount
-            </li>
-          </ul>
         </div>
 
         <div className="">
           <h3 className="heading-3 py-6">Cookies and tracking technologies</h3>
           <p className=" text-bodyText">
-            Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies
-            remain on Your personal computer or mobile device when You go
-            offline, while Session Cookies are deleted as soon as You close Your
+            Cookies can be "persistent" or "session" cookies. Persistent cookies
+            remain on your personal computer or mobile device when you go
+            offline, while session cookies are deleted as soon as you close your
             web browser.
           </p>
         </div>
@@ -222,16 +185,16 @@ function PrivacyPolicy() {
         <div className="">
           <h3 className="heading-3 py-6">Children's privacy</h3>
           <p className=" text-bodyText">
-            Our Service does not address anyone under the age of 13. We do not
+            Our service does not address anyone under the age of 13. We do not
             knowingly collect personally identifiable information from anyone
-            under the age of 13. If You are a parent or guardian and You are
-            aware that Your child has provided Us with Personal Data, please
-            contact Us. If We become aware that We have collected Personal Data
+            under the age of 13. If you are a parent or guardian and you are
+            aware that your child has provided us with personal data, please
+            contact us. If we become aware that we have collected personal data
             from anyone under the age of 13 without verification of parental
-            consent, We take steps to remove that information from Our servers.
-            If We need to rely on consent as a legal basis for processing Your
-            information and Your country requires consent from a parent, We may
-            require Your parent's consent before We collect and use that
+            consent, we take steps to remove that information from our servers.
+            if we need to rely on consent as a legal basis for processing your
+            information and your country requires consent from a parent, we may
+            require your parent's consent before we collect and use that
             information.
           </p>
         </div>
@@ -239,13 +202,12 @@ function PrivacyPolicy() {
         <div className="">
           <h3 className="heading-3 py-6">Changes to the privacy policy</h3>
           <p className=" text-bodyText">
-            We may update Our Privacy Policy from time to time. We will notify
-            You of any changes by posting the new Privacy Policy on this page.
-            We will let You know via email and/or a prominent notice on Our
-            Service, prior to the change becoming effective and update the "Last
-            updated" date at the top of this Privacy Policy. You are advised to
-            review this Privacy Policy periodically for any changes. Changes to
-            this Privacy Policy are effective when they are posted on this page.
+            This Privacy Policy was last updated on 20-4-2024. We may update Our
+            Privacy Policy from time to time. We will notify you of any material
+            to this plicy as required by law changes by posting the new Privacy
+            Policy on this page. You are advised to review this Privacy Policy
+            periodically for any changes. Changes to this Privacy Policy are
+            effective when they are posted on this page.
           </p>
         </div>
 
@@ -254,7 +216,7 @@ function PrivacyPolicy() {
           <p className=" text-bodyText">
             If you have any questions or concerns regarding our Privacy Policy
             or the handling of your personal information, please contact us at :
-            <span className="text-p1"> motorpedia@gmail.com</span>
+            <span className="text-p1"> contact@themotorpedia.com</span>
           </p>
         </div>
       </section>

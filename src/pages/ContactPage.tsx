@@ -1,15 +1,12 @@
 import { useState } from "react";
-import {
-  PiEnvelopeFill,
-  PiMapPinFill,
-  PiPencilSimpleFill,
-} from "react-icons/pi";
+import { PiEnvelopeFill, PiMapPinFill } from "react-icons/pi";
 import { Link } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
 import breadcrumpIllus from "/images/contact.png";
+import { CiMobile1 } from "react-icons/ci";
 // import locationImg from "/images/contact_page_img.png";
 
 function ContactPage() {
@@ -18,7 +15,7 @@ function ContactPage() {
   const [subject, setSubject] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  //const notify = () => toast("Message send successfully!");
+  const notify = () => toast("Message sent successfully!");
 
   // function handleSubmit(e: SyntheticEvent<HTMLFormElement, SubmitEvent>) {
   //   e.preventDefault();
@@ -30,20 +27,21 @@ function ContactPage() {
   //   setMessage("");
   // }
 
-  const handleformfill = async () => {
+  function handleformfill() {
+    notify();
     console.log(firstName);
     console.log(lastName);
     console.log(email);
     console.log(subject);
     console.log(message);
-  };
+  }
 
   return (
     <main>
       <BreadcrumbSection
         img={breadcrumpIllus}
-        pageName="Contact"
-        pageDesc="We'll be glad to get in touch with you!"
+        pageName="Contact Us"
+        pageDesc="Reach out to transform your dealership now. Fill out the form or connect on the below information and our team will be in touch shortly."
         pageTitle="Connect With Us"
       />
       <section className="container grid grid-cols-12 stp-30 sbp-30">
@@ -109,11 +107,11 @@ function ContactPage() {
             </div>
             <div className=" col-span-2 sm:col-span-1 py-4 px-8 border  flex justify-start items-center gap-2">
               <span className="text-xl text-bodyText">
-                <PiPencilSimpleFill />
+                <CiMobile1 />
               </span>
               <input
-                type="text"
-                placeholder="Subject"
+                type="tel"
+                placeholder="Mobile Number"
                 className=" placeholder:text-bodyText w-full outline-none"
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
@@ -122,7 +120,7 @@ function ContactPage() {
             </div>
             <div className="col-span-2 py-4 px-8 border  flex justify-start items-center gap-2">
               <textarea
-                placeholder="Type Your message..."
+                placeholder="Type your message..."
                 className=" placeholder:text-bodyText w-full outline-none h-[200px]"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
@@ -162,11 +160,10 @@ function ContactPage() {
               <div className="bg-mainTextColor text-white text-3xl p-3 rounded-full">
                 <PiMapPinFill />
               </div>
-              <div className="">
-                <h4 className="heading-4 pb-1">Gurugram :</h4>
+              <div className="pb-1">
                 <p>
                   Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road,
-                  Gurugram - 122001
+                  Gurugram, Haryana - 122002
                 </p>
               </div>
             </li>

@@ -1479,7 +1479,7 @@ export const contactPageCard = [
   {
     id: uuidv4(),
     icon: React.createElement(PiPhoneCallFill),
-    name: "Contact Us",
+    name: "Call Us",
     linkText: "+91 92055-22250",
     link: "tel:+91 92055-22250",
   },
