@@ -5,14 +5,22 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaRunning,
+  FaCarAlt,
+  
   //FaUsers,
 } from "react-icons/fa";
+import { TbQuotes } from "react-icons/tb";
+import { BiSelectMultiple } from "react-icons/bi";
+import { FaMoneyBillTransfer } from "react-icons/fa6";
+import { RiFundsBoxFill,
+  RiExchangeFundsLine, } from "react-icons/ri";
 import {
   FaHandshakeSimple,
   FaPeopleGroup,
   FaTachographDigital,
   FaXTwitter,
 } from "react-icons/fa6";
+import { BiSolidOffer } from "react-icons/bi";
 import {
   MdEditDocument,
   MdOutlineEmail,
@@ -37,6 +45,7 @@ import {
   // PiCheckSquareDuotone,
   PiCoinFill,
   PiEngine,
+ // PiCoinFill,
   // PiCrownDuotone,
   // PiDesktopDuotone,
   // PiDesktopFill,
@@ -50,13 +59,18 @@ import {
   PiHandCoinsFill,
   PiHandshakeFill,
   PiHeadphonesFill,
+
   PiLightbulbFilamentFill,
+
+  PiHeartbeatFill,
+  //PiLightbulbFilamentFill,
+
   PiMapPinFill,
   PiMoneyFill,
   PiPhoneCallBold,
   PiPhoneCallDuotone,
   PiPhoneCallFill,
-  PiSealCheckFill,
+  //PiSealCheckFill,
   PiStarFill,
   PiTimerFill,
   PiToothFill,
@@ -1000,48 +1014,48 @@ export const accountantFeatures = [
 export const taxationFeatures = [
   {
     id: uuidv4(),
-    title: "Tax Preparation and Filing",
-    desc: "Ensure a seamless tax season with our expert tax preparation services. We handle all necessary documentation and filing requirements,",
-    icon: React.createElement(PiCoinFill),
+    title: "Used Vehicle Financing",
+    desc: " Apply for used vehicle loans at best-in-market interest rates and best commission",
+    icon: React.createElement(FaMoneyBillTransfer),
   },
   {
     id: uuidv4(),
-    title: "Strategic Tax Planning",
-    desc: "Plan for the future with our strategic tax planning services. We help optimize your financial decisions to maximize savings and minimize potential risks.",
-    icon: React.createElement(PiHandCoinsFill),
+    title: "New Vehicle Financing",
+    desc: "Get new vehicle finance options from <br> all premier banks & NBFCs",
+    icon: React.createElement(FaCarAlt),
   },
   {
     id: uuidv4(),
-    title: "Compliance Assurance",
-    desc: "Stay compliant with ever-changing tax regulations. Our team stays abreast of updates, ensuring your business adheres to all relevant tax laws",
-    icon: React.createElement(PiSealCheckFill),
+    title: "Inventory Funding",
+    desc: "Avail working capitals loans to buy more cars and  increase your business ",
+    icon: React.createElement(RiFundsBoxFill),
   },
   {
     id: uuidv4(),
-    title: "Audit Support",
-    desc: "In the event of an audit, our experienced team provides support, helping you navigate the process efficiently and effectively.",
-    icon: React.createElement(PiHeadphonesFill),
+    title: "Refinance",
+    desc: "Get existing customer loans refinanced at better rates or get a balance topup",
+    icon: React.createElement(RiExchangeFundsLine),
   },
 ];
 
 export const whtaWeDoTaxationData = [
   {
     id: uuidv4(),
-    icon: React.createElement(PiUserFill),
-    title: "Expert Tax Professionals",
-    desc: "Our team of tax professionals brings extensive knowledge and expertise to handle various tax scenarios.",
+    icon: React.createElement(TbQuotes),
+    title: "Cheapest Quotes",
+    desc: "Get the best priced quotes for your insurance",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiUsersThreeFill),
-    title: "Personalized Consultations",
-    desc: "We understand that every business is unique. Our personalized consultations ensure that our tax services.",
+    icon: React.createElement(BiSelectMultiple),
+    title: "Multiple Insurance",
+    desc: "Be Spoilt for choice with offers from multitude of insurers for every vehicle",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiLightbulbFilamentFill),
-    title: "Strategic Advice",
-    desc: "Beyond compliance, we offer strategic advice to help you make informed financial decisions that benefit your business.",
+    icon: React.createElement(BiSolidOffer),
+    title: "Best Offers",
+    desc: "Avail best discount and cashbacks on every case done through MotorPedia",
   },
 ];
 
