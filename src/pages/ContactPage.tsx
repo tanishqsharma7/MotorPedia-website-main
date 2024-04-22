@@ -42,8 +42,8 @@ function ContactPage() {
     <main>
       <BreadcrumbSection
         img={breadcrumpIllus}
-        pageName="Course"
-        pageDesc="Connect with us for expert accounting and payroll services. Reach out via the form or contact information below."
+        pageName="Contact"
+        pageDesc="We'll be glad to get in touch with you!"
         pageTitle="Connect With Us"
       />
       <section className="container grid grid-cols-12 stp-30 sbp-30">
@@ -51,7 +51,7 @@ function ContactPage() {
           {contactPageCard.map(
             ({ id, icon, name, link, address, linkText }) => (
               <div
-                className="flex flex-col justify-start items-start p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-gray-200 hover:text-mainTextColor hover:border-mainTextColor duration-500 group"
+                className="flex flex-col justify-start items-start p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-gray-200 hover:text-mainTextColor rounded-lg hover:border-mainTextColor duration-500 group"
                 key={id}
               >
                 <div
@@ -69,7 +69,7 @@ function ContactPage() {
         </div>
 
         <div className=" col-span-12 lg:col-span-8 lg:col-start-3 border p-4 sm:p-6 lg:p-10">
-          <h4 className="heading-4 pb-6">Fill the From Below</h4>
+          <h4 className="heading-4 pb-6">Fill the form below</h4>
           <form
             onSubmit={(e) => e.preventDefault()}
             className="grid grid-cols-2 gap-6"
@@ -129,14 +129,17 @@ function ContactPage() {
                 required
               />
             </div>
+            {/* <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfMoXPjU3w0hK3ukaXg9uzS-kFH7zRF_2I03e57qGbyxSIrng/viewform?embedded=true"
+              width="640"
+              height="248"
+            >
+              Loading…
+            </iframe> */}
             <div className="col-span-2 table-checkbox flex justify-between items-center max-[400px]:flex-col max-[400px]:items-start gap-5">
-              <label className="flex justify-start items-center gap-2">
-                {/* <input type="checkbox" className=" " /> */}
-                {/* <p>Subscribe to our newsletter.</p> */}
-              </label>
               <button
                 onClick={handleformfill}
-                className="py-2 sm:py-3 px-4 sm:px-6 bg-p1 text-white block text-center border border-p1 hover:bg-s2 hover:border-mainTextColor hover:text-mainTextColor duration-500 w-full"
+                className="py-2 sm:py-3 sm:px-6 bg-p1 text-white block text-center border border-p1 hover:bg-s2 hover:border-mainTextColor hover:text-mainTextColor duration-500 w-full"
               >
                 Submit
               </button>

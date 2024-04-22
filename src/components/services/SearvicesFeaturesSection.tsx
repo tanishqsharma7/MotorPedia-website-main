@@ -3,7 +3,7 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 
 function SearvicesFeaturesSection() {
   return (
-    <section className=" bg-softBg1 stp-30 sbp-30">
+    <section className=" bg-white stp-30 sbp-30">
       <div className="container grid grid-cols-12 gap-6">
         {servicesFeatures.map(({ id, title, desc, icon }, idx) => (
           <div className="col-span-12 md:col-span-4" key={id}>

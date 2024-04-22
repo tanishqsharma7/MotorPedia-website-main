@@ -1,12 +1,4 @@
 import React from "react";
-// import {
-//   AiFillBehanceCircle,
-//   AiFillCiCircle,
-//   AiFillFileText,
-//   AiFillPlusCircle,
-//   AiFillQqCircle,
-//   AiFillWeiboCircle,
-// } from "react-icons/ai";
 import {
   FaCartArrowDown,
   FaFacebookF,
@@ -26,6 +18,7 @@ import {
   MdOutlineEmail,
   MdOutlineInventory,
   MdOutlineLocationOn,
+  MdPeople,
 } from "react-icons/md";
 import {
   //PiBinocularsFill,
@@ -43,6 +36,7 @@ import {
   // PiCheckCircleFill,
   // PiCheckSquareDuotone,
   PiCoinFill,
+  PiEngine,
   // PiCrownDuotone,
   // PiDesktopDuotone,
   // PiDesktopFill,
@@ -53,11 +47,9 @@ import {
   PiFileMagnifyingGlassDuotone,
   PiFilePlusFill,
   PiFileTextFill,
-  PiGearFill,
   PiHandCoinsFill,
   PiHandshakeFill,
   PiHeadphonesFill,
-  PiHeartbeatFill,
   PiLightbulbFilamentFill,
   PiMapPinFill,
   PiMoneyFill,
@@ -155,10 +147,12 @@ import { TbDeviceDesktopStar } from "react-icons/tb";
 import { IoMailUnreadOutline } from "react-icons/io5";
 // import { FcAssistant } from "react-icons/fc";
 // import { GrAction, GrHelp, GrHelpBook } from "react-icons/gr";
-import { BiCheckShield, BiTargetLock } from "react-icons/bi";
+import { BiCheckShield, BiSearchAlt2, BiTargetLock } from "react-icons/bi";
 import { RiSeoFill } from "react-icons/ri";
 import { TiSocialGooglePlusCircular } from "react-icons/ti";
 import { HiDocumentCheck } from "react-icons/hi2";
+import { CiLocationOn } from "react-icons/ci";
+import { FcSupport } from "react-icons/fc";
 
 export const headerMenu = [
   {
@@ -353,7 +347,7 @@ export const footerLinks = [
       },
       {
         id: uuidv4(),
-        name: "Sale Enablement",
+        name: "Sales Enablement",
         link: "/services/saleEnablement",
       },
       // {
@@ -1083,19 +1077,40 @@ export const servicesFeatures = [
     id: uuidv4(),
     icon: React.createElement(PiMoneyFill),
     title: "Commissions Made Easy",
-    desc: "Whether admin or agent, employee or contractor, run unlimited payrolls for your team in just a few clicks.",
+    desc: "Daily updates and reports on your commissions earned along within periodic and timely settlement",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiTimerFill),
     title: "Time-Saving Workflows",
-    desc: "Employees can access earnings, check their paystubs, and add expenses, at the office or on the go.",
+    desc: "One stop shop to enable access to all services within just a few click saving immense bandwidth on your part",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiStarFill),
     title: "Worry-free work",
-    desc: "Never stress about late or incorrect payments again. With Gusto, payroll is accurate, efficient.",
+    desc: "Onboard with us and never stress about any vehicle transaction related service - we areaccurate and efficient",
+  },
+];
+
+export const conversionRate = [
+  {
+    id: uuidv4(),
+    icon: React.createElement(BiSearchAlt2),
+    title: "Inspection Services",
+    desc: "Opt fpr our comprehensive inspection report crafted by an expert",
+  },
+  {
+    id: uuidv4(),
+    icon: React.createElement(MdPeople),
+    title: "Wide network of used vehicle dealers",
+    desc: "Tap into our vast network of UCDs to get the best price on incoming exchange",
+  },
+  {
+    id: uuidv4(),
+    icon: React.createElement(BsClockHistory),
+    title: "Reduced inventory time",
+    desc: "Rotate your exchange vehicle inventory within 3 days and earn sure shot commission on every car",
   },
 ];
 
@@ -1103,26 +1118,26 @@ export const healthCareFeatures = [
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
-    title: "Payroll for Healthcare Professionals",
-    desc: "Efficient payroll processing tailored to the unique needs of healthcare professionals. Ensure accurate and timely compensation",
+    title: "Comprehensive Warranty",
+    desc: "Extended warranty plans, Services and Annual Maintaenance plans available with national coverage",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiGearFill),
-    title: "Compliance Management",
-    desc: "Stay compliant with ever-evolving healthcare regulations. Our services include compliance management to ensure your practice",
+    icon: React.createElement(PiEngine),
+    title: "Engine and Transmission Warranty",
+    desc: "Cheaper plans available to cover engine and transmission for an extended period",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiHeartbeatFill),
-    title: "Financial Advisory for Healthcare Practices",
-    desc: "Navigate the financial landscape of automotive journey with our expert advisory services. From budgeting to strategic planning.",
+    icon: React.createElement(FcSupport),
+    title: "Road Side Assistance Servies",
+    desc: "RSA services for your customers - immediate on site support for breakdown and repair",
   },
   {
     id: uuidv4(),
-    icon: React.createElement(PiUsersThreeFill),
-    title: "Healthcare Consulting",
-    desc: "Receive personalized consulting services to address the unique challenges of your healthcare practice.",
+    icon: React.createElement(CiLocationOn),
+    title: "GPS Device Fitment",
+    desc: "Sell GPS devices to your customers and get attractive cashback benefits",
   },
 ];
 
@@ -1476,15 +1491,15 @@ export const contactPageCard = [
     id: uuidv4(),
     icon: React.createElement(PiPhoneCallFill),
     name: "Contact Us",
-    linkText: "+91 99999-61887",
-    link: "tel:+91 99999-61887",
+    linkText: "+91 92055-22250",
+    link: "tel:+91 92055-22250",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiMapPinFill),
     name: "Visit Our Office",
     address:
-      "TR24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
+      "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
   },
 ];
 

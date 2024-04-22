@@ -7,10 +7,13 @@ function HealthCareSection() {
   return (
     <section className="stp-30 sbp-30">
       <div className="container">
+        <div className="  max-w-[600px] flex justify-center items-start flex-col">
+          <p className="bg-p1 py-3 px-5 rounded-full text-white ">Warranty</p>
+        </div>
         <SectionHeadingCenter
           sectionName="Healthcare"
-          sectionTitle="Extended Coverage:- Warranty and Roadside Assistance"
-          sectionDesc="We get it—managing payroll for healthcare is complex. That’s why we’ve designed our platform to streamline your workflow from start to finish."
+          sectionTitle="Extended Coverage: Warranty and Roadside Assistance (RSA)"
+          sectionDesc="Get all your vehicles certified by professionals and enable different warranty options for all your vehicles sold"
         />
         <div className="grid grid-cols-12 gap-6 stp-15">
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex justify-center items-center overflow-hidden">
