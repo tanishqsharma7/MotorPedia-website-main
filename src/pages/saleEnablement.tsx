@@ -21,7 +21,6 @@ function saleEnablement() {
       <HealthCareSection />
       <TaxationVideoSection />
       <SearvicesFeaturesSection />
-
       <CTASectiont />
     </main>
   );

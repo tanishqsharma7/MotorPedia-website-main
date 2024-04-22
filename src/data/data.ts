@@ -6,14 +6,13 @@ import {
   FaLinkedinIn,
   FaRunning,
   FaCarAlt,
-  
+
   //FaUsers,
 } from "react-icons/fa";
 import { TbQuotes } from "react-icons/tb";
 import { BiSelectMultiple } from "react-icons/bi";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
-import { RiFundsBoxFill,
-  RiExchangeFundsLine, } from "react-icons/ri";
+import { RiFundsBoxFill, RiExchangeFundsLine } from "react-icons/ri";
 import {
   FaHandshakeSimple,
   FaPeopleGroup,
@@ -29,42 +28,19 @@ import {
   MdPeople,
 } from "react-icons/md";
 import {
-  //PiBinocularsFill,
   PiBuildingsFill,
-  //PiCalculatorFill,
   PiCalendarBlankFill,
-  // PiCarDuotone,
-  // PiCarProfileDuotone,
   PiCarSimpleBold,
   PiChartLineFill,
-  // PiChartLineUpFill,
-  // PiChatCenteredFill,
-  // PiChatCircleFill,
-  // PiCheck,
-  // PiCheckCircleFill,
-  // PiCheckSquareDuotone,
-  PiCoinFill,
   PiEngine,
- // PiCoinFill,
-  // PiCrownDuotone,
-  // PiDesktopDuotone,
-  // PiDesktopFill,
-  // PiDeviceMobileFill,
   PiEnvelopeFill,
   PiFileArchiveDuotone,
-  // PiFileFill,
   PiFileMagnifyingGlassDuotone,
   PiFilePlusFill,
   PiFileTextFill,
   PiHandCoinsFill,
   PiHandshakeFill,
   PiHeadphonesFill,
-
-  PiLightbulbFilamentFill,
-
-  PiHeartbeatFill,
-  //PiLightbulbFilamentFill,
-
   PiMapPinFill,
   PiMoneyFill,
   PiPhoneCallBold,
@@ -75,7 +51,6 @@ import {
   PiTimerFill,
   PiToothFill,
   PiUserFill,
-  PiUsersThreeFill,
   PiWebhooksLogoFill,
   PiWhatsappLogo,
   //PiWhatsappLogoBold,
