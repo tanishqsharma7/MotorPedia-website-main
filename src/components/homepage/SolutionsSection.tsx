@@ -1,11 +1,11 @@
 import { solutionsFeatures } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import SectionHeadingCenter from "../global/SectionHeadingCenter";
 import LinkButton from "../ui/LinkButton";
 import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
 import solutionIllus from "/images/design2.png";
 import { Link } from "react-router-dom";
+import FadeRight from "../animation/FadeRight";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">
@@ -21,11 +21,23 @@ function SolutionsSection() {
       />
       <div className="container z-10 relative">
         <div className="flex justify-center items-center ">
-          <SectionHeadingCenter
-            sectionName="Solutions"
-            sectionTitle="Why Digitalization Matters ?"
-            sectionDesc="In today's increasingly online world, digitalization is key for auto dealerships to achieve enhanced customer engagement and improved operations. It provides tools such as online vehicle configurators and AI-led photoshoots, thereby meeting the needs of modern customers. By optimizing processes and enabling data-driven decisions, it cuts costs and boosts efficiency. Effective digital use also enhances marketing and advertising, customer satisfaction, and conversion in the hyper-competitive auto market"
-          />
+          <p>
+            <FadeRight>
+              <h1 className="font-bold text-center text-wrap text-4xl">
+                Why Digitalization Matters ?
+              </h1>
+            </FadeRight>
+            <p className="pt-5  pb-4 text-lg w-[700px] text-justify">
+              In today's increasingly online world, digitalization is key for
+              auto dealerships to achieve enhanced customer engagement and
+              improved operations. It provides tools such as online vehicle
+              configurators and AI-led photoshoots, thereby meeting the needs of
+              modern customers. By optimizing processes and enabling data-driven
+              decisions, it cuts costs and boosts efficiency. Effective digital
+              use also enhances marketing and advertising, customer
+              satisfaction, and conversion in the hyper-competitive auto market
+            </p>
+          </p>
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
           <div className="col-span-12 lg:col-span-6">

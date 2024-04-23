@@ -1,4 +1,3 @@
-import { GoArrowRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 import { featuresCard } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
@@ -23,25 +22,27 @@ function Features() {
           {featuresCard.map(({ id, icon, name, desc, linkto }, idx) => (
             <div className="col-span-12  sm:col-span-6 lg:col-span-3 " key={id}>
               <StaggerEffect id={idx}>
-                <div className="bg-[#203A74]  p-6 xl:p-8 flex flex-col lg:h-[430px] rounded-2xl shadow-xl  group hover:border-mainTextColor duration-700 hover:bg-white/75">
-                  <div className="text-4xl text-s1 bg-white w-[53px] mb-5 rounded-full p-2 group-hover:text-mainTextColor duration-500">
-                    {icon}
+                <Link to={linkto}>
+                  <div className="bg-[#203A74]  p-6 xl:p-8 flex flex-col lg:h-[380px] rounded-2xl shadow-xl  group hover:border-mainTextColor duration-700 hover:bg-white/75">
+                    <div className="text-4xl text-s1 bg-white w-[53px] mb-5 rounded-full p-2 group-hover:text-mainTextColor duration-500">
+                      {icon}
+                    </div>
+                    <h4 className="heading-4 group-hover:text-mainTextColor text-white pb-5">
+                      {name}
+                    </h4>
+                    <p className=" text-white group-hover:text-mainTextColor pb-4 text-justify">
+                      {desc}
+                    </p>
+                    {/* <div className="relative top-9">
+                      <Link
+                        to={linkto}
+                        className="flex  bg-white w-[140px] rounded-2xl  text-s1 h-[40px] p-3 items-center gap-2 font-medium"
+                      >
+                        Learn more <GoArrowRight />
+                      </Link>
+                    </div> */}
                   </div>
-                  <h4 className="heading-4 group-hover:text-mainTextColor text-white pb-5">
-                    {name}
-                  </h4>
-                  <p className=" text-white group-hover:text-mainTextColor pb-4 text-justify">
-                    {desc}
-                  </p>
-                  <div className="relative top-8">
-                    <Link
-                      to={linkto}
-                      className="flex  bg-white w-[140px] rounded-2xl  text-s1 h-[40px] p-3 items-center gap-2 font-medium"
-                    >
-                      Learn more <GoArrowRight />
-                    </Link>
-                  </div>
-                </div>
+                </Link>
               </StaggerEffect>
             </div>
           ))}
