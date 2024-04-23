@@ -5,9 +5,6 @@ import Loader from "./components/ui/Loader";
 import AboutPage from "./pages/AboutPage";
 import AccountingServices from "./pages/RTO";
 import AppointmentPage from "./pages/AppointmentPage";
-// import BlogDetailsPage from "./pages/BlogDetailsPage";
-// import BlogPage from "./pages/BlogPage";
-// import CartPage from "./pages/CartPage";
 import CaseStudyDetails from "./pages/CaseStudyDetails";
 import CaseStudyPage from "./pages/CaseStudyPage";
 // import CheckoutPage from "./pages/CheckoutPage";
@@ -19,8 +16,7 @@ import HealthCareServices from "./pages/HealthCareServices";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import OurTeam from "./pages/OurTeam";
-import PayrollProcessing from "./pages/DigitalizePro";
-// import PricingPage from "./pages/PricingPage";
+import PayrollProcessing from "./pages/Digitalization";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import RealStateServices from "./pages/RealStateServices";
 import RegisterPage from "./pages/RegisterPage";
@@ -53,7 +49,7 @@ export const router = createBrowserRouter([
         element: <ServicesPage />,
       },
       {
-        path: "/services/DigitalizePro",
+        path: "/services/Digitalization",
         element: <PayrollProcessing />,
       },
       {

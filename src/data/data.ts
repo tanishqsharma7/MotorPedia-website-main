@@ -147,7 +147,7 @@ export const headerMenu = [
       {
         id: uuidv4(),
         name: "Digitalization",
-        link: "/services/DigitalizePro",
+        link: "/services/Digitalization",
       },
       {
         id: uuidv4(),
@@ -237,7 +237,7 @@ export const footerLinks = [
       {
         id: uuidv4(),
         name: "Digitalization",
-        link: "/services/DigitalizePro",
+        link: "/services/Digitalization",
       },
       {
         id: uuidv4(),
@@ -314,7 +314,7 @@ export const solutionsFeatures = [
     id: uuidv4(),
     name: "Comprehensive Digitalization Platform",
     icon: React.createElement(LiaDigitalTachographSolid),
-    linkto: "/services/DigitalizePro",
+    linkto: "/services/Digitalization",
   },
   {
     id: uuidv4(),
@@ -336,28 +336,28 @@ export const featuresCard = [
     id: uuidv4(),
     icon: React.createElement(PiCarSimpleBold),
     name: "RTO Assistance Network",
-    desc: "Covering all RTO requirements such as ownership transfer, challan clearance, NOC issuance, and Vahan check services in a just few clicks",
+    desc: "Covering all RTO related needs such as transfer of ownership, RC changes, challan clearance, NOC issuance and Vahan check in just a few clicks",
     linkto: "/services/RTO",
   },
   {
     id: uuidv4(),
     icon: React.createElement(FaTachographDigital),
     name: " Comprehensive Digitization Platform",
-    desc: "Offering online and offline marketing, 360-degree photo- shoot capabilities with virtual studio, and centralized website for inventory management",
-    linkto: "/services/DigitalizePro",
+    desc: "Offering online & offline marketing platform, 360-degree photoshoot capabilities with customized virtual studio setup & centralized website",
+    linkto: "/services/Digitalization",
   },
   {
     id: uuidv4(),
     icon: React.createElement(BsGraphUpArrow),
     name: "Sales Optimization Suite",
-    desc: "Including lead management, inventory oversight, insurance facilitation, and finance assistance to enhance sales efficiency ",
+    desc: "Including new lead generation & management, real-time inventory oversight, insurance facilitation, warranty and finance options to enhance sales efficiency",
     linkto: "/services/saleEnablement",
   },
   {
     id: uuidv4(),
     icon: React.createElement(FaCartArrowDown),
     name: "Procurement Powerhouse",
-    desc: "Providing the predictive buying  price analysis , lead generation for procurement , vehicle inspection services , and inventory funding ",
+    desc: "Providing predictive buying price analysis, fresh lead generation for procurement, AI-led assortment decisions, inspection services, and inventory funding",
     linkto: "/services/saleEnablement",
   },
 ];
@@ -455,7 +455,7 @@ export const testimonials = [
     name: "Amit",
     designation: "Used Car Dealer in Delhi",
     review:
-      "I highly recommend anyone looking for quick and reliable RC transfer services. Thank you for outstanding support!",
+      "I highly recommend Motorpedia to anyone looking for quick and reliable RC transfer services. They have been outstanding in supporting all my RTO needs",
   },
   {
     id: uuidv4(),
@@ -463,7 +463,7 @@ export const testimonials = [
     name: "Rizwan",
     designation: "Used Bike Dealer in Gurgaon",
     review:
-      "What impresses me the most was their innovative lead generation strategies. They utilize cutting-edge tools to connect with potential buyers like me, making the entire bike-buying experience effortless and convenient",
+      "What impressed me the most was their innovative lead generation strategies. They utilize cutting-edge tools to connect with potential buyers for my bikes",
   },
   {
     id: uuidv4(),
@@ -471,7 +471,7 @@ export const testimonials = [
     name: "Gurpreet",
     designation: "Used Car Dealer in Ghaziabad",
     review:
-      "Thanks to their exceptional photoshoot and inventory presentation, I was able to find the perfect car for my needs without any hassle. The entire experience was seamless",
+      "Thanks to their exceptional photoshoot and inventory presentation, I was able to find the perfect customers for my inventory. The entire experience was seamless",
   },
   {
     id: uuidv4(),
@@ -479,7 +479,23 @@ export const testimonials = [
     name: "Rajiv",
     designation: "Used Commercial Vehicle Dealer in Sonipat",
     review:
-      "The team made the entire process hassle-free and straightforward. They handled the NOC and Challan clearance with utmost care and attention to detail, ensuring all necessary paperwork was completed accurately and promptly",
+      "The Motorpedia team made the entire NOC and challan clearance process hassle-free while ensuring all necessary paperwork was completed accurately",
+  },
+  {
+    id: uuidv4(),
+    img: testimonial4,
+    name: "Sahib",
+    designation: "Used Car Dealer in Noida",
+    review:
+      "Motorpedia’s digitalization suite has helped me enhance my presence in the online domain and I have been able to expand my reach to potential customers",
+  },
+  {
+    id: uuidv4(),
+    img: testimonial4,
+    name: "Aziz",
+    designation: "Used Car Dealer in Lucknow",
+    review:
+      "RC transfer has never been easier – they have given me one point of contact for all RTOs which has helped me to expand my procurement to other RTOs",
   },
 ];
 
@@ -577,35 +593,35 @@ export const integrationsCard = [
     icon: React.createElement(FaPeopleGroup),
     title: "Dealership Management Solution (DMS)",
     description:
-      "Transform your dealership via our all-in-one digital platform providing services such as RTO, finance, insurance and invoicing",
+      "Transform your dealership via our all-in-one digital platform providing multiple services such as RTO, finance, insurance and invoicing",
   },
   {
     id: uuidv4(),
     icon: React.createElement(MdOutlineInventory),
     title: "Central Inventory Management ",
     description:
-      "Enhance efficiency in marketing, procurement and sales with centralized inventory management solutions",
+      "Enhance productivity in marketing, pricing, procurement & sales with centralized inventory management solutions",
   },
   {
     id: uuidv4(),
     icon: React.createElement(SiPrivateinternetaccess),
     title: "AI powered Pricing Tool     ",
     description:
-      "Drive informed decisions with predictive analysis of buying and selling prices",
+      "Drive informed pricing decisions via market trends & predictive analysis of buying and selling prices",
   },
   {
     id: uuidv4(),
     icon: React.createElement(TbDeviceDesktopStar),
     title: "Digital Hub ",
     description:
-      "Establish a cohesive digital presence across all social media platforms along with your own website",
+      "Establish your independent digital presence across all social media platforms along with your website",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
     title: "Lead Management ",
     description:
-      "Boost procurement and sales performance through lead improvisation strategies",
+      "Boost procurement and sales funnel conversion through enhanced lead improvisation strategies",
   },
 ];
 
@@ -692,7 +708,7 @@ export const coreServices = [
     id: uuidv4(),
     icon: React.createElement(FaTachographDigital),
     title: "Digitalization",
-    link: "/services/DigitalizePro",
+    link: "/services/Digitalization",
     desc: "Elevate your online presence across all social media platforms, establish your own website, enjoy seamless digital catalogue, enhance vehicle listing through professional photoshoot and editing - all this through our comprehensive digitalization platform",
   },
   {
@@ -1132,7 +1148,7 @@ export const caseStudySidebar = [
     id: uuidv4(),
     icon: React.createElement(PiWindowsLogoFill),
     name: "Category",
-    desc: "DigitalizePro",
+    desc: "Digitalization",
   },
   {
     id: uuidv4(),
@@ -1273,7 +1289,7 @@ export const blogCategories = [
   },
   {
     id: uuidv4(),
-    name: "DigitalizePro",
+    name: "Digitalization",
     count: "2",
   },
   {

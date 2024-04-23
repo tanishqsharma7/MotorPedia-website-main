@@ -7,7 +7,7 @@ import WhatWeDo from "../components/services/WhatWeDo";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import breadcrumbImg from "/images/laptopS1.png";
 
-function DigitalizePro() {
+function Digitalization() {
   return (
     <main>
       <BreadcrumbSection
@@ -30,4 +30,4 @@ function DigitalizePro() {
   );
 }
 
-export default DigitalizePro;
+export default Digitalization;
