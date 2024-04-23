@@ -8,8 +8,8 @@ function CoreServices() {
       <div className="container">
         <div className="flex justify-center items-center">
           <div className="flex justify-center items-center max-w-[600px]  flex-col">
-            <h1 className="display-4">Our Core Services</h1>
-            <p className="text-bodyText text-center pt-6">
+            <h1 className="display-4">Core Offerings</h1>
+            <p className="text-bodyText pt-6 text-center">
               We cater to nearly all your needs in the vehicle transaction
               journey, broadly classified across three domains.
             </p>
@@ -28,7 +28,7 @@ function CoreServices() {
                       {title}
                     </h4>
                   </Link>
-                  <p className=" text-bodyText lg:pr-4">{desc}</p>
+                  <p className=" text-bodyText lg:pr-4 text-justify">{desc}</p>
                 </div>
               </StaggerEffect>
             </div>

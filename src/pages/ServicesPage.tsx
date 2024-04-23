@@ -13,7 +13,7 @@ function ServicesPage() {
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="All Services"
-        pageDesc="At Motorpedia, we offer a variety of services to make your dealership efficient. From ownership transfer, fancy numbers, insurance and finance to digitalising your store, you just name it, we've got it!"
+        pageDesc="At MotorPedia, we offer a variety of services to make your dealership efficient. From ownership transfer, fancy numbers, insurance and finance to digitalising your store, you just name it, we've got it!"
         pageTitle="Our Services"
       />
 

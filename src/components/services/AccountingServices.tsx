@@ -9,7 +9,7 @@ function AccountingServicesSection() {
         <SectionHeadingCenter
           sectionName="RTO Services"
           sectionTitle="Explore Our RTO Services"
-          sectionDesc="At Motorpedia, our RTO assistance services are designed to provide you with comprehensive coverage of all your RTO related needs such as ownership transfer, NOC Issuance, hypothecation addition/termination, challan clearance, etc."
+          sectionDesc="At MotorPedia, our RTO assistance services are designed to provide you with comprehensive coverage of all your RTO related needs such as ownership transfer, NOC issuance, hypothecation addition/termination, challan clearance, etc."
         />
         <div className="grid grid-cols-12 stp-15 gap-6 ">
           {accountingServices.map(({ id, icon, title, desc }, idx) => (

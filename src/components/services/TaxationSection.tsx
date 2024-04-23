@@ -10,14 +10,16 @@ function TaxationSection() {
         <div className="col-span-12 lg:col-span-6 xxl:col-span-5">
           <FadeLeft>
             <div className=" flex justify-start items-start flex-col">
-             
+              <p className="bg-p1 py-3 px-5 rounded-full text-white ">
+                Finance
+              </p>
               <h2 className="display-4 pt-4 pb-6">
                 Our <br></br> Finance Expertise
               </h2>
               <p className=" text-bodyText pb-10">
-                We offer competitive rates and
-                assistance in securing financing for your next used car
-                sale for all different types of customers.
+                We offer competitive rates and assistance in securing financing
+                for your next used car sale for all different types of
+                customers.
               </p>
               <div className="flex justify-center items-center w-full overflow-hidden">
                 <img

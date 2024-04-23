@@ -7,10 +7,10 @@ import {
   FaRunning,
   FaCarAlt,
 } from "react-icons/fa";
-import { TbQuotes } from "react-icons/tb";
+import { TbLicense, TbQuotes } from "react-icons/tb";
 import { BiSelectMultiple } from "react-icons/bi";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
-import { RiFundsBoxFill, RiExchangeFundsLine } from "react-icons/ri";
+import { RiFundsBoxFill, RiExchangeFundsLine, RiVipLine } from "react-icons/ri";
 import {
   FaHandshakeSimple,
   FaPeopleGroup,
@@ -23,6 +23,7 @@ import {
   MdOutlineEmail,
   MdOutlineInventory,
   MdOutlineLocationOn,
+  MdOutlineVerticalShadesClosed,
   MdPeople,
 } from "react-icons/md";
 import {
@@ -54,10 +55,10 @@ import {
   PiWindowsLogoFill,
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
-import whyMotorpediaCard1 from "/images/img1.jpg";
-import whyMotorpediaCard2 from "/images/whyus2.jpg";
-import whyMotorpediaCard3 from "/images/whyus3.jpg";
-import whyMotorpediaCard4 from "/images/whyus4.jpg";
+import whyMotorPediaCard1 from "/images/img1.jpg";
+import whyMotorPediaCard2 from "/images/whyus2.jpg";
+import whyMotorPediaCard3 from "/images/whyus3.jpg";
+import whyMotorPediaCard4 from "/images/whyus4.jpg";
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
@@ -76,7 +77,7 @@ import {
   BsPersonCheck,
   BsRobot,
 } from "react-icons/bs";
-import { GiCarKey, GiKite } from "react-icons/gi";
+import { GiCarKey, GiKite, GiMetalPlate, GiReceiveMoney } from "react-icons/gi";
 
 import { SlPlane } from "react-icons/sl";
 
@@ -108,8 +109,11 @@ import recentPostImg4 from "/images/recent_post_img4.png";
 import { SiConvertio, SiPrivateinternetaccess } from "react-icons/si";
 
 import {
+  LiaAmericanSignLanguageInterpretingSolid,
   LiaChalkboardTeacherSolid,
   LiaDigitalTachographSolid,
+  LiaHackerNews,
+  LiaMoneyBillAlt,
 } from "react-icons/lia";
 import { TbDeviceDesktopStar } from "react-icons/tb";
 import { IoMailUnreadOutline } from "react-icons/io5";
@@ -119,6 +123,7 @@ import { TiSocialGooglePlusCircular } from "react-icons/ti";
 import { HiDocumentCheck } from "react-icons/hi2";
 import { CiLocationOn } from "react-icons/ci";
 import { FcSupport } from "react-icons/fc";
+import { GrLicense } from "react-icons/gr";
 
 export const headerMenu = [
   {
@@ -192,7 +197,7 @@ export const socialLinks = [
   {
     id: uuidv4(),
     name: "Instagram",
-    link: "https://www.instagram.com/motorpedia_in/",
+    link: "https://www.instagram.com/motorPedia_in/",
     icon: React.createElement(FaInstagram),
   },
 ];
@@ -260,8 +265,8 @@ export const getInTouch = [
     links: [
       {
         id: uuidv4(),
-        name: "contact@themotorpedia.com",
-        link: "mailto:contact@themotorpedia.com",
+        name: "contact@themotorPedia.com",
+        link: "mailto:contact@themotorPedia.com",
         isLink: true,
         icon: React.createElement(MdOutlineEmail),
       },
@@ -285,8 +290,8 @@ export const getInTouch = [
 export const teamContactDetails = [
   {
     id: uuidv4(),
-    name: "contact@themotorpedia.com",
-    link: "contact@themotorpedia.com",
+    name: "contact@themotorPedia.com",
+    link: "contact@themotorPedia.com",
     icon: React.createElement(PiEnvelopeFill),
   },
   {
@@ -372,7 +377,7 @@ export const stepByStepCard = [
   {
     id: uuidv4(),
     title: "AI-driven Unified Integration ",
-    desc: "Implement Motorpedia's AI tools for a unified dashboard integrating procurement, sales, digital presence, and operational efficiency",
+    desc: "Implement MotorPedia's AI tools for a unified dashboard integrating procurement, sales, digital presence, and operational efficiency",
     icon: React.createElement(BsRobot),
   },
   {
@@ -383,28 +388,28 @@ export const stepByStepCard = [
   },
 ];
 
-export const whyMotorpediaCard = [
+export const whyMotorPediaCard = [
   {
     id: uuidv4(),
-    img: whyMotorpediaCard1,
+    img: whyMotorPediaCard1,
     title: "Expertly Tailored ",
     des: "We empathize with dealership challenges, offering centralized solutions to meet every need",
   },
   {
     id: uuidv4(),
-    img: whyMotorpediaCard2,
+    img: whyMotorPediaCard2,
     title: "Timely Coordination ",
     des: "We consistently deliver solutions within the allocated time frame, ensuring client satisfaction",
   },
   {
     id: uuidv4(),
-    img: whyMotorpediaCard3,
+    img: whyMotorPediaCard3,
     title: "Value-Based Billing",
     des: "We charge only when it benefits you, ensuring affordability and transparent pricing",
   },
   {
     id: uuidv4(),
-    img: whyMotorpediaCard4,
+    img: whyMotorPediaCard4,
     title: "Personalized Management",
     des: "We assign auto expert relationship manager catering exclusively to all your requirements",
   },
@@ -413,13 +418,13 @@ export const whyMotorpediaCard = [
 export const faqs = [
   {
     id: uuidv4(),
-    question: "What services does Motorpedia offer?",
+    question: "What services does MotorPedia offer?",
     answer:
-      "Motorpedia offers a comprehensive suite of services to transform auto dealership, including ownership transfer, challan clearance, fancy numbers, digitalization of dealership, and many more",
+      "MotorPedia offers a comprehensive suite of services to transform an auto dealership, including ownership transfer, challan clearance, fancy numbers, digitalization of dealership, and many more",
   },
   {
     id: uuidv4(),
-    question: "Which locations does Motorpedia operate in?",
+    question: "Which locations does MotorPedia operate in?",
     answer:
       "We are currently operational across NCR, Haryana and Uttar Pradesh",
   },
@@ -427,24 +432,24 @@ export const faqs = [
     id: uuidv4(),
     question: "How does time does ownership transfer take?",
     answer:
-      "Ownership transfer usually takes 3 RTO working dats from the day of document submission / seller peshi as applicable",
+      "Ownership transfer usually takes 3 RTO working days from the day of document submission / seller peshi as applicable",
   },
   {
     id: uuidv4(),
-    question: "Can Motorpedia handle interstate transfers?",
+    question: "Can MotorPedia handle interstate transfers?",
     answer:
-      "Yes, Motorpedia can facilitate interstate transfers for any location",
+      "Yes, MotorPedia can facilitate interstate transfers for any location",
   },
   {
     id: uuidv4(),
-    question: "How quickly can services be initiated?",
+    question: "How quickly can MotorPedia's services be initiated?",
     answer: "As soon as you wish to!",
   },
   {
     id: uuidv4(),
-    question: "How do I get in touch with Motorpedia?",
+    question: "How do I get in touch with MotorPedia?",
     answer:
-      "You can write to us at contact@themotorpedia.com and we will be in touch with you shortly",
+      "You can write to us on contact@themotorPedia.com and we will be in touch with you shortly",
   },
 ];
 
@@ -455,7 +460,7 @@ export const testimonials = [
     name: "Amit",
     designation: "Used Car Dealer in Delhi",
     review:
-      "I highly recommend Motorpedia to anyone looking for quick and reliable RC transfer services. They have been outstanding in supporting all my RTO needs",
+      "I highly recommend MotorPedia to anyone looking for quick and reliable RC transfer services. They have been outstanding in supporting all my RTO needs",
   },
   {
     id: uuidv4(),
@@ -479,7 +484,7 @@ export const testimonials = [
     name: "Rajiv",
     designation: "Used Commercial Vehicle Dealer in Sonipat",
     review:
-      "The Motorpedia team made the entire NOC and challan clearance process hassle-free while ensuring all necessary paperwork was completed accurately",
+      "The MotorPedia team made the entire NOC and challan clearance process hassle-free while ensuring all necessary paperwork was completed accurately",
   },
   {
     id: uuidv4(),
@@ -487,7 +492,7 @@ export const testimonials = [
     name: "Sahib",
     designation: "Used Car Dealer in Noida",
     review:
-      "Motorpedia’s digitalization suite has helped me enhance my presence in the online domain and I have been able to expand my reach to potential customers",
+      "MotorPedia’s digitalization suite has helped me enhance my presence in the online domain and I have been able to expand my reach to potential customers",
   },
   {
     id: uuidv4(),
@@ -566,8 +571,8 @@ export const contactCard = [
     icon: React.createElement(IoMailUnreadOutline),
     title: "Write to us     ",
     desc: "Curious about our services? Send an email to know more",
-    linkText: "contact@themotorpedia.com",
-    linkto: "mailto:contact@themotorpedia.com",
+    linkText: "contact@themotorPedia.com",
+    linkto: "mailto:contact@themotorPedia.com",
   },
   {
     id: uuidv4(),
@@ -629,17 +634,17 @@ export const storyData = [
   {
     id: uuidv4(),
     title: "Who We Are",
-    desc: "At Motorpedia, we are more than just a service provider. We are your partners in revolutionizing the automotive industry. Our team brings years of experience and a passion for innovation to every project. We're dedicated to offering tailored solutions and world-class services to help your dealership thrive. With Motorpedia, you're getting more than just a vendor – you're gaining a trusted partner committed to your success ",
+    desc: "At MotorPedia, we are more than just a service provider. We are your partners in revolutionizing the automotive industry. Our team brings years of experience and a passion for innovation to every project. We are dedicated to offering tailored solutions and world-class services to help your dealership thrive. With MotorPedia,  you are getting more than just a vendor –  you are gaining a trusted partner committed to your success ",
   },
   {
     id: uuidv4(),
     title: "Our Vision",
-    desc: "At Motorpedia, our aspiration is to redefine the automotive landscape through innovation and technology. We strive to lead the industry by empowering dealerships with AI-driven solutions, transforming traditional approaches into extraordinary experiences. With a commitment to excellence and a passion for progress, we envision a future where every dealership operates at the forefront of innovation, efficiency, and customer satisfaction",
+    desc: "At MotorPedia, our aspiration is to redefine the automotive landscape through innovation and technology. We strive to lead the industry by empowering dealerships with AI-driven solutions, transforming traditional approaches into extraordinary experiences. With a commitment to excellence and a passion for progress, we envision a future where every dealership operates at the forefront of innovation, efficiency, and customer satisfaction",
   },
   {
     id: uuidv4(),
     title: "Expert Team",
-    desc: "Our team of seasoned automotive specialists offers extensive expertise in every dealer engagement. From procurement to sales and marketing, we're equipped to navigate all your dealership needs with precision and care",
+    desc: "Our team of seasoned automotive specialists offers extensive expertise in every dealer engagement. From procurement to sales and marketing, we are equipped to navigate all your dealership needs with precision and care",
   },
 ];
 
@@ -654,13 +659,13 @@ export const ourValues = [
     id: uuidv4(),
     icon: React.createElement(FaRunning),
     title: "Bias for Action",
-    desc: "Taking proactive steps swiftly and decisively to drive progress and achieve goals",
+    desc: "Taking proactive steps swiftly and decisively to achieve goals",
   },
   {
     id: uuidv4(),
     icon: React.createElement(FaHandshakeSimple),
     title: "Commitment to Excellence",
-    desc: " Dedicated to achieving the highest standards of performance and continuous improvement in all endeavors",
+    desc: " Dedicated to achieving the highest standards of performance in all endeavors",
   },
   {
     id: uuidv4(),
@@ -706,7 +711,7 @@ export const awardsData = [
 export const coreServices = [
   {
     id: uuidv4(),
-    icon: React.createElement(FaTachographDigital),
+    icon: React.createElement(LiaDigitalTachographSolid),
     title: "Digitalization",
     link: "/services/Digitalization",
     desc: "Elevate your online presence across all social media platforms, establish your own website, enjoy seamless digital catalogue, enhance vehicle listing through professional photoshoot and editing - all this through our comprehensive digitalization platform",
@@ -775,7 +780,7 @@ export const accountingServices = [
   {
     id: uuidv4(),
     title: "Ownership Transfer and New Vehicle Registration",
-    desc: "Ownership Transfer of pre-owned vehicle/ registration of new vehicle with a well-defined TAT along with status updates throughout the process",
+    desc: "Ownership Transfer of pre-owned vehicle/ registration of new vehicle within a well-defined TAT along with status updates throughout",
     icon: React.createElement(GiCarKey),
   },
   {
@@ -793,16 +798,16 @@ export const accountingServices = [
   {
     id: uuidv4(),
     title: "Fancy Number and HSRP Booking",
-    desc: "Booking of fancy numbers and HSRP in advance resulting in seamless car buying experience for your customers",
-    icon: React.createElement(PiFileArchiveDuotone),
+    desc: "Booking of fancy numbers and HSRP in advance resulting in seamless vehicle buying experience for your customers",
+    icon: React.createElement(RiVipLine),
   },
 ];
 
 export const neverWorry = [
   {
     id: uuidv4(),
-    title: "NOC Issuance",
-    desc: "Interstate registering your vehicle in another state? Get the interstate NOC through us in lightning fast TATs",
+    title: "Interstate NOC Issuance",
+    desc: "Registering your vehicle in another state? Get the interstate NOC through us in lightning fast TATs",
     icon: React.createElement(HiDocumentCheck),
   },
 
@@ -815,13 +820,13 @@ export const neverWorry = [
   {
     id: uuidv4(),
     title: "Care-off transfers",
-    desc: "Buyer doesn't have local address proff? Get the vehicle registered via us with a local care-off address",
+    desc: "Buyer doesn't have local address proof? Get the vehicle registered via us with a local care-off address",
     icon: React.createElement(FaHandshakeSimple),
   },
   {
     id: uuidv4(),
     title: "Duplicate RC and RC modifications",
-    desc: "RC is missing or eeds coorections? Explore our super efficient RC solutions",
+    desc: "RC is missing or needs corrections? Explore our super efficient RC related solutions",
     icon: React.createElement(PiFilePlusFill),
   },
 ];
@@ -830,17 +835,17 @@ export const accountantFeatures = [
   {
     id: uuidv4(),
     title: "Identification of Outstanding Challans",
-    desc: "The first step is to identify any outstanding challans (traffic violation tickets) associated with the vehicle or the driver.",
+    desc: "The first step is to identify any outstanding challans (traffic violation tickets) associated with the vehicle or the driver",
   },
   {
     id: uuidv4(),
     title: "Verification",
-    desc: " After payment is made, the RTO or motorworks service center verifies the clearance of the challans by checking with the respective authorities or online portals.",
+    desc: " After payment is made, the RTO or motorworks service center verifies the clearance of the challans by checking with the respective authorities or online portals",
   },
   {
     id: uuidv4(),
     title: "Receipt and Clearance Certificate",
-    desc: "Upon successful verification, customers receive a receipt of payment and a clearance certificate stating that all outstanding challans have been cleared.",
+    desc: "Upon successful verification, customers receive a receipt of payment and a clearance certificate stating that all outstanding challans have been cleared",
   },
 ];
 
@@ -848,13 +853,13 @@ export const taxationFeatures = [
   {
     id: uuidv4(),
     title: "Used Vehicle Financing",
-    desc: " Apply for used vehicle loans at best-in-market interest rates and best commission",
+    desc: " Apply for used vehicle loans at best-in-market interest rates and best commissions across brands",
     icon: React.createElement(FaMoneyBillTransfer),
   },
   {
     id: uuidv4(),
     title: "New Vehicle Financing",
-    desc: "Get new vehicle finance options from <br> all premier banks & NBFCs",
+    desc: "Get new vehicle finance options from all premier banks & NBFCs",
     icon: React.createElement(FaCarAlt),
   },
   {
@@ -874,15 +879,15 @@ export const taxationFeatures = [
 export const whtaWeDoTaxationData = [
   {
     id: uuidv4(),
-    icon: React.createElement(TbQuotes),
+    icon: React.createElement(GiReceiveMoney),
     title: "Cheapest Quotes",
-    desc: "Get the best priced quotes for your insurance",
+    desc: "Get the best priced quotes across all vehicle types and brands",
   },
   {
     id: uuidv4(),
     icon: React.createElement(BiSelectMultiple),
-    title: "Multiple Insurance",
-    desc: "Be Spoilt for choice with offers from multitude of insurers for every vehicle",
+    title: "Multiple Insurers",
+    desc: "Be spoilt for choice with offers from multitude of insurers for every vehicle",
   },
   {
     id: uuidv4(),
@@ -930,13 +935,13 @@ export const servicesFeatures = [
     id: uuidv4(),
     icon: React.createElement(PiTimerFill),
     title: "Time-Saving Workflows",
-    desc: "One stop shop to enable access to all services within just a few click saving immense bandwidth on your part",
+    desc: "One stop shop to enable access to all services with just a few clicks saving immense bandwidth on your part",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiStarFill),
     title: "Worry-free work",
-    desc: "Onboard with us and never stress about any vehicle transaction related service - we areaccurate and efficient",
+    desc: "Onboard with us and never stress about any vehicle transaction related service - we are accurate and efficient",
   },
 ];
 
@@ -945,13 +950,13 @@ export const conversionRate = [
     id: uuidv4(),
     icon: React.createElement(BiSearchAlt2),
     title: "Inspection Services",
-    desc: "Opt fpr our comprehensive inspection report crafted by an expert",
+    desc: "Opt for our comprehensive inspection report crafted by an expert",
   },
   {
     id: uuidv4(),
     icon: React.createElement(MdPeople),
     title: "Wide network of used vehicle dealers",
-    desc: "Tap into our vast network of UCDs to get the best price on incoming exchange",
+    desc: "Tap into our vast network of UCDs to get the best price on incoming exchange vehicles",
   },
   {
     id: uuidv4(),
@@ -966,7 +971,7 @@ export const healthCareFeatures = [
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
     title: "Comprehensive Warranty",
-    desc: "Extended warranty plans, Services and Annual Maintaenance plans available with national coverage",
+    desc: "Extended warranty plans, Service and Annual Maintaenance plans available with nation wide coverage",
   },
   {
     id: uuidv4(),
@@ -997,7 +1002,7 @@ export const manageHealthItems = [
   {
     id: uuidv4(),
     icon: React.createElement(BiCheckShield),
-    title: "Bank NOC Validation",
+    title: "Bank NOC validation",
   },
   {
     id: uuidv4(),
@@ -1126,7 +1131,7 @@ export const teamList = [
   {
     id: uuidv4(),
     name: "Verna Gutierrez",
-    designation: "CEO, Motorpedia",
+    designation: "CEO, MotorPedia",
     img: teamPic6,
   },
 ];
@@ -1331,8 +1336,8 @@ export const contactPageCard = [
     id: uuidv4(),
     icon: React.createElement(PiEnvelopeFill),
     name: "Write to Us",
-    linkText: "themotorpedia@gmail.com",
-    link: "mailto:themotorpedia@gmail.com",
+    linkText: "contact@themotorPedia.com",
+    link: "mailto:contact@themotorPedia.com",
   },
   {
     id: uuidv4(),
