@@ -54,7 +54,7 @@ function SolutionsSection() {
                         <span className="rounded-full border border-strokeColor bg-softBg p-3 sm:p-5 text-3xl text-s1 group-hover:text-mainTextColor group-hover:bg-s2 group-hover:border-mainTextColor duration-500">
                           {icon}
                         </span>
-                        <p className="text-lg font-medium group-hover:text-s1 duration-500">
+                        <p className="text-md font-medium group-hover:text-s1 duration-500">
                           {name}
                         </p>
                       </div>

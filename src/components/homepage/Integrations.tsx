@@ -8,7 +8,7 @@ function Integrations() {
       <div className="container grid grid-cols-12">
         <div className="flex justify-start items-start col-span-12 lg:col-span-5 max-lg:sbp-15">
           <div className="  max-w-[600px] flex justify-start items-start flex-col">
-            <h1 className="display-4  pt-4 pb-6">Our Solutions</h1>
+            <h1 className="display-4  pt-4 pb-6">Our Solutions</h1>
             <p className="text-bodyText">
               Experience seamless coordination with our comprehensive solutions.
               From RTO services to technological integrations, we bring
