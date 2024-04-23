@@ -14,7 +14,7 @@ function Footer() {
             <img src={logo} onClick={backtoTop} alt="" />
           </Link>
           <p className="">
-            Expertly created automotive solutions by automotive professionals.
+            Expertly curated automotive solutions by automotive professionals.
           </p>
           <ul className="flex justify-start items-center gap-2">
             {socialLinks.map(({ id, link, icon }, idx) => (

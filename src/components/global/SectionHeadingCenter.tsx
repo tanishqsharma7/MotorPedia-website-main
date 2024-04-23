@@ -17,7 +17,7 @@ function SectionHeadingCenter({ sectionTitle, sectionDesc }: Props) {
           </h1>
         </FadeLeft>
         <FadeTop>
-          <p className=" text-black text-lg">{sectionDesc}</p>
+          <p className=" text-black text-lg text-justify">{sectionDesc}</p>
         </FadeTop>
       </div>
     </div>
