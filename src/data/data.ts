@@ -6,8 +6,6 @@ import {
   FaLinkedinIn,
   FaRunning,
   FaCarAlt,
-
-  //FaUsers,
 } from "react-icons/fa";
 import { TbQuotes } from "react-icons/tb";
 import { BiSelectMultiple } from "react-icons/bi";
@@ -46,33 +44,25 @@ import {
   PiPhoneCallBold,
   PiPhoneCallDuotone,
   PiPhoneCallFill,
-  //PiSealCheckFill,
+  PiShoppingCartBold,
   PiStarFill,
   PiTimerFill,
   PiToothFill,
   PiUserFill,
   PiWebhooksLogoFill,
   PiWhatsappLogo,
-  //PiWhatsappLogoBold,
   PiWindowsLogoFill,
 } from "react-icons/pi";
 import { v4 as uuidv4 } from "uuid";
-
 import whyMotorpediaCard1 from "/images/img1.jpg";
 import whyMotorpediaCard2 from "/images/whyus2.jpg";
 import whyMotorpediaCard3 from "/images/whyus3.jpg";
 import whyMotorpediaCard4 from "/images/whyus4.jpg";
-// import whyMotorpediaCard5 from "/images/whyAccoupayCard_5.png";
-// import whyMotorpediaCard6 from "/images/whyAccoupayCard_6.png";
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
 import testimonial3 from "/images/testimonial3.png";
 import testimonial4 from "/images/testimonial4.png";
-// import testimonial5 from "/images/testimonial5.png";
-// import testimonial6 from "/images/testimonial6.png";
-// import testimonial7 from "/images/testimonial7.png";
-// import testimonial8 from "/images/testimonial8.png";
 
 import blogImg1 from "/images/blogImg1.png";
 import blogImg2 from "/images/blogImg2.png";
@@ -104,13 +94,6 @@ import teamPic4 from "/images/team_image4.png";
 import teamPic5 from "/images/team_image5.png";
 import teamPic6 from "/images/team_image6.png";
 
-// import productImg1 from "/images/produc_Img1.png";
-// import productImg2 from "/images/produc_Img2.png";
-// import productImg3 from "/images/produc_Img3.png";
-// import productImg4 from "/images/produc_Img4.png";
-// import productImg5 from "/images/produc_Img5.png";
-// import productImg6 from "/images/produc_Img6.png";
-
 import blogPageImg1 from "/images/blog_img1.png";
 import blogPageImg2 from "/images/blog_img2.png";
 import blogPageImg3 from "/images/blog_img3.png";
@@ -121,21 +104,15 @@ import blogPageImg6 from "/images/blog_img6.png";
 import recentPostImg1 from "/images/recent_post_img1.png";
 import recentPostImg3 from "/images/recent_post_img3.png";
 import recentPostImg4 from "/images/recent_post_img4.png";
-// import { TbMapPinSearch } from "react-icons/tb";
+
+import { SiConvertio, SiPrivateinternetaccess } from "react-icons/si";
+
 import {
-  SiConvertio,
-  //SiPiaggiogroup,
-  // SiPicardsurgeles,
-  SiPrivateinternetaccess,
-} from "react-icons/si";
-//import { RiGroup2Fill } from "react-icons/ri";
-// import { GrServices } from "react-icons/gr";
-// import { Link } from "react-router-dom";
-import { LiaChalkboardTeacherSolid } from "react-icons/lia";
+  LiaChalkboardTeacherSolid,
+  LiaDigitalTachographSolid,
+} from "react-icons/lia";
 import { TbDeviceDesktopStar } from "react-icons/tb";
 import { IoMailUnreadOutline } from "react-icons/io5";
-// import { FcAssistant } from "react-icons/fc";
-// import { GrAction, GrHelp, GrHelpBook } from "react-icons/gr";
 import { BiCheckShield, BiSearchAlt2, BiTargetLock } from "react-icons/bi";
 import { RiSeoFill } from "react-icons/ri";
 import { TiSocialGooglePlusCircular } from "react-icons/ti";
@@ -157,12 +134,6 @@ export const headerMenu = [
     isSubmenu: false,
   },
 
-  // {
-  //   id: uuidv4(),
-  //   name: "Contact Us",
-  //   link: "/contact",
-  //   isSubmenu: false,
-  // },
   {
     id: uuidv4(),
     name: "Services",
@@ -188,69 +159,8 @@ export const headerMenu = [
         name: "Sales Enablement",
         link: "/services/saleEnablement",
       },
-      // {
-      //   id: uuidv4(),
-      //   name: "Real State Services",
-      //   link: "/services/real-state-services",
-      // },
-      // {
-      //   id: uuidv4(),
-      //   name: "Healthcare Services",
-      //   link: "/services/healthcare-services",
-      // },
-      // {
-      //   id: uuidv4(),
-      //   name: "Dentist Services",
-      //   link: "/services/dentist-services",
-      // },
     ],
   },
-  // {
-  //   id: uuidv4(),
-  //   name: "Shop",
-  //   isSubmenu: true,
-  //   submenu: [
-  //     {
-  //       id: uuidv4(),
-  //       name: "Shop Page",
-  //       link: "/shop",
-  //     },
-  //     {
-  //       id: uuidv4(),
-  //       name: "Shop Details",
-  //       link: "/shop/shop-details",
-  //     },
-  //     {
-  //       id: uuidv4(),
-  //       name: "Cart",
-  //       link: "/cart",
-  //     },
-  //     {
-  //       id: uuidv4(),
-  //       name: "Checkout",
-  //       link: "/checkout",
-  //     },
-  //   ],
-  // },
-
-  // {
-  //   id: uuidv4(),
-  //   name: "Blog",
-  //   isSubmenu: true,
-  //   submenu: [
-  //     {
-  //       id: uuidv4(),
-  //       name: "Blog Page",
-  //       link: "/blog",
-  //     },
-
-  //     {
-  //       id: uuidv4(),
-  //       name: "Blog Details",
-  //       link: "/blog-details",
-  //     },
-  //   ],
-  // },
 
   {
     id: uuidv4(),
@@ -339,11 +249,6 @@ export const footerLinks = [
         name: "Sales Enablement",
         link: "/services/saleEnablement",
       },
-      // {
-      //   id: uuidv4(),
-      //   name: "Dentist Services",
-      //   link: "/services/dentist-services",
-      // },
     ],
   },
 ];
@@ -407,8 +312,8 @@ export const solutionsFeatures = [
   },
   {
     id: uuidv4(),
-    name: "Digitalization Platform",
-    icon: React.createElement(FaTachographDigital),
+    name: "Comprehensive Digitalization Platform",
+    icon: React.createElement(LiaDigitalTachographSolid),
     linkto: "/services/DigitalizePro",
   },
   {
@@ -421,7 +326,7 @@ export const solutionsFeatures = [
   {
     id: uuidv4(),
     name: "Procurement Powerhouse",
-    icon: React.createElement(FaCartArrowDown),
+    icon: React.createElement(PiShoppingCartBold),
     linkto: "/services/saleEnablement",
   },
 ];
@@ -503,30 +408,6 @@ export const whyMotorpediaCard = [
     title: "Personalized Management",
     des: "We assign auto expert relationship manager catering exclusively to all your requirements",
   },
-  // {
-  //   id: uuidv4(),
-  //   img: whyMotorpediaCard1,
-  //   title: "Fancy Number Booking",
-  //   des: "Hire or relocate team member with in house visa support",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   img: whyMotorpediaCard2,
-  //   title: "Challan Clearance",
-  //   des: "Hire or relocate team member with in house visa support",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   img: whyMotorpediaCard3,
-  //   title: "Insurance Transfer & Endorsement",
-  //   des: "Hire or relocate team member with in house visa support",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   img: whyMotorpediaCard4,
-  //   title: "Scrap Vehicle Deregistration",
-  //   des: "Hire or relocate team member with in house visa support",
-  // },
 ];
 
 export const faqs = [
@@ -600,38 +481,6 @@ export const testimonials = [
     review:
       "The team made the entire process hassle-free and straightforward. They handled the NOC and Challan clearance with utmost care and attention to detail, ensuring all necessary paperwork was completed accurately and promptly",
   },
-  // {
-  //   id: uuidv4(),
-  //   img: testimonial5,
-  //   name: "Lav Kush",
-  //   designation: "Restaurant Owner",
-  //   review:
-  //     "Highly impressed and satisfied with their commitment to excellence. My go-to choice for all car servicing needs",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   img: testimonial6,
-  //   name: "Parveen Shekhawat",
-  //   designation: "CEO, Tech Innovations",
-  //   review:
-  //     "Their cost-effective solutions and impeccable service quality make them my top recommendation for automotive needs.",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   img: testimonial7,
-  //   name: "Jiya Arya ",
-  //   designation: "Product Manager",
-  //   review:
-  //     "Absolutely thrilled with the service! Motorpedia showed unmatched professionalism and expertise",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   img: testimonial8,
-  //   name: "Shreya Sharma",
-  //   designation: "CFO, Solutions",
-  //   review:
-  //     " With their affordable solutions and top-notch service quality, they've earned my trust. I highly recommend them for reliable car assistance",
-  // },
 ];
 
 export const pricing = [
@@ -696,13 +545,6 @@ export const blogSection = [
 ];
 
 export const contactCard = [
-  // {
-  //   id: uuidv4(),
-  //   icon: React.createElement(PiBinocularsFill),
-  //   title: "Compare Motorpedia",
-  //   desc: "Explore how Motorpedia stands out. Check our comparison.",
-  //   linkText: "Compare Motorpedia",
-  // },
   {
     id: uuidv4(),
     icon: React.createElement(IoMailUnreadOutline),

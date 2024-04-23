@@ -2,7 +2,7 @@ import { SyntheticEvent, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import icon from "/images/sliceIcon.png";
-const notify = () => toast("Thanks for subscribing!");
+const notify = () => toast("Thank You for subscribing!");
 
 function CTASectiont() {
   const [email, setEmail] = useState("");

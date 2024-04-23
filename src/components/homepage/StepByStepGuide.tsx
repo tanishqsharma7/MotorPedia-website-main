@@ -1,5 +1,5 @@
 import { stepByStepCard } from "../../data/data";
-import SectionHeadingCenter from "../global/SectionHeadingCenter";
+import FadeRight from "../animation/FadeRight";
 import stepArrow1 from "/images/stepArrow1.png";
 import stepArrow2 from "/images/stepArrow2.png";
 
@@ -7,11 +7,18 @@ function StepByStepGuide() {
   return (
     <section className="stp-30 sbp-30">
       <div className="container">
-        <SectionHeadingCenter
-          sectionName="How it works"
-          sectionTitle="Transform your conventional dealership into AI-powered experience center!"
-          sectionDesc="Discover our user-friendly platform, expertly curated for auto dealerships by automotive professionals!"
-        />
+        <p>
+          <FadeRight>
+            <h1 className="font-bold text-center text-wrap text-4xl">
+              Transform your conventional dealership<br></br> into AI-powered
+              experience center!
+            </h1>
+          </FadeRight>
+          <h2 className="text-center pt-5 text-lg">
+            Discover our user-friendly platform, expertly curated for auto
+            dealerships by<br></br> automotive professionals!
+          </h2>
+        </p>
         <div className="flex justify-between items-center gap-6 md:gap-4 lg:gap-6 stp-15 relative max-md:flex-col">
           <img
             src={stepArrow1}
