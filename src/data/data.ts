@@ -299,7 +299,7 @@ export const footerLinks = [
       },
       {
         id: uuidv4(),
-        name: "About",
+        name: "About Us",
         link: "/about",
       },
 
@@ -407,7 +407,7 @@ export const solutionsFeatures = [
   },
   {
     id: uuidv4(),
-    name: "Comprehensive Digitalization Platform",
+    name: "Digitalization Platform",
     icon: React.createElement(FaTachographDigital),
     linkto: "/services/DigitalizePro",
   },
@@ -431,13 +431,13 @@ export const featuresCard = [
     id: uuidv4(),
     icon: React.createElement(PiCarSimpleBold),
     name: "RTO Assistance Network",
-    desc: "Covering all RTO requirements such as ownership transfer, challan clearance, NOC issuance, and Vahan check services in just few clicks",
+    desc: "Covering all RTO requirements such as ownership transfer, challan clearance, NOC issuance, and Vahan check services in a just few clicks",
     linkto: "/services/RTO",
   },
   {
     id: uuidv4(),
     icon: React.createElement(FaTachographDigital),
-    name: "Comprehensive Digitization Platform",
+    name: " Comprehensive Digitization Platform",
     desc: "Offering online and offline marketing, 360-degree photo- shoot capabilities with virtual studio, and centralized website for inventory management",
     linkto: "/services/DigitalizePro",
   },
@@ -467,7 +467,7 @@ export const stepByStepCard = [
   {
     id: uuidv4(),
     title: "AI-driven Unified Integration ",
-    desc: "Implement Motorpedia's AI tools for a unified dashboard integrating procurement, sales, digital presence, and operational efficiency in dealership operations",
+    desc: "Implement Motorpedia's AI tools for a unified dashboard integrating procurement, sales, digital presence, and operational efficiency",
     icon: React.createElement(BsRobot),
   },
   {
@@ -723,7 +723,7 @@ export const contactCard = [
     id: uuidv4(),
     icon: React.createElement(PiWhatsappLogo),
     title: "Chat with us",
-    desc: "Looking for answers? Chat with us and clear all your doubts",
+    desc: "Looking for answers? Chat with us and clear your doubts",
     linkText: "Ping Us",
     linkto: "https://wa.me/+919205522250",
   },
@@ -735,7 +735,7 @@ export const integrationsCard = [
     icon: React.createElement(FaPeopleGroup),
     title: "Dealership Management Solution (DMS)",
     description:
-      "Transform your dealership via our all-in-one digital platform providing comprehensive services such as RTO, finance, insurance and invoicing",
+      "Transform your dealership via our all-in-one digital platform providing services such as RTO, finance, insurance and invoicing",
   },
   {
     id: uuidv4(),
@@ -749,14 +749,14 @@ export const integrationsCard = [
     icon: React.createElement(SiPrivateinternetaccess),
     title: "AI powered Pricing Tool     ",
     description:
-      "Drive informed decisions with predictive analysis of buying/selling prices",
+      "Drive informed decisions with predictive analysis of buying and selling prices",
   },
   {
     id: uuidv4(),
     icon: React.createElement(TbDeviceDesktopStar),
     title: "Digital Hub ",
     description:
-      "Establish a cohesive digital presence across all social media platforms along with your own website and digital catalogue",
+      "Establish a cohesive digital presence across all social media platforms along with your own website",
   },
   {
     id: uuidv4(),

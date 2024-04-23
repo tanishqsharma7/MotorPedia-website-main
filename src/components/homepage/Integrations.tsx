@@ -12,7 +12,7 @@ function Integrations() {
             <p className="text-bodyText">
               Experience seamless coordination with our comprehensive solutions.
               From RTO services to technological integrations, we bring
-              everything together in one place
+              everything together
             </p>
           </div>
         </div>
@@ -39,8 +39,8 @@ function Integrations() {
             >
               {icon}
             </div>
-            <h4 className="heading-5 pt-6 pb-5 w-[200px]">{title}</h4>
-            <p>{description}</p>
+            <h4 className="heading-5 pt-6 pb-5 w-[250px]">{title}</h4>
+            <p className="text-justify">{description}</p>
             <div className="flex justify-end items-end w-full pt-10  text-xl font-medium">
               <Link
                 to={"/services"}

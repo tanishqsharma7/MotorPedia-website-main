@@ -8,7 +8,7 @@ import download_apple from "/images/ioslogo1.jpg";
 
 function ContactUsSection() {
   return (
-    <div className=" bg-p1 pt-15">
+    <div className=" bg-[url(/images/counter_bg.jpeg)] pt-15">
       <div className="max-xxl:container xxl:ml-[calc((100%-1296px)/2)] flex justify-between text-white sm:max-xxl:gap-6 max-lg:flex-col ">
         <div className="flex flex-col justify-center items-start w-full lg:max-xxl:w-1/2 xxl:max-w-[550px] max-xxl:pb-8 max-xxl:overflow-hidden">
           <FadeRight>
@@ -39,7 +39,7 @@ function ContactUsSection() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:max-xxl:w-1/2 self-stretch flex justify-center max-xxl:items-center lg:pt-10">
+        <div className="w-full lg:max-xxl:w-1/2 self-stretch flex justify-center max-xxl:items-center lg:pt-10 ">
           <img src={contactIllus} alt="" className=" object-cover" />
         </div>
       </div>

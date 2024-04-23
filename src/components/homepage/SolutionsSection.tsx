@@ -24,7 +24,7 @@ function SolutionsSection() {
           <SectionHeadingCenter
             sectionName="Solutions"
             sectionTitle="Why Digitalization Matters ?"
-            sectionDesc="In today's increasingly online world, digitalization is key for auto dealerships to achieve enhanced customer engagement and improved operations. It provides tools like online vehicle configurators, AI-led photoshoots, meeting the needs of modern customers. By optimizing processes and enabling data-driven decisions, it cuts costs and boosts efficiency. Effective digital use also enhances marketing, customer satisfaction, and conversion in a hyper-competitive market"
+            sectionDesc="In today's increasingly online world, digitalization is key for auto dealerships to achieve enhanced customer engagement and improved operations. It provides tools such as online vehicle configurators and AI-led photoshoots, thereby meeting the needs of modern customers. By optimizing processes and enabling data-driven decisions, it cuts costs and boosts efficiency. Effective digital use also enhances marketing and advertising, customer satisfaction, and conversion in the hyper-competitive auto market"
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">

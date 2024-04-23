@@ -13,10 +13,10 @@ function Features() {
               Streamlined Dealership Solutions
             </h1>
           </div>
-          <p className="text-white max-w-[500px] text-xl">
+          <p className="text-white max-w-[500px] text-xl text-justify">
             "Optimize the experience of your dealership with our comprehensive
             suite of solutions, streamlined operations and enhanced efficiency
-            for greater success."
+            for greater success"
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">
@@ -30,7 +30,7 @@ function Features() {
                   <h4 className="heading-4 group-hover:text-mainTextColor text-white pb-5">
                     {name}
                   </h4>
-                  <p className=" text-white group-hover:text-mainTextColor pb-4 ">
+                  <p className=" text-white group-hover:text-mainTextColor pb-4 text-justify">
                     {desc}
                   </p>
                   <div className="relative top-8">
