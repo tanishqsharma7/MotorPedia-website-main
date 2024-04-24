@@ -6,7 +6,7 @@ function DedicatedSupport() {
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 md:col-span-6 lg:col-span-5 max-md:order-2 overflow-hidden">
           <iframe
-            src="https://spins.impel.io/motorPedia/up83bb2565"
+            src="https://spins.impel.io/motorpedia/up83bb2565"
             name="myiFrame"
             scrolling="no"
             height="400px"

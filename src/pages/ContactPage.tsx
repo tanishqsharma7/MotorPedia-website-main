@@ -29,11 +29,11 @@ function ContactPage() {
 
   function handleformfill() {
     notify();
-    console.log(firstName);
-    console.log(lastName);
-    console.log(email);
-    console.log(subject);
-    console.log(message);
+    // console.log(firstName);
+    // console.log(lastName);
+    // console.log(email);
+    // console.log(subject);
+    // console.log(message);
   }
 
   return (
@@ -69,12 +69,15 @@ function ContactPage() {
         <div className=" col-span-12 lg:col-span-8 lg:col-start-3 border p-4 sm:p-6 lg:p-10">
           <h4 className="heading-4 pb-6">Fill the form below</h4>
           <form
-            onSubmit={(e) => e.preventDefault()}
+            // onSubmit={(e) => e.preventDefault()}
+            action="https://formspree.io/f/mvoedlqd"
+            method="POST"
             className="grid grid-cols-2 gap-6"
           >
             <div className=" col-span-2 sm:col-span-1">
               <input
                 type="text"
+                name="First Name"
                 placeholder="First Name"
                 className=" placeholder:text-bodyText py-4 px-8 border w-full"
                 value={firstName}
@@ -85,6 +88,7 @@ function ContactPage() {
             <div className="col-span-2 sm:col-span-1">
               <input
                 type="text"
+                name="Last Name"
                 placeholder="Last Name"
                 className=" placeholder:text-bodyText py-4 px-8 border w-full"
                 value={lastName}
@@ -97,7 +101,8 @@ function ContactPage() {
                 <PiEnvelopeFill />
               </span>
               <input
-                type="text"
+                type="email"
+                name="Email"
                 placeholder="Email"
                 className=" placeholder:text-bodyText w-full outline-none"
                 value={email}
@@ -111,6 +116,7 @@ function ContactPage() {
               </span>
               <input
                 type="tel"
+                name="Mobile Number"
                 placeholder="Mobile Number"
                 className=" placeholder:text-bodyText w-full outline-none"
                 value={subject}
@@ -121,19 +127,13 @@ function ContactPage() {
             <div className="col-span-2 py-4 px-8 border  flex justify-start items-center gap-2">
               <textarea
                 placeholder="Type your message..."
+                name="Message"
                 className=" placeholder:text-bodyText w-full outline-none h-[200px]"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
               />
             </div>
-            {/* <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfMoXPjU3w0hK3ukaXg9uzS-kFH7zRF_2I03e57qGbyxSIrng/viewform?embedded=true"
-              width="640"
-              height="248"
-            >
-              Loading…
-            </iframe> */}
             <div className="col-span-2 table-checkbox flex justify-between items-center max-[400px]:flex-col max-[400px]:items-start gap-5">
               <button
                 onClick={handleformfill}
