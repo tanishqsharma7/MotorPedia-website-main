@@ -7,7 +7,6 @@ import {
   FaRunning,
   FaCarAlt,
 } from "react-icons/fa";
-import { TbLicense, TbQuotes } from "react-icons/tb";
 import { BiSelectMultiple } from "react-icons/bi";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { RiFundsBoxFill, RiExchangeFundsLine, RiVipLine } from "react-icons/ri";
@@ -23,7 +22,6 @@ import {
   MdOutlineEmail,
   MdOutlineInventory,
   MdOutlineLocationOn,
-  MdOutlineVerticalShadesClosed,
   MdPeople,
 } from "react-icons/md";
 import {
@@ -33,7 +31,6 @@ import {
   PiChartLineFill,
   PiEngine,
   PiEnvelopeFill,
-  PiFileArchiveDuotone,
   PiFileMagnifyingGlassDuotone,
   PiFilePlusFill,
   PiFileTextFill,
@@ -77,7 +74,7 @@ import {
   BsPersonCheck,
   BsRobot,
 } from "react-icons/bs";
-import { GiCarKey, GiKite, GiMetalPlate, GiReceiveMoney } from "react-icons/gi";
+import { GiCarKey, GiKite, GiReceiveMoney } from "react-icons/gi";
 
 import { SlPlane } from "react-icons/sl";
 
@@ -109,11 +106,8 @@ import recentPostImg4 from "/images/recent_post_img4.png";
 import { SiConvertio, SiPrivateinternetaccess } from "react-icons/si";
 
 import {
-  LiaAmericanSignLanguageInterpretingSolid,
   LiaChalkboardTeacherSolid,
   LiaDigitalTachographSolid,
-  LiaHackerNews,
-  LiaMoneyBillAlt,
 } from "react-icons/lia";
 import { TbDeviceDesktopStar } from "react-icons/tb";
 import { IoMailUnreadOutline } from "react-icons/io5";
@@ -123,7 +117,6 @@ import { TiSocialGooglePlusCircular } from "react-icons/ti";
 import { HiDocumentCheck } from "react-icons/hi2";
 import { CiLocationOn } from "react-icons/ci";
 import { FcSupport } from "react-icons/fc";
-import { GrLicense } from "react-icons/gr";
 
 export const headerMenu = [
   {
@@ -989,7 +982,7 @@ export const healthCareFeatures = [
     id: uuidv4(),
     icon: React.createElement(CiLocationOn),
     title: "GPS Device Fitment",
-    desc: "Sell GPS devices to your customers and get attractive cashback benefits",
+    desc: "Sell GPS devices to your customers and get attractive cashback benefits and deals",
   },
 ];
 
