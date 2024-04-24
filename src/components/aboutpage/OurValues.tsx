@@ -15,9 +15,10 @@ function OurValues() {
             </FadeLeft>
             <FadeTop>
               <p className=" text-white text-lg">
-                At Motorpedia, our values are the foundation of everything we
-                do. They reflect our commitment to excellence, integrity, and
-                client success.
+                At MotorPedia, our values are the foundation of everything we
+                do. They reflect our guiding principles, beliefs and behaviours
+                that define our identity and propel us further towards customer
+                success
               </p>
             </FadeTop>
           </div>
@@ -25,7 +26,7 @@ function OurValues() {
         {/* <div className="text-white text-center">
           <h1 className="text-3xl pb-4">Our Values</h1>
           <p>
-            At Motorpedia, our values are the foundation of everything we do.
+            At MotorPedia, our values are the foundation of everything we do.
             They reflect our commitment to excellence, integrity, and client
             success.
           </p>

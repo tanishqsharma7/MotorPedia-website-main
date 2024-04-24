@@ -14,16 +14,16 @@ function TermsConditions() {
       <section className="container pt-10 flex flex-col gap-2">
         <div className=" flex justify-start items-start flex-col">
           <p className=" text-bodyText">
-            These Terms of Use govern the use of the www.motorpedia.com website
-            ("Website"). The Website is owned and operated by Motorpedia365
+            These Terms of Use govern the use of the www.motorPedia.com website
+            ("Website"). The Website is owned and operated by MotorPedia365
             Revolution Private Limited, a company incorporated under the
             Companies Act, 2013 with its registered office at E-309, IREO SKYON,
-            GURUGRAM, HARYANA- 122001 (hereinafter referred to as "Motorpedia"
+            GURUGRAM, HARYANA- 122001 (hereinafter referred to as "MotorPedia"
             or "We" or "Us" or "Our"). For the purpose of these Terms of Use,
             wherever the context so requires, ("You" or "Your" or "Yourself" or
             "Buyer" or “Dealer”) shall mean a natural or legal person interested
             in purchasing services that are listed on the Website and availing
-            such other services made available by Motorpedia (collectively
+            such other services made available by MotorPedia (collectively
             referred to as the "Platform") This document is published in
             accordance with the provisions of Rule 3 (1) of the Information
             Technology (Intermediaries guidelines) Rules, 2011 that require
@@ -61,7 +61,7 @@ function TermsConditions() {
             eighteen (18) years and excludes persons who are incompetent to
             contract within the meaning of the Indian Contract Act, 1872,
             including minors, undischarged insolvents or to any Users suspended
-            or removed from the Platform by Motorpedia for any reason
+            or removed from the Platform by MotorPedia for any reason
             whatsoever. If You are disqualified as per the preceding sentence,
             You shall not be permitted to avail of the Services or use the
             Website. You represent that You are of legal age to form a binding
@@ -69,7 +69,7 @@ function TermsConditions() {
             under the laws as applicable in India.
           </li>
           <li>
-            Motorpedia reserves the right to refuse access to use the Services
+            MotorPedia reserves the right to refuse access to use the Services
             offered at the Website to new Users or to terminate access granted
             to existing Users at any time without according any reasons for
             doing so.
@@ -82,14 +82,14 @@ function TermsConditions() {
         </div>
 
         <div className="">
-          <h3 className="heading-3 py-6">Registerion of Your Account : </h3>
+          <h3 className="heading-3 py-6">Registeration of Your Account : </h3>
           <li>
             You may access and use the Platform either as a registered User or
-            as a guest User. However, not all sections of the www.motorpedia.com
+            as a guest User. However, not all sections of the www.motorPedia.com
             will be accessible to all guest users.
           </li>
           <li>
-            You can create a registered user account by providing Motorpedia
+            You can create a registered user account by providing MotorPedia
             certain User information as requested by Us following which You can
             create a specific log-in ID and password (“Account”)
           </li>
@@ -113,8 +113,8 @@ function TermsConditions() {
             the Platform. You agree and acknowledge that you will use your
             account on the Platform to make purchases only for your personal use
             and not for business purposes. Should you wish to order products for
-            business purposes, please reach out contact@motorpedia.com.
-            Motorpedia reserves the right to refuse access to the Platform,
+            business purposes, please reach out contact@motorPedia.com.
+            MotorPedia reserves the right to refuse access to the Platform,
             terminate accounts, remove or edit content at any time without
             notice to You.
           </li>
@@ -123,8 +123,8 @@ function TermsConditions() {
             may collect certain personal information. Your provision of, and
             Valudrive’s collection, storage, use, disclosure and otherwise
             dealing of such personal information shall be governed by
-            Motorpedia’s privacy policy, which is available at
-            https://www.motorpedia.com/privacy-policy/("Privacy Policy").
+            MotorPedia’s privacy policy, which is available at
+            https://www.motorPedia.com/privacy-policy/("Privacy Policy").
           </li>
         </div>
 
@@ -133,7 +133,7 @@ function TermsConditions() {
             User Representations and Obligations :{" "}
           </h3>
           <li>
-            Subject to compliance with the Terms of Use, Motorpedia grants You a
+            Subject to compliance with the Terms of Use, MotorPedia grants You a
             non- exclusive, limited privilege to access and use this Platform
             and the Platform Services.
           </li>
@@ -146,18 +146,18 @@ function TermsConditions() {
           <li>
             You shall solely be responsible for Your employees, subcontractors
             and representatives and all claims made in relation to or by Your
-            employees, subcontractors and representatives, and Motorpedia shall
+            employees, subcontractors and representatives, and MotorPedia shall
             not be responsible for them in any manner whatsoever.
           </li>
           <li>
             You agree to not engage in activities that may adversely affect the
-            use of the Platform by other Customers/ Motorpedia/registered
+            use of the Platform by other Customers/ MotorPedia/registered
             trading partners.
           </li>
           <li>
             You agree not to access (or attempt to access) the Platform and the
             materials or Platform Services by any means other than through the
-            interface that is provided by Motorpedia. You shall not use any
+            interface that is provided by MotorPedia. You shall not use any
             deep-link, robot, spider or other automatic device, program,
             algorithm or methodology, or any similar or equivalent manual
             process, to access, acquire, copy or monitor any portion of the
@@ -172,7 +172,7 @@ function TermsConditions() {
             Platform Services, You may be exposed to content from others
             (including but not limited to, Other Customers, registered trading
             partners, and other users/visitors) that You may consider offensive,
-            indecent or otherwise objectionable. Motorpedia disclaims all
+            indecent or otherwise objectionable. MotorPedia disclaims all
             liabilities arising in relation to such offensive content on the
             Platform.
           </li>
@@ -184,15 +184,15 @@ function TermsConditions() {
             Platform by You is Your sole responsibility.
           </li>
           <li>
-            You hereby do and shall grant Motorpedia a worldwide, non-exclusive,
+            You hereby do and shall grant MotorPedia a worldwide, non-exclusive,
             perpetual, royalty-free, sub-licensable and transferable license to
             use, reproduce, disclose, distribute, translate and otherwise fully
             exploit any such material, in connection with the Platform and
-            Motorpedia’s (and Motorpedia’s successors’ and assigns’) businesses,
+            MotorPedia’s (and MotorPedia’s successors’ and assigns’) businesses,
             including without limitation, for promoting the Platform in any
             media formats and through any media channels. You represent and
             warrant that You have all rights to grant such licenses to
-            Motorpedia without infringement or violation of any third party
+            MotorPedia without infringement or violation of any third party
             rights, including without limitation, any privacy rights, publicity
             rights, copyrights, trademarks, contract rights, or any other
             intellectual property or proprietary rights.
@@ -237,7 +237,7 @@ function TermsConditions() {
             <li>
               Attempt to gain unauthorized access to any portion or feature of
               the platform, any other systems or networks connected to the
-              platform, to any Motorpedia server, or to any of the platform
+              platform, to any MotorPedia server, or to any of the platform
               services offered on or through the platform, by hacking, password
               mining or any other illegitimate means;
             </li>
@@ -276,7 +276,7 @@ function TermsConditions() {
               Use the platform or any material or content for any purpose that
               is unlawful or prohibited by these terms of use, or to solicit the
               performance of any illegal activity or other activity which
-              infringes the rights of Motorpedia or other third parties;
+              infringes the rights of MotorPedia or other third parties;
             </li>
             <li>
               Falsify or delete any author attributions, legal or other proper
@@ -290,16 +290,16 @@ function TermsConditions() {
             </li>
           </li>
           <li>
-            Motorpedia reserves the right to review any information/data
+            MotorPedia reserves the right to review any information/data
             uploaded by You on the Platform and delete any information/data that
             is inconsistent with these Terms of Use. You agree that You are
-            solely responsible to Motorpedia and to any third party for any
+            solely responsible to MotorPedia and to any third party for any
             breach of Your obligations under the Terms of Use and for the
-            consequences (including any loss or damage which Motorpedia or its
+            consequences (including any loss or damage which MotorPedia or its
             affiliates may suffer) for any such breach.
           </li>
           <li>
-            You agree that Motorpedia may, at any time, modify or discontinue
+            You agree that MotorPedia may, at any time, modify or discontinue
             all or part of the Platform, charge, or offer opportunities to some
             or all Users.
           </li>
@@ -308,8 +308,8 @@ function TermsConditions() {
         <div className="">
           <h3 className="heading-3 py-6">Use of Materials : </h3>
           <li>
-            Except as expressly indicated herein, Motorpedia hereby grants you a
-            non-exclusive, freely revocable (upon notice from Motorpedia),
+            Except as expressly indicated herein, MotorPedia hereby grants you a
+            non-exclusive, freely revocable (upon notice from MotorPedia),
             non-transferable access to view, download and print any materials
             available on the platform, subject to the following conditions:
             <li>
@@ -340,10 +340,10 @@ function TermsConditions() {
           </li>
           <li>
             Any software that is available on the platform is the property of
-            Motorpedia. You may not use, download or install any software
+            MotorPedia. You may not use, download or install any software
             available on the platform, unless otherwise expressly permitted by
             these terms of use or by the express written permission of
-            Motorpedia.
+            MotorPedia.
           </li>
         </div>
 
@@ -363,46 +363,46 @@ function TermsConditions() {
             their selection and arrangement, including but not limited to, all
             text, graphics, user interfaces, visual interfaces, sounds and music
             (if any), artwork and computer code (collectively, the “content”) on
-            the platform is owned and controlled by Motorpedia and the design,
+            the platform is owned and controlled by MotorPedia and the design,
             structure, selection, coordination, expression, look and feel and
             arrangement of such content is protected by copyright, patent and
             trademark laws, and various other intellectual property rights.
           </li>
           <li>
-            The Motorpedia logo and other marks, logos and service marks
+            The MotorPedia logo and other marks, logos and service marks
             indicated on the platform are trademarks or registered trademarks
-            (“marks”) are the property of Motorpedia or other respective third
+            (“marks”) are the property of MotorPedia or other respective third
             parties, as the case may be. You are not permitted to use the marks
-            without the prior consent of Motorpedia, or the third party that may
+            without the prior consent of MotorPedia, or the third party that may
             own the marks
           </li>
           <li>
             Except as expressly provided herein, you acknowledge and agree that
             you shall not copy, republish, post, display, translate, transmit,
             reproduce or distribute any content through any medium without
-            obtaining the necessary authorization from Motorpedia.
+            obtaining the necessary authorization from MotorPedia.
           </li>
           <li>
-            Motorpedia and its affiliates respect the intellectual property of
+            MotorPedia and its affiliates respect the intellectual property of
             others. If you believe that your intellectual property rights have
             been used in a way that gives rise to concerns of infringement,
-            please write to us at contact@themotorpedia.com.
+            please write to us at contact@themotorPedia.com.
           </li>
         </div>
 
         <div className="">
           <h3 className="heading-3 py-6">
-            Disclaimer Of Warrenties & Liabilities :{" "}
+            Disclaimer Of Warranties & Liability :{" "}
           </h3>
           <ul>
             <li>
               I. YOU EXPRESSLY UNDERSTAND AND AGREE THAT, TO THE MAXIMUM EXTENT
               PERMITTED BY APPLICABLE LAW: THE PLATFORM, PLATFORM SERVICES,
-              OTHER SERVICES AND OTHER MATERIALS ARE PROVIDED BY MOTORPEDIA ON
+              OTHER SERVICES AND OTHER MATERIALS ARE PROVIDED BY MOTORPedia ON
               AN “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED,
               STATUTORY OR OTHERWISE, INCLUDING THE IMPLIED WARRANTIES OF TITLE,
               NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR
-              PURPOSE. WITHOUT LIMITING THE FOREGOING, MOTORPEDIA MAKES NO
+              PURPOSE. WITHOUT LIMITING THE FOREGOING, MOTORPedia MAKES NO
               WARRANTY THAT (I) THE PLATFORM OR THE PLATFORM SERVICES OR OTHER
               SERVICES WILL MEET YOUR REQUIREMENTS OR YOUR USE OF THE PLATFORM
               OR THE PLATFORM SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE OR
@@ -412,37 +412,37 @@ function TermsConditions() {
               WILL MEET YOUR EXPECTATIONS; OR (IV) ANY ERRORS OR DEFECTS IN THE
               PLATFORM OR PLATFORM SERVICES WILL BE CORRECTED. NOADVICE OR
               INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM
-              MOTORPEDIA OR THROUGH USE OF THE PLATFORM SERVICES SHALL CREATE
+              MOTORPedia OR THROUGH USE OF THE PLATFORM SERVICES SHALL CREATE
               ANY WARRANTY NOT EXPRESSLY STATED IN THE TERMS OF USE.
             </li>
             <li>
-              II. MOTORPEDIA WILL HAVE NO LIABILITY RELATED TO ANY REGISTERED
+              II. MOTORPedia WILL HAVE NO LIABILITY RELATED TO ANY REGISTERED
               TRADING PARTNER/ BUYER CONTENT ARISING UNDER INTELLECTUAL PROPERTY
               RIGHTS, LIBEL, PRIVACY, PUBLICITY, OBSCENITY OR OTHER LAWS.
-              MOTORPEDIA ALSO DISCLAIMS ALL LIABILITY WITH RESPECT TO THE
+              MOTORPedia ALSO DISCLAIMS ALL LIABILITY WITH RESPECT TO THE
               MISUSE, LOSS, MODIFICATION OR UNAVAILABILITY OF ANY TRADING
               PARTNER/CUSTOMER CONTENT.
             </li>
             <br></br>
             <li>
-              III. MOTORPEDIA WILL NOT BE LIABLE FOR ANY LOSS THAT YOU MAY INCUR
+              III. MOTORPedia WILL NOT BE LIABLE FOR ANY LOSS THAT YOU MAY INCUR
               AS A CONSEQUENCE OF UNAUTHORIZED USE OF YOUR ACCOUNT OR ACCOUNT
               INFORMATION IN CONNECTION WITH THE PLATFORM OR ANY PLATFORM
               SERVICES, EITHER WITH OR WITHOUT YOUR KNOWLEDGE.
             </li>
             <br></br>
             <li>
-              MOTORPEDIA HAS ENDEAVORED TO ENSURE THAT ALL THE INFORMATION ON
-              THE PLATFORM IS CORRECT, BUT MOTORPEDIA NEITHER WARRANTS NOR MAKES
+              MOTORPedia HAS ENDEAVORED TO ENSURE THAT ALL THE INFORMATION ON
+              THE PLATFORM IS CORRECT, BUT MOTORPedia NEITHER WARRANTS NOR MAKES
               ANY REPRESENTATIONS REGARDING THE QUALITY, ACCURACY OR
               COMPLETENESS OF ANY DATA, INFORMATION, OR PLATFORM SERVICE.
-              MOTORPEDIA SHALL NOT BE RESPONSIBLE FOR THE DELAY OR INABILITY TO
+              MOTORPedia SHALL NOT BE RESPONSIBLE FOR THE DELAY OR INABILITY TO
               USE THE PLATFORM OR RELATED FUNCTIONALITIES, THE PROVISION OF OR
               FAILURE TO PROVIDE FUNCTIONALITIES, OR FOR ANY INFORMATION,
               SOFTWARE, FUNCTIONALITIES AND RELATED GRAPHICS OBTAINED THROUGH
               THE PLATFORM, OR OTHERWISE ARISING OUT OF THE USE OF THE PLATFORM,
               WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR
-              OTHERWISE. FURTHER, MOTORPEDIA SHALL NOT BE HELD RESPONSIBLE FOR
+              OTHERWISE. FURTHER, MOTORPedia SHALL NOT BE HELD RESPONSIBLE FOR
               NON-AVAILABILITY OF THE PLATFORM DURING PERIODIC MAINTENANCE
               OPERATIONS OR ANY UNPLANNED SUSPENSION OF ACCESS TO THE PLATFORM
               THAT MAY OCCUR DUE TO TECHNICAL REASONS OR FOR ANY REASON BEYOND
@@ -461,7 +461,7 @@ function TermsConditions() {
             Indemnification and Limitation of Liability :
           </h3>
           <li>
-            I. You agree to indemnify, defend and hold harmless Valuedrive and
+            I. You agree to indemnify, defend and hold harmless Motorpedia and
             its affiliates including but not limited to its (and its
             affiliates’) officers, directors, consultants, agents and employees
             (“Indemnitees”) from and against any and all losses, liabilities,
@@ -479,12 +479,12 @@ function TermsConditions() {
             property rights.
           </li>
           <li>
-            II. In no event shall the Valuedrive, its officers, directors,
+            II. In no event shall the Motorpedia, its officers, directors,
             consultants, agents and employees, be liable to You or any third
             party for any special, incidental, indirect, consequential or
             punitive damages whatsoever, including those resulting from loss of
             use, data or profits, whether or not foreseeable or whether or not
-            the Valuedrive has been advised of the possibility of such damages,
+            the Motorpedia has been advised of the possibility of such damages,
             arising out of or in connection with (i) Your use of or access to
             the Platform, Platform Services or materials on the Platform; or
             (ii) seller support services provided by registered trading
@@ -499,24 +499,24 @@ function TermsConditions() {
         <div className="">
           <h3 className="heading-3 py-6">Violation of the Terms of Use : </h3>
           <li>
-            I. You agree that Motorpedia may, in its sole discretion and without
+            I. You agree that MotorPedia may, in its sole discretion and without
             prior notice, terminate Your access to the Platform for cause,
             delist You and block Your future access to the Platform if
-            Motorpedia determines that You have violated these Terms of Use. You
+            MotorPedia determines that You have violated these Terms of Use. You
             also agree that any violation by You of these Terms of Use will
             constitute an unlawful and unfair business practice, and will cause
-            irreparable harm to Motorpedia, for which monetary damages would be
-            inadequate, and You consent to Motorpedia obtaining any injunctive
-            or equitable relief that Motorpedia deems necessary or appropriate
+            irreparable harm to MotorPedia, for which monetary damages would be
+            inadequate, and You consent to MotorPedia obtaining any injunctive
+            or equitable relief that MotorPedia deems necessary or appropriate
             in such circumstances. These remedies are in addition to any other
-            remedies that Motorpedia may have at law or in equity.
+            remedies that MotorPedia may have at law or in equity.
           </li>
           <li>
-            II. If Motorpedia does take any legal action against You as a result
-            of Your violation of these Terms of Use, Motorpedia will be entitled
+            II. If MotorPedia does take any legal action against You as a result
+            of Your violation of these Terms of Use, MotorPedia will be entitled
             to recover from You, and You agree to pay, all reasonable attorneys’
             fees and costs of such action, in addition to any other relief
-            granted to Motorpedia.
+            granted to MotorPedia.
           </li>
         </div>
         <div className="">
@@ -524,17 +524,17 @@ function TermsConditions() {
           <ul>
             <li>
               I. The Terms of Use will continue to apply until terminated by
-              either You or Motorpedia as set forth below. If You want to
-              terminate Your agreement with Motorpedia, You may do so by (i)
-              notifying Motorpedia to close Your Account on the Platform; and
+              either You or MotorPedia as set forth below. If You want to
+              terminate Your agreement with MotorPedia, You may do so by (i)
+              notifying MotorPedia to close Your Account on the Platform; and
               (ii) not accessing the Platform. Such termination shall take
               effect 30 (thirty) days after receipt of such notice by
-              Motorpedia. You are obliged to process all service bookings
+              MotorPedia. You are obliged to process all service bookings
               received by You through the Platform prior to the date of closure
               of Your Account on the Platform.
             </li>
             <li>
-              Motorpedia may, at any time, with or without notice, terminate the
+              MotorPedia may, at any time, with or without notice, terminate the
               Terms of Use with You if:
               <ul>
                 <li>
@@ -546,33 +546,33 @@ function TermsConditions() {
                   are unable to, comply with the same);
                 </li>
                 <li>
-                  2. Motorpedia is required to do so by law (for example, where
+                  2. MotorPedia is required to do so by law (for example, where
                   the provision of the Platform Services to You is, or becomes,
                   unlawful or upon receiving request for termination by law
                   enforcement or other government agencies);
                 </li>
                 <li>
-                  3. The provision of the Platform Services to You by Motorpedia
-                  is, in the opinion of Motorpedia, no longer commercially
-                  viable or in any way detrimental to Motorpedia, its business
+                  3. The provision of the Platform Services to You by MotorPedia
+                  is, in the opinion of MotorPedia, no longer commercially
+                  viable or in any way detrimental to MotorPedia, its business
                   or the Platform; or
                 </li>
                 <li>
                   4. You provide any information that is untrue, inaccurate, not
                   current or incomplete (or becomes untrue, inaccurate, not
-                  current or incomplete), or Motorpedia has reasonable grounds
+                  current or incomplete), or MotorPedia has reasonable grounds
                   to suspect that such information is untrue, inaccurate, not
                   current or incomplete;
                 </li>
                 <li>
-                  5. Motorpedia has elected to discontinue, with or without
+                  5. MotorPedia has elected to discontinue, with or without
                   reason, access to the Platform, Platform Services or any part
                   thereof.
                 </li>
               </ul>
             </li>
             <li>
-              III. Motorpedia may also terminate or suspend all or a portion of
+              III. MotorPedia may also terminate or suspend all or a portion of
               Your Account or access to the Platform Services with or without
               reason. Termination of Your Account may include: (i) removal of
               access to all offerings within the Platform or with respect to the
@@ -591,15 +591,15 @@ function TermsConditions() {
                 </li>
                 <li>
                   2. You agree that all terminations shall be made in
-                  Motorpedia’s sole discretion and that Motorpedia shall not be
+                  MotorPedia’s sole discretion and that MotorPedia shall not be
                   liable to You or any third party for any termination of Your
                   Account, or Your access to the Platform and Platform Services.
                 </li>
                 <li>
-                  3. If You or Motorpedia terminate Your use of the Platform,
-                  Motorpedia may delete any content or other materials relating
+                  3. If You or MotorPedia terminate Your use of the Platform,
+                  MotorPedia may delete any content or other materials relating
                   to Your use of the Platform or the Platform Services and
-                  Motorpedia will have no liability to You or any third party
+                  MotorPedia will have no liability to You or any third party
                   for doing so.
                 </li>
               </ul>
@@ -612,14 +612,14 @@ function TermsConditions() {
             <li>
               I. These Terms of Use and all transactions entered into on or
               through the Platform and the relationship between You and
-              Motorpedia shall be governed in accordance with the laws of India
+              MotorPedia shall be governed in accordance with the laws of India
               without reference to conflict of laws principles.
             </li>
             <li>
               II. You agree that all claims, differences and disputes arising
               under or in connection with or in relation to the Platform, the
               Terms of Use or any transactions entered into on or through the
-              Platform or the relationship between You and Motorpedia shall be
+              Platform or the relationship between You and MotorPedia shall be
               subject to the exclusive jurisdiction of the Courts at Delhi,
               India and You hereby accede to and accept the jurisdiction of such
               Courts.
@@ -632,37 +632,37 @@ function TermsConditions() {
             In the event You come across any abuse or violation of these Terms
             of Use or if You become aware of any objectionable content on the
             Platform, please report the same to the following e-mail id:
-            contact@themotorpedia.com
+            contact@themotorPedia.com
           </li>
         </div>
         <div className="">
           <h3 className="heading-3 py-6"> Communications : </h3>
           <li>
             You hereby expressly agree to receive communications by way of SMS
-            and/or e-mails from Motorpedia relating to the Platform Services
+            and/or e-mails from MotorPedia relating to the Platform Services
             provided through the Platform.
           </li>
           <li>
             You can unsubscribe/ opt-out from receiving communications from
-            Motorpedia through SMS and e-mail anytime at
-            support@themotorpedia.com.
+            MotorPedia through SMS and e-mail anytime at
+            support@themotorPedia.com.
           </li>
         </div>
         <div className="">
           <h3 className="heading-3 py-6"> General Provisions : </h3>
           <ul>
             <li>
-              I. Notice: All notices from Motorpedia will be served by email to
+              I. Notice: All notices from MotorPedia will be served by email to
               Your registered email address or by general notification on the
-              Platform. Any notice provided to Motorpedia pursuant to the Terms
-              of Use should be sent to contact@themotorpedia.com with subject
+              Platform. Any notice provided to MotorPedia pursuant to the Terms
+              of Use should be sent to contact@themotorPedia.com with subject
               line - Attention: TERMS OF USE
             </li>
             <li>
               II. Assignment: You cannot assign or otherwise transfer the Terms
               of Use, or any rights granted hereunder to any third party.
-              Motorpedia’s rights under the Terms of Use are freely transferable
-              by Motorpedia to any third party without the requirement of
+              MotorPedia’s rights under the Terms of Use are freely transferable
+              by MotorPedia to any third party without the requirement of
               seeking Your consent.
             </li>
             <li>
@@ -676,9 +676,9 @@ function TermsConditions() {
             </li>
             <li>
               {" "}
-              IV. Waiver: Any failure by Motorpedia to enforce or exercise any
+              IV. Waiver: Any failure by MotorPedia to enforce or exercise any
               provision of the Terms of Use, or any related right, shall not
-              constitute a waiver by Motorpedia of that provision or right.
+              constitute a waiver by MotorPedia of that provision or right.
             </li>
           </ul>
         </div>
@@ -687,25 +687,25 @@ function TermsConditions() {
           <ul>
             <li>
               1. Any feedback You provide on the Platform shall be deemed to be
-              non- confidential. Motorpedia shall be free to use such
+              non- confidential. MotorPedia shall be free to use such
               information on an unrestricted basis. Further, by submitting the
               feedback, You represent and warrant that (i) Your feedback does
               not contain confidential or proprietary information of You or of
-              third parties; (ii) Motorpedia is not under any obligation of
+              third parties; (ii) MotorPedia is not under any obligation of
               confidentiality, express or implied, with respect to the feedback;
               (iii) all information provided in the feedback is true and correct
               and relates to the Automobile Service availed by You; and (iv) You
               are not entitled to any compensation or reimbursement of any kind
-              from Motorpedia for the feedback under any circumstances.
-              Motorpedia reserves the right to initiate any action against You
+              from MotorPedia for the feedback under any circumstances.
+              MotorPedia reserves the right to initiate any action against You
               under the applicable laws for a breach of this representation,
               including appropriate actions for any defamation allegations. When
-              You provide feedback on the Platform, You grant to Motorpedia, a
+              You provide feedback on the Platform, You grant to MotorPedia, a
               non-exclusive, royalty-free, worldwide, transferable,
               sub-licensable, irrevocable, perpetual and unconditional license
               to (i) use or reproduce the feedback posted by You on the
               Platform; (ii) delete and remove the entire or such part of any
-              feedback posted by You that, in the opinion of Motorpedia, is not
+              feedback posted by You that, in the opinion of MotorPedia, is not
               in compliance with these Terms of Use; and (iii) communicate the
               feedback to other users, including registered trading partners.
             </li>
@@ -713,8 +713,8 @@ function TermsConditions() {
             <li>
               2. Any feedback posted by You on the Platform regarding any
               Platform Service or seller support services availed by You may be
-              required to be substantiated by Motorpedia as evidence, as
-              necessitated or requested by Motorpedia.
+              required to be substantiated by MotorPedia as evidence, as
+              necessitated or requested by MotorPedia.
             </li>
           </ul>
         </div>

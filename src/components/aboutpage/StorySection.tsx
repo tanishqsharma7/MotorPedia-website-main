@@ -1,5 +1,5 @@
 import { storyData } from "../../data/data";
-import img from "/images/motorpedia_ceo.jpeg";
+//import img from "/images/motorPedia_ceo.jpeg";
 
 function StorySection() {
   return (
@@ -11,23 +11,21 @@ function StorySection() {
             In 2023, an exciting journey began with a daring vision
           </h1>
           <br></br>
-          <p className="uppercase text-bodyText font-medium text-base lg:text-xl">
-            message from our ceo
-          </p>
+
           <p className="heading-4 lg:text-[32px] pt-4 pb-6">
             “Our commitment? Simple - to inspire, innovate and exceed
-            expectations, Welcome to our revolution.”
+            expectations. Welcome to our revolution.”
           </p>
           <div className="flex justify-start items-center gap-3">
-            <img
+            {/* <img
               src={img}
               alt=""
               className="rounded-full w-[150px] h-[150px] "
-            />
-            <div className="">
+            /> */}
+            {/* <div className="">
               <p>Rajat Upadhyaya</p>
-              <p className=" text-bodyText text-sm">CEO, Motorpedia</p>
-            </div>
+              <p className=" text-bodyText text-sm">CEO, MotorPedia</p>
+            </div> */}
           </div>
         </div>
 
@@ -35,7 +33,7 @@ function StorySection() {
           {storyData.map(({ id, title, desc }) => (
             <div className="border-b pb-6 lg:pb-10" key={id}>
               <h4 className="heading-4 pb-6">{title}</h4>
-              <p className=" text-bodyText">{desc}</p>
+              <p className=" text-bodyText text-justify">{desc}</p>
             </div>
           ))}
         </div>

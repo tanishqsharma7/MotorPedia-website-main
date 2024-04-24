@@ -13,7 +13,7 @@ function ContactUsSection() {
         <div className="flex flex-col justify-center items-start w-full lg:max-xxl:w-1/2 xxl:max-w-[550px] max-xxl:pb-8 max-xxl:overflow-hidden">
           <FadeRight>
             <h1 className="display-4 pb-6 pt-4">
-              <span className="text-3xl">The Motorpedia App </span>
+              <span className="text-3xl">The MotorPedia App </span>
               <br></br>Coming Soon...
             </h1>
           </FadeRight>

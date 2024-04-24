@@ -1,4 +1,4 @@
-import { whyMotorpediaCard } from "../../data/data";
+import { whyMotorPediaCard } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
 
 function WhyAccoupay() {
@@ -11,7 +11,7 @@ function WhyAccoupay() {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">
-          {whyMotorpediaCard.map(({ id, img, title, des }, idx) => (
+          {whyMotorPediaCard.map(({ id, img, title, des }, idx) => (
             <div
               key={id}
               className="col-span-12 sm:col-span-6 shadow-2xl lg:col-span-3  "

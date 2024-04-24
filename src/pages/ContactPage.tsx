@@ -41,7 +41,7 @@ function ContactPage() {
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="Contact Us"
-        pageDesc="Reach out to transform your dealership now. Fill out the form or connect on the below information and our team will be in touch shortly."
+        pageDesc="Reach out to us to transform your dealership now. Fill out the form or connect on the below information and our team will be in touch shortly"
         pageTitle="Connect With Us"
       />
       <section className="container grid grid-cols-12 stp-30 sbp-30">
@@ -58,7 +58,7 @@ function ContactPage() {
                 >
                   {icon}
                 </div>
-                <h4 className="heading-4 pt-5 pb-2">{name}</h4>
+                <h4 className="heading-4 pt-5 pb-2 ">{name}</h4>
                 {link && <Link to={link}>{linkText}</Link>}
                 {address && <p>{address}</p>}
               </div>
@@ -98,7 +98,7 @@ function ContactPage() {
               </span>
               <input
                 type="text"
-                placeholder="Type email address"
+                placeholder="Email"
                 className=" placeholder:text-bodyText w-full outline-none"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

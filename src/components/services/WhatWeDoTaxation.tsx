@@ -10,14 +10,14 @@ function WhatWeDoTaxation() {
             <p className="bg-p1 py-3 px-5 rounded-full text-white ">
               Insurance
             </p>
-            <h1 className="display-4  text-white pt-4 ">
+            <h1 className="display-4 text-white pt-4 ">
               Drive with Confidence: Vehicle Insurance Solutions
             </h1>
           </div>
           <p className="text-white max-w-[500px]">
-            Secure peace of mind on the road for your customers with our comprehensive car
-            insurance options. From basic coverage to premium packages, we offer
-            policies tailored to everyone's needs and budget.
+            Secure peace of mind on the road for your customers with our
+            comprehensive car insurance options. From basic coverage to premium
+            packages, we offer policies tailored to everyone's needs and budget.
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">

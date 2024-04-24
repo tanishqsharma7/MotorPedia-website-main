@@ -13,8 +13,8 @@ function saleEnablement() {
         img={breadcrumbImg}
         middlePage="Services"
         pageName="Sales Enablement Services"
-        pageDesc="At MotorPedia, we offer all ancillary services associated with a vehicle transaction such as inusrance, finance, warranty, RSA, inventory funding, refurbishment services, etc. all this through our one-stop solution. Experience the difference today."
-        pageTitle="Sale Enablement Services"
+        pageDesc="At MotorPedia, we offer all ancillary services associated with a vehicle transaction such as inusrance, finance, warranty, RSA, inventory funding, refurbishment services, etc - all this through our one-stop solution. Experience the difference today."
+        pageTitle="Sales Enablement Services"
       />
       <TaxationSection />
       <WhatWeDoTaxation />

@@ -1,1 +1,1 @@
-# Motorpedia | Automotive Solutions Provider
+# MotorPedia | Automotive Solutions Provider

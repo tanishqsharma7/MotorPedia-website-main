@@ -17,16 +17,16 @@ function PrivacyPolicy() {
           <p className=" text-bodyText">
             We use your personal data to provide and improve the service. By
             using the service, you agree to the collection and use of
-            information in accordance with this Privacy Policy.
+            information in accordance with this privacy policy.
           </p>
         </div>
 
         <div className="">
           <h3 className="heading-1 py-6">Information we collect</h3>
           <p className=" text-bodyText">
-            While using Our Service, We may ask You to provide Us with certain
+            While using our service, we may ask you to provide us with certain
             personally identifiable information that can be used to contact or
-            identify You. Personally identifiable information may include, but
+            identify you. Personally identifiable information may include, but
             is not limited to:
           </p>
 
@@ -63,7 +63,7 @@ function PrivacyPolicy() {
             diagnostic data. When you access the service by or through a mobile
             device, we may collect certain information automatically, including,
             but not limited to, the type of mobile device you use, your mobile
-            device unique id, the ip address of your mobile device, your mobile
+            device unique id, the IP address of your mobile device, your mobile
             operating system, the type of mobile internet browser you use,
             unique device identifiers and other diagnostic data. We may also
             collect information that your browser sends whenever you visit our
@@ -106,10 +106,10 @@ function PrivacyPolicy() {
               <span className="text-2xl text-p1">
                 <PiCheckCircle />
               </span>
-              To provide You with news, special offers and general information
+              To provide you with news, special offers and general information
               about other goods, services and events which we offer that are
               similar to those that you have already purchased or enquired about
-              unless You have opted not to receive such information.
+              unless you have opted not to receive such information.
             </li>
             <li className="flex justify-start items-center gap-1">
               <span className="text-2xl text-p1">
@@ -130,9 +130,9 @@ function PrivacyPolicy() {
           <h3 className="heading-3 py-6">Data Sharing with Third Party</h3>
           <p className=" text-bodyText">
             We collect certain personal information and other information from
-            You and when You access the platform or our services, or when You
-            register with out platform. The personal information we collect
-            includes your name, residential address, contact number, E-mail
+            you and when you access the platform or our services, or when you
+            register with our platform. The personal information we collect
+            includes your name, residential address, contact number, e-mail
             address, or any other data or information as may be required. We may
             disclose your personal information and other information to any of
             our associated brands, associated entities, subsidiary, group
@@ -144,14 +144,14 @@ function PrivacyPolicy() {
           <br></br>
           <p>
             We may share information we think we have to in order to comply with
-            the law or to protect ourselves. We will share information to
-            respond to a court order or judicial summons. We may also share it
-            if a governmental agency or investigatory body requests. Your
-            consent. By using the site you shall be deemed to have expressly
-            consented to our use of information and data as aforementioned. By
-            providing us with yiur information or using the site, you consent to
-            the transfer and processing of your information outside your country
-            of residence.
+            The law or to protect ourselves. We will share information to
+            Respond to a court order or judicial summons. We may also share it
+            If a governmental agency or investigatory body requests. Your
+            Consent. By using the site you shall be deemed to have expressly
+            Consented to our use of information and data as aforementioned. By
+            Providing us with yiur information or using the site, you consent to
+            The transfer and processing of your information outside your country
+            Of residence.
           </p>
         </div>
 
@@ -159,16 +159,16 @@ function PrivacyPolicy() {
           <h3 className="heading-3 py-6">Data retention</h3>
           <p className=" text-bodyText">
             The Company will retain Your Personal Data only for as long as is
-            necessary for the purposes set out in this Privacy Policy. We will
-            retain and use Your Personal Data to the extent necessary to comply
-            with our legal obligations (for example, if we are required to
-            retain your data to comply with applicable laws), resolve disputes,
-            and enforce our legal agreements and policies. The Company will also
-            retain Usage Data for internal analysis purposes. Usage Data is
-            generally retained for a shorter period of time, except when this
-            data is used to strengthen the security or to improve the
-            functionality of Our Service, or We are legally obligated to retain
-            this data for longer time periods.
+            Necessary for the purposes set out in this Privacy Policy. We will
+            Retain and use Your Personal Data to the extent necessary to comply
+            With our legal obligations (for example, if we are required to
+            Retain your data to comply with applicable laws), resolve disputes,
+            And enforce our legal agreements and policies. The Company will also
+            Retain Usage Data for internal analysis purposes. Usage Data is
+            Generally retained for a shorter period of time, except when this
+            Data is used to strengthen the security or to improve the
+            Functionality of Our Service, or We are legally obligated to retain
+            This data for longer time periods.
           </p>
         </div>
 
@@ -176,9 +176,9 @@ function PrivacyPolicy() {
           <h3 className="heading-3 py-6">Cookies and tracking technologies</h3>
           <p className=" text-bodyText">
             Cookies can be "persistent" or "session" cookies. Persistent cookies
-            remain on your personal computer or mobile device when you go
-            offline, while session cookies are deleted as soon as you close your
-            web browser.
+            Remain on your personal computer or mobile device when you go
+            Offline, while session cookies are deleted as soon as you close your
+            Web browser.
           </p>
         </div>
 
@@ -186,28 +186,28 @@ function PrivacyPolicy() {
           <h3 className="heading-3 py-6">Children's privacy</h3>
           <p className=" text-bodyText">
             Our service does not address anyone under the age of 13. We do not
-            knowingly collect personally identifiable information from anyone
-            under the age of 13. If you are a parent or guardian and you are
-            aware that your child has provided us with personal data, please
-            contact us. If we become aware that we have collected personal data
-            from anyone under the age of 13 without verification of parental
-            consent, we take steps to remove that information from our servers.
-            if we need to rely on consent as a legal basis for processing your
-            information and your country requires consent from a parent, we may
-            require your parent's consent before we collect and use that
-            information.
+            Knowingly collect personally identifiable information from anyone
+            Under the age of 13. If you are a parent or guardian and you are
+            Aware that your child has provided us with personal data, please
+            Contact us. If we become aware that we have collected personal data
+            From anyone under the age of 13 without verification of parental
+            Consent, we take steps to remove that information from our servers.
+            If we need to rely on consent as a legal basis for processing your
+            Information and your country requires consent from a parent, we may
+            Require your parent's consent before we collect and use that
+            Information.
           </p>
         </div>
 
         <div className="">
           <h3 className="heading-3 py-6">Changes to the privacy policy</h3>
           <p className=" text-bodyText">
-            This Privacy Policy was last updated on 20-4-2024. We may update Our
-            Privacy Policy from time to time. We will notify you of any material
-            to this plicy as required by law changes by posting the new Privacy
-            Policy on this page. You are advised to review this Privacy Policy
-            periodically for any changes. Changes to this Privacy Policy are
-            effective when they are posted on this page.
+            This Privacy Policy was last updated on 20-04-2024. We may update
+            Our Privacy Policy from time to time. We will notify you of any
+            Material changes to this policy as required by law by posting the
+            New Privacy Policy on this page. You are advised to review this
+            Privacy Policy periodically for any changes. Changes to this Privacy
+            Policy are effective when they are posted on this page.
           </p>
         </div>
 
@@ -215,8 +215,8 @@ function PrivacyPolicy() {
           <h3 className="heading-3 py-6">Contact information</h3>
           <p className=" text-bodyText">
             If you have any questions or concerns regarding our Privacy Policy
-            or the handling of your personal information, please contact us at :
-            <span className="text-p1"> contact@themotorpedia.com</span>
+            Or the handling of your personal information, please contact us at :
+            <span className="text-p1"> contact@themotorPedia.com</span>
           </p>
         </div>
       </section>

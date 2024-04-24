@@ -18,8 +18,8 @@ function TaxationVideoSection() {
               <p className=" text-white pt-4">
                 Discover the ultimate vehicle exchange experience at your New
                 Car Dealership - trade up your inbound exchange leads
-                hassle-free with out premier Vehicle Exchange platform and get
-                gyaranteed improvement in your exchange penetration
+                hassle-free with our premier Vehicle Exchange platform and get
+                guaranteed improvement in your exchange penetration
               </p>
             </div>
           </FadeLeft>
