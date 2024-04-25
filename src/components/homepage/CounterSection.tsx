@@ -15,7 +15,7 @@ function CounterSection() {
         <div className="h-[120px] w-[2px] bg-white/70 mt-8 max-sm:hidden"></div>
         <div className="text-center max-w-[280px]">
           <p className="display-4 pb-3">
-            <NumberCounter start={0} end={5000} /> +{" "}
+            <NumberCounter start={0} end={10000} /> +{" "}
           </p>
           <div className="text-3xl"> Vehicles Processed </div>
         </div>

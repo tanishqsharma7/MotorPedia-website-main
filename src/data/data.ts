@@ -258,8 +258,8 @@ export const getInTouch = [
     links: [
       {
         id: uuidv4(),
-        name: "contact@themotorPedia.com",
-        link: "mailto:contact@themotorPedia.com",
+        name: "contact@themotorpedia.com",
+        link: "mailto:contact@themotorpedia.com",
         isLink: true,
         icon: React.createElement(MdOutlineEmail),
       },
@@ -283,8 +283,8 @@ export const getInTouch = [
 export const teamContactDetails = [
   {
     id: uuidv4(),
-    name: "contact@themotorPedia.com",
-    link: "contact@themotorPedia.com",
+    name: "contact@themotorpedia.com",
+    link: "contact@themotorpedia.com",
     icon: React.createElement(PiEnvelopeFill),
   },
   {
@@ -442,7 +442,7 @@ export const faqs = [
     id: uuidv4(),
     question: "How do I get in touch with MotorPedia?",
     answer:
-      "You can write to us on contact@themotorPedia.com and we will be in touch with you shortly",
+      "You can write to us on contact@themotorpedia.com and we will be in touch with you shortly",
   },
 ];
 
@@ -564,8 +564,8 @@ export const contactCard = [
     icon: React.createElement(IoMailUnreadOutline),
     title: "Write to us     ",
     desc: "Curious about our services? Send an email to know more",
-    linkText: "contact@themotorPedia.com",
-    linkto: "mailto:contact@themotorPedia.com",
+    linkText: "contact@themotorpedia.com",
+    linkto: "mailto:contact@themotorpedia.com",
   },
   {
     id: uuidv4(),
@@ -1329,8 +1329,8 @@ export const contactPageCard = [
     id: uuidv4(),
     icon: React.createElement(PiEnvelopeFill),
     name: "Write to Us",
-    linkText: "contact@themotorPedia.com",
-    link: "mailto:contact@themotorPedia.com",
+    linkText: "contact@themotorpedia.com",
+    link: "mailto:contact@themotorpedia.com",
   },
   {
     id: uuidv4(),

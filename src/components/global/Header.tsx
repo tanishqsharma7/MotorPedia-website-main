@@ -57,7 +57,7 @@ function Header() {
             </button>
             <div className="p-0 ">
               <Link to={"/"}>
-                <img src={logo} className="w-48 " alt="MotorPedia" />
+                <img src={logo} className="w-56" alt="MotorPedia" />
               </Link>
             </div>
           </div>

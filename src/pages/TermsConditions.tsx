@@ -113,7 +113,7 @@ function TermsConditions() {
             the Platform. You agree and acknowledge that you will use your
             account on the Platform to make purchases only for your personal use
             and not for business purposes. Should you wish to order products for
-            business purposes, please reach out contact@motorPedia.com.
+            business purposes, please reach out contact@themotorpedia.com.
             MotorPedia reserves the right to refuse access to the Platform,
             terminate accounts, remove or edit content at any time without
             notice to You.
@@ -386,7 +386,7 @@ function TermsConditions() {
             MotorPedia and its affiliates respect the intellectual property of
             others. If you believe that your intellectual property rights have
             been used in a way that gives rise to concerns of infringement,
-            please write to us at contact@themotorPedia.com.
+            please write to us at contact@themotorpedia.com.
           </li>
         </div>
 
@@ -632,7 +632,7 @@ function TermsConditions() {
             In the event You come across any abuse or violation of these Terms
             of Use or if You become aware of any objectionable content on the
             Platform, please report the same to the following e-mail id:
-            contact@themotorPedia.com
+            contact@themotorpedia.com
           </li>
         </div>
         <div className="">
@@ -645,7 +645,7 @@ function TermsConditions() {
           <li>
             You can unsubscribe/ opt-out from receiving communications from
             MotorPedia through SMS and e-mail anytime at
-            support@themotorPedia.com.
+            support@themotorpedia.com.
           </li>
         </div>
         <div className="">
@@ -655,7 +655,7 @@ function TermsConditions() {
               I. Notice: All notices from MotorPedia will be served by email to
               Your registered email address or by general notification on the
               Platform. Any notice provided to MotorPedia pursuant to the Terms
-              of Use should be sent to contact@themotorPedia.com with subject
+              of Use should be sent to contact@themotorpedia.com with subject
               line - Attention: TERMS OF USE
             </li>
             <li>
