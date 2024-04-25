@@ -216,7 +216,7 @@ function PrivacyPolicy() {
           <p className=" text-bodyText">
             If you have any questions or concerns regarding our Privacy Policy
             Or the handling of your personal information, please contact us at :
-            <span className="text-p1"> contact@themotorPedia.com</span>
+            <span className="text-p1"> contact@themotorpedia.com</span>
           </p>
         </div>
       </section>
