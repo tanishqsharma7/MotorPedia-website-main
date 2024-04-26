@@ -18,7 +18,7 @@ export default function ScrollToTopButton() {
       <button
         className={`fixed ${
           scrolled ? " bottom-12 sm:bottom-16" : "-bottom-40"
-        }  text-xl sm:text-2xl  rounded-full hover:border-white right-6 md:right-10 p-2 sm:p-3  z-40 jumping1 duration-700 size-[50px]`}
+        }  text-xl sm:text-2xl  rounded-full hover:border-white right-6  md:right-10 p-2 sm:p-3  z-40 jumping1 duration-700 size-[50px]`}
         aria-label="bottom to top button"
       >
         <span className=" block size-[50px] ">

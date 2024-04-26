@@ -12,7 +12,7 @@ function ContactSection({ isPaddingTop }: { isPaddingTop?: boolean }) {
             <h1 className="display-4  pt-4 ">Get In Touch</h1>
           </div>
         </div>
-        <div className="grid grid-cols-9 gap-8   stp-15">
+        <div className="grid grid-cols-9 gap-8  stp-15">
           {contactCard.map(
             ({ id, icon, title, desc, linkText, linkto }, idx) => (
               <div
