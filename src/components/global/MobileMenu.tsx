@@ -48,7 +48,7 @@ function MobileMenu({
           showMobileMenu
             ? "translate-y-0  opacity-30 "
             : " translate-y-[-100%] delay-500 opacity-0 "
-        } duration-700 z-[998]`}
+        }  z-[998]`}
         onClick={() => setShowMobileMenu(false)}
       ></div>
 

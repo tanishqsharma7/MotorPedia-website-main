@@ -17,7 +17,7 @@ function SolutionsSection() {
       <img
         src={sliceIcon}
         alt=""
-        className="absolute right-0 sm:right-2 lg:right-10 top-10 xl:top-32 max-md:h-[80px]"
+        className="absolute right-0 sm:right-2 sm:top-8 lg:right-10 top-5 xl:top-32 max-md:h-[80px]"
       />
       <div className="container z-10 relative">
         <div className="flex justify-center items-center ">
@@ -27,7 +27,7 @@ function SolutionsSection() {
                 Why Digitalization Matters ?
               </h1>
             </FadeRight>
-            <p className="pt-5  pb-4 text-lg w-[700px] text-justify">
+            <p className="pt-5  pb-4 text-lg lg:w-[700px] text-justify">
               In today's increasingly online world, digitalization is key for
               auto dealerships to achieve enhanced customer engagement and
               improved operations. It provides tools such as online vehicle

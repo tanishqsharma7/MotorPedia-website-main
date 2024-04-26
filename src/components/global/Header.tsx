@@ -118,14 +118,6 @@ function Header() {
           </nav>
 
           <div className="flex justify-end items-center gap-2 sm:gap-6 xl:gap-10 font-medium max-sm:hidden relative right-50 left-50">
-            {/* <div className="flex justify-between items-center gap-1  translate-x-[90px]">
-              <span className="bg-s1 rounded-full text-s2 p-2 md:p-3 text-lg lg:text-2xl">
-                <PiPhoneCallDuotone />
-              </span>
-              <Link to={"tel:+91 99999-61887"} className="max-xl:hidden">
-                +91 99999-61887
-              </Link>
-            </div> */}
             <div className="">
               <LinkButton link="/contact" text="Contact Us" />
             </div>
