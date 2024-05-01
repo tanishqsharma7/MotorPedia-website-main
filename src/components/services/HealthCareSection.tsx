@@ -8,7 +8,7 @@ function HealthCareSection() {
       <div className="container grid grid-cols-12 gap-6 max-xxl:overflow-hidden">
         <div className="col-span-12 lg:col-span-6 xxl:col-span-5">
           <div className=" flex justify-start items-start flex-col">
-            <p className="bg-p1 py-3 px-5 rounded-full text-white ">Warrenty</p>
+            <p className="bg-p1 py-3 px-5 rounded-full text-white ">Warranty</p>
             <h2 className="display-4 pt-4 pb-6">
               Extended Coverage: Warranty and Roadside Assistance (RSA)
             </h2>

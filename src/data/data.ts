@@ -184,7 +184,7 @@ export const socialLinks = [
   {
     id: uuidv4(),
     name: "Linkedin",
-    link: "#",
+    link: "https://www.linkedin.com/company/motorpedia/",
     icon: React.createElement(FaLinkedinIn),
   },
   {
@@ -721,29 +721,8 @@ export const coreServices = [
     icon: React.createElement(BsGraphUpArrow),
     title: "Sales Enablement",
     link: "/services/saleEnablement",
-    desc: "You focus on right buying and selling of cars while we take care of the rest - finance, insurance, inventory funding, warrenty, RSA, refurbishment, lead management, inventory oversight and pricing solutions to improve your vehicle transaction experience",
+    desc: "You focus on right buying and selling of cars while we take care of the rest - finance, insurance, inventory funding, Warranty, RSA, refurbishment, lead management, inventory oversight and pricing solutions to improve your vehicle transaction experience",
   },
-  // {
-  //   id: uuidv4(),
-  //   icon: React.createElement(PiBuildingsFill),
-  //   title: "Real Estate Services",
-  //   link: "/services/real-state-services",
-  //   desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   icon: React.createElement(PiHeartbeatFill),
-  //   title: "Healthcare Services",
-  //   desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-  //   link: "/services/healthcare-services",
-  // },
-  // {
-  //   id: uuidv4(),
-  //   icon: React.createElement(PiToothFill),
-  //   title: "Dentist Services",
-  //   link: "/services/dentist-services",
-  //   desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-  // },
 ];
 
 export const whatWeDo = [
