@@ -26,8 +26,6 @@ function HomePage() {
       <ContactUsSection />
       <Testimonial />
       <CounterSection />
-      {/* <PricingSection /> */}
-      {/* <BlogSection /> */}
       <ContactSection />
       <CTASectiont />
     </main>

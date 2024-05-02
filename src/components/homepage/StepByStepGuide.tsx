@@ -1,5 +1,5 @@
 import { stepByStepCard } from "../../data/data";
-import FadeRight from "../animation/FadeRight";
+import FadeLeft from "../animation/FadeLeft";
 import stepArrow1 from "/images/stepArrow1.png";
 import stepArrow2 from "/images/stepArrow2.png";
 
@@ -8,12 +8,12 @@ function StepByStepGuide() {
     <section className="stp-30 sbp-30">
       <div className="container">
         <p>
-          <FadeRight>
+          <FadeLeft>
             <h1 className="font-bold text-center text-wrap text-4xl">
               Transform your conventional dealership<br></br> into AI-powered
               experience center!
             </h1>
-          </FadeRight>
+          </FadeLeft>
           <h2 className="text-center pt-5 text-lg">
             Discover our user-friendly platform, expertly curated for auto
             dealerships by<br></br> automotive professionals!

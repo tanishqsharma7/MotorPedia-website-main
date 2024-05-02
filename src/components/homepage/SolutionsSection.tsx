@@ -5,7 +5,8 @@ import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
 import solutionIllus from "/images/design2.png";
 import { Link } from "react-router-dom";
-import FadeRight from "../animation/FadeRight";
+import FadeLeft from "../animation/FadeLeft";
+import FadeTop from "../animation/FadeTop";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">
@@ -20,24 +21,29 @@ function SolutionsSection() {
         className="absolute right-0 sm:right-2 sm:top-8 lg:right-10 top-5 xl:top-32 max-md:h-[80px]"
       />
       <div className="container z-10 relative">
-        <div className="flex justify-center items-center ">
-          <p>
-            <FadeRight>
-              <h1 className="font-bold text-center text-wrap text-4xl">
-                Why Digitalization Matters ?
-              </h1>
-            </FadeRight>
-            <p className="pt-5  pb-4 text-lg lg:w-[700px] text-justify">
-              In today's increasingly online world, digitalization is key for
-              auto dealerships to achieve enhanced customer engagement and
-              improved operations. It provides tools such as online vehicle
-              configurators and AI-led photoshoots, thereby meeting the needs of
-              modern customers. By optimizing processes and enabling data-driven
-              decisions, it cuts costs and boosts efficiency. Effective digital
-              use also enhances marketing and advertising, customer
-              satisfaction, and conversion in the hyper-competitive auto market
+        <div className="container z-10 relative">
+          <div className="flex justify-center items-center">
+            <p>
+              <FadeLeft>
+                <h1 className="font-bold text-center text-wrap text-4xl">
+                  Why Digitalization Matters ?
+                </h1>
+              </FadeLeft>
+              <FadeTop>
+                <p className="pt-5 pb-4 text-lg lg:w-[700px] text-justify">
+                  In today's increasingly online world, digitalization is key
+                  for auto dealerships to achieve enhanced customer engagement
+                  and improved operations. It provides tools such as online
+                  vehicle configurators and AI-led photoshoots, thereby meeting
+                  the needs of modern customers. By optimizing processes and
+                  enabling data-driven decisions, it cuts costs and boosts
+                  efficiency. Effective digital use also enhances marketing and
+                  advertising, customer satisfaction, and conversion in the
+                  hyper-competitive auto market
+                </p>
+              </FadeTop>
             </p>
-          </p>
+          </div>
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">
           <div className="col-span-12 lg:col-span-6">
@@ -50,10 +56,7 @@ function SolutionsSection() {
             </div>
           </div>
           <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex justify-center items-center  lg:items-center flex-col">
-            <h1 className="heading-1 pb-3 text-4xl">
-              {" "}
-              Upgrade your Dealership
-            </h1>
+            <h1 className="heading-1 pb-3 text-4xl">Upgrade your Dealership</h1>
             <p className="text-bodyText text-xl">
               Tailored solutions just for you
             </p>
@@ -81,7 +84,6 @@ function SolutionsSection() {
           </div>
         </div>
       </div>
-      <br></br>
     </section>
   );
 }
