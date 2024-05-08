@@ -1,10 +1,12 @@
 import { useState } from "react";
+import axios from "axios";
 import { PiEnvelopeFill, PiMapPinFill } from "react-icons/pi";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
+import breadcrumpIllus from "/images/contact.png";
 import { CiMobile1 } from "react-icons/ci";
 // import locationImg from "/images/contact_page_img.png";
 
@@ -33,12 +35,27 @@ function ContactPage() {
     // console.log(email);
     // console.log(subject);
     // console.log(message);
+    const Data ={
+      FirstName:firstName,
+      LastName:lastName,
+      Email:email,
+      Mobile_No:subject,
+      Message:message,
+    }
+    axios.post('https://sheet.best/api/sheets/bda7637b-5f07-4ae3-920c-f537028e88aa',Data).then((response)=>{
+      console.log(response);
+      setFirstName('');
+      setLastName('');
+      setEmail('');
+      setSubject('');
+      setMessage('');
+    })
   }
 
   return (
     <main>
       <BreadcrumbSection
-        img="https://i.ibb.co/w7mcMMq/contact.png"
+        img={breadcrumpIllus}
         pageName="Contact Us"
         pageDesc="Reach out to us to transform your dealership now. Fill out the form or connect on the below information and our team will be in touch shortly"
         pageTitle="Connect With Us"
@@ -67,10 +84,9 @@ function ContactPage() {
 
         <div className=" col-span-12 lg:col-span-8 lg:col-start-3 border p-4 sm:p-6 lg:p-10">
           <h4 className="heading-4 pb-6">Fill the form below</h4>
-          <form
-            // onSubmit={(e) => e.preventDefault()}
-            action="https://formspree.io/f/mvoedlqd"
-            method="POST"
+          <form autoComplete="off"
+            onSubmit={(e) => e.preventDefault()}
+           
             className="grid grid-cols-2 gap-6"
           >
             <div className=" col-span-2 sm:col-span-1">

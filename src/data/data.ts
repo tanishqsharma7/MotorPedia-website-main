@@ -172,13 +172,13 @@ export const socialLinks = [
   {
     id: uuidv4(),
     name: "Facebook",
-    link: "#",
+    link: "https://www.facebook.com/Motorpediain",
     icon: React.createElement(FaFacebookF),
   },
   {
     id: uuidv4(),
     name: "Twitter",
-    link: "https://twitter.com/TheMotorPedia",
+    link: "https://twitter.com/Motorpedia_in",
     icon: React.createElement(FaXTwitter),
   },
   {
