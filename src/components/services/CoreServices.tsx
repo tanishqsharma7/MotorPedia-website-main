@@ -19,17 +19,21 @@ function CoreServices() {
           {coreServices.map(({ id, icon, title, desc, link }, idx) => (
             <div className="col-span-12 sm:col-span-6 md:col-span-4 " key={id}>
               <StaggerEffect id={idx}>
-                <div className="flex justify-start items-start flex-col p-6 lg:p-10 group border border-strokeColor hover:bg-s2 hover:border-mainTextColor rounded-lg duration-500">
-                  <div className="bg-softBg1 p-4 rounded-full text-s1 group-hover:bg-mainTextColor group-hover:text-white duration-500 text-5xl">
-                    {icon}
-                  </div>
-                  <Link to={link}>
+                <Link to={link}>
+                  <div className="flex justify-start items-start flex-col p-6 lg:p-10 group border border-strokeColor hover:bg-s2 hover:border-mainTextColor rounded-lg duration-500">
+                    <div className="bg-softBg1 p-4 rounded-full text-s1 group-hover:bg-mainTextColor group-hover:text-white duration-500 text-5xl">
+                      {icon}
+                    </div>
+
                     <h4 className="heading-4 pb-5 pt-8 hover:underline duration-300">
                       {title}
                     </h4>
-                  </Link>
-                  <p className=" text-bodyText lg:pr-4 text-justify">{desc}</p>
-                </div>
+
+                    <p className=" text-bodyText lg:pr-4 text-justify">
+                      {desc}
+                    </p>
+                  </div>
+                </Link>
               </StaggerEffect>
             </div>
           ))}

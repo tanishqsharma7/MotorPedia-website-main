@@ -1,7 +1,6 @@
 import { neverWorry } from "../../data/data";
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
-import img from "/images/image2.jpg";
 
 function NerverWorrySection() {
   return (
@@ -10,7 +9,7 @@ function NerverWorrySection() {
         <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex justify-center items-center max-lg:order-2 max-lg:stp-15 overflow-hidden ">
           <FadeLeft>
             <img
-              src={img}
+              src="https://i.ibb.co/S6sLLm4/image2.jpg"
               alt=""
               className="hover:scale-110 duration-500 w-screen h-full"
             />
@@ -40,13 +39,6 @@ function NerverWorrySection() {
                 </div>
               ))}
             </div>
-            {/* <Link
-              to={"/contact"}
-              className="bg-s2 rounded-full py-3 px-4 text-black"
-            >
-              {" "}
-              Contact Us
-            </Link> */}
           </FadeRight>
         </div>
       </div>

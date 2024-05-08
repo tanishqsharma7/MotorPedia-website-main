@@ -16,7 +16,6 @@ export default function RootLayout() {
       <ReduxProvider>
         <Header />
         <Outlet />
-
         <Footer />
         <ScrollToTopButton />
       </ReduxProvider>

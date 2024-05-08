@@ -1,6 +1,5 @@
 import { dentistSectionFeatures } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/img3.webp";
 
 function DentistSection() {
   return (
@@ -17,7 +16,7 @@ function DentistSection() {
           </p>
           <div className="flex justify-center items-center w-full overflow-hidden">
             <img
-              src={img}
+              src="https://i.ibb.co/cFjD1yC/img3.webp"
               alt=""
               className="hover:scale-110 duration-500 w-full h-full"
             />

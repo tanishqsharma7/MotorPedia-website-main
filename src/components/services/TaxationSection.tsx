@@ -1,7 +1,6 @@
 import { taxationFeatures } from "../../data/data";
 import FadeLeft from "../animation/FadeLeft";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/sale21.png";
 
 function TaxationSection() {
   return (
@@ -23,7 +22,7 @@ function TaxationSection() {
               </p>
               <div className="flex justify-center items-center w-full overflow-hidden">
                 <img
-                  src={img}
+                  src="https://i.ibb.co/BwFD7sd/sale21.png"
                   alt=""
                   className="hover:scale-110 duration-500 w-full h-full"
                 />

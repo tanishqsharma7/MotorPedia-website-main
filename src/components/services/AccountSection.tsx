@@ -2,7 +2,6 @@ import { PiCheckCircleFill } from "react-icons/pi";
 import { accountantFeatures } from "../../data/data";
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
-import img from "/images/challan.jpg";
 
 function AccountSection() {
   return (
@@ -39,7 +38,7 @@ function AccountSection() {
         <div className="xxl:col-start-8 col-span-12 lg:col-span-6 xxl:col-span-5 overflow-hidden flex justify-center items-center">
           <FadeRight>
             <img
-              src={img}
+              src="https://i.ibb.co/bzx6Sw9/challan.jpg"
               alt=""
               className="object-fit hover:scale-110 duration-500 w-full h-full"
             />

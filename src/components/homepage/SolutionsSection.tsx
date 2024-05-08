@@ -3,7 +3,6 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 import LinkButton from "../ui/LinkButton";
 import circleIcon from "/images/circleIcon.png";
 import sliceIcon from "/images/sliceIcon.png";
-import solutionIllus from "/images/design2.png";
 import { Link } from "react-router-dom";
 import FadeLeft from "../animation/FadeLeft";
 import FadeTop from "../animation/FadeTop";
@@ -49,7 +48,7 @@ function SolutionsSection() {
           <div className="col-span-12 lg:col-span-6">
             <div className="flex justify-center items-center overflow-hidden self-stretch">
               <img
-                src={solutionIllus}
+                src="https://i.ibb.co/p2JNNK5/design2.png"
                 alt=""
                 className=" hover:scale-110 rounded-2xl duration-500 w-full"
               />

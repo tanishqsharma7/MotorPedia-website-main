@@ -1,7 +1,6 @@
 import { PiCheckCircleFill } from "react-icons/pi";
 import FadeRight from "../animation/FadeRight";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/Digital2.png";
 
 const offeringsItems = [
   "Immersive Virtual Showroom",
@@ -31,7 +30,7 @@ function WeHelpSection() {
                   <div className="flex justify-start items-center gap-2">
                     <span className="text-2xl text-s1">
                       <PiCheckCircleFill />
-                    </span>{" "}
+                    </span>
                     {item}
                   </div>
                 </StaggerEffect>
@@ -42,7 +41,7 @@ function WeHelpSection() {
         <div className="xxl:col-start-8 col-span-12 md:col-span-6 xxl:col-span-5 overflow-hidden flex justify-center items-center">
           <FadeRight>
             <img
-              src={img}
+              src="https://i.ibb.co/61kxhMw/Digital2.png"
               alt=""
               className="object-fit hover:scale-110 duration-500"
             />

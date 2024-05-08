@@ -5,7 +5,6 @@ import { ToastContainer, toast } from "react-toastify";
 import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
-import breadcrumpIllus from "/images/contact.png";
 import { CiMobile1 } from "react-icons/ci";
 // import locationImg from "/images/contact_page_img.png";
 
@@ -39,7 +38,7 @@ function ContactPage() {
   return (
     <main>
       <BreadcrumbSection
-        img={breadcrumpIllus}
+        img="https://i.ibb.co/w7mcMMq/contact.png"
         pageName="Contact Us"
         pageDesc="Reach out to us to transform your dealership now. Fill out the form or connect on the below information and our team will be in touch shortly"
         pageTitle="Connect With Us"
