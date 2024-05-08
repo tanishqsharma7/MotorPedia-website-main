@@ -1,15 +1,13 @@
-// import { useState } from "react";
-
 import "../../../node_modules/react-modal-video/scss/modal-video.scss";
 import BreadCrumb from "../ui/BreadCrumb";
 import vector from "/images/about_vector.png";
-import circleIcon from "/images/bg_car.png";
+
 function AboutSection() {
   // const [isOpen, setOpen] = useState(false);
   return (
     <section className="pt-24 lg:pt-30 sbp-30 bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden relative">
       <img
-        src={circleIcon}
+        src="https://i.ibb.co/KVxXPJH/bg-car.png"
         alt=""
         className="absolute top-35 -right-40 max-xl:h-2 max-sm:hidden"
       />

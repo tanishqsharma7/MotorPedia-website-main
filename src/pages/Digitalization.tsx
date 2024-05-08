@@ -5,13 +5,12 @@ import DentistSection from "../components/services/DentistSection";
 import WeHelpSection from "../components/services/WeHelpSection";
 import WhatWeDo from "../components/services/WhatWeDo";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
-import breadcrumbImg from "/images/laptopS1.png";
 
 function Digitalization() {
   return (
     <main>
       <BreadcrumbSection
-        img={breadcrumbImg}
+        img="https://i.ibb.co/9cszsKd/laptopS1.png"
         middlePage="Services"
         pageName="Digitalization Services"
         pageDesc="Elevate your online presence via our comprehensive digitalization platform"
@@ -19,11 +18,8 @@ function Digitalization() {
       />
       <WeHelpSection />
       <WhatWeDo />
-      {/* <StepByStepGuide /> */}
       <DentistSection />
       <DedicatedSupport />
-      {/* <CounterSection />
-      <WhyAccoupay /> */}
       <ContactSection isPaddingTop={true} />
       <CTASectiont />
     </main>

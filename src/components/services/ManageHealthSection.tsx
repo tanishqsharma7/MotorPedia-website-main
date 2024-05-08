@@ -1,10 +1,8 @@
 import { manageHealthItems } from "../../data/data";
-
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
 import FadeTop from "../animation/FadeTop";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/noc1.jpg";
 
 function ManageHealthSection() {
   return (
@@ -44,7 +42,11 @@ function ManageHealthSection() {
         </div>
         <div className="col-span-12 md:col-span-6 xl:col-span-5 xxl:col-start-8 flex justify-center items-center">
           <FadeRight>
-            <img src={img} alt="" className="rounded-2xl" />
+            <img
+              src="https://i.ibb.co/c8rMgv7/noc1.jpg"
+              alt=""
+              className="rounded-2xl"
+            />
           </FadeRight>
         </div>
       </div>

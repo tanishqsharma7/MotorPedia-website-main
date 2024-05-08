@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import StaggerEffectTwo from "../animation/StaggerEffectTwo";
-import heroBgElement1 from "/images/hero_bg_element1.png";
 import heroBgElement2 from "/images/hero_bg_element2.png";
 import heroBgElement3 from "/images/hero_bg_element3.png";
-import heroIllus from "/images/bghero.png";
 
 function Hero() {
   const text = "Automotive";
@@ -11,7 +9,7 @@ function Hero() {
   return (
     <section className="bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden">
       <img
-        src={heroBgElement1}
+        src="https://i.ibb.co/7YLs1YK/hero-bg-element1.png"
         alt=""
         className=" absolute top-0 left-0 xxxl:left-36 max-lg:w-[3000px] max-xxl:w-[5000px] max-md:hidden"
       />
@@ -60,7 +58,7 @@ function Hero() {
         </div>
         <div className="col-span-9 lg:col-span-6 lg:col-start-7 ">
           <img
-            src={heroIllus}
+            src="https://i.ibb.co/S5mLFyh/bghero.png"
             className=" mr-[50px] mt-7 lg:w-auto lg:h-auto pr-[90px] "
             alt=""
           />

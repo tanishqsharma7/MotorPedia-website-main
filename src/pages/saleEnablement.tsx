@@ -5,12 +5,12 @@ import TaxationSection from "../components/services/TaxationSection";
 import TaxationVideoSection from "../components/services/TaxationVideoSection";
 import WhatWeDoTaxation from "../components/services/WhatWeDoTaxation";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
-import breadcrumbImg from "/images/sale3.webp";
+
 function saleEnablement() {
   return (
     <main>
       <BreadcrumbSection
-        img={breadcrumbImg}
+        img="https://i.ibb.co/RbgzcG3/sale3.webp"
         middlePage="Services"
         pageName="Sales Enablement Services"
         pageDesc="At MotorPedia, we offer all ancillary services associated with a vehicle transaction such as inusrance, finance, warranty, RSA, inventory funding, refurbishment services, etc - all this through our one-stop solution. Experience the difference today."

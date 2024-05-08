@@ -1,6 +1,4 @@
 import { whatWeDo } from "../../data/data";
-//import SectionHeadingCenter from "../global/SectionHeadingCenter";
-import img from "/images/lead21.png";
 
 function WhatWeDo() {
   return (
@@ -19,7 +17,7 @@ function WhatWeDo() {
         <div className="grid grid-cols-9 gap-6 stp-15">
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex overflow-hidden justify-center items-center self-stretch">
             <img
-              src={img}
+              src="https://i.ibb.co/H7SkTkt/lead21.png"
               alt=""
               className=" hover:scale-110 rounded-2xl w-full  duration-500 h-[500px]"
             />
