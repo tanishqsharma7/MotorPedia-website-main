@@ -22,7 +22,7 @@ export default function ScrollToTopButton() {
         aria-label="bottom to top button"
       >
         <span className=" block size-[50px] ">
-          <img src="/images/whatsapp.png" />
+          <img src="/images/whatsapp.png" alt="whatsapp logo motorpedia" />
         </span>
       </button>
     </Link>

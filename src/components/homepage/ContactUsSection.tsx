@@ -40,7 +40,11 @@ function ContactUsSection() {
           </div>
         </div>
         <div className="w-full lg:max-xxl:w-1/2 self-stretch flex justify-center max-xxl:items-center lg:pt-10 ">
-          <img src={contactIllus} alt="" className=" object-cover" />
+          <img
+            src={contactIllus}
+            alt=" contact us motorpedia"
+            className=" object-cover"
+          />
         </div>
       </div>
     </div>

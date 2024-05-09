@@ -19,7 +19,7 @@ function HealthCareSection() {
             <div className="flex justify-center items-center w-full overflow-hidden">
               <img
                 src={img}
-                alt=""
+                alt="rto motorpedia"
                 className="hover:scale-110 duration-500 w-full h-full"
               />
             </div>

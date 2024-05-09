@@ -17,7 +17,7 @@ function AwardsSection() {
           <div className="  flex flex-col justify-end items-start lg:items-end relative w-full">
             <img
               src={starElement}
-              alt=""
+              alt="awards section"
               className="absolute min-[500px]:-bottom-14 lg:bottom-0 min-[500px]:right-0 xl:right-20 bottom-0 right-4"
             />
             <p className="text-[60px] md:text-[100px] xl:text-[150px] font-bold !leading-none text-outline -rotate-12 min-[500px]:-rotate-45 min-[500px]:pt-28 pt-8 lg:pt-40">
@@ -58,7 +58,7 @@ function AwardsSection() {
                     : "invisible opacity-0 "
                 } -translate-y-4 duration-500`}
               >
-                <img src={awardIcon} alt="" />
+                <img src={awardIcon} alt="award icon motorpedia" />
                 <h4 className="heading-4 max-w-[100px] text-center pt-8">
                   {text}
                 </h4>

@@ -48,7 +48,7 @@ function BlogSidebar() {
               <div className=" overflow-hidden self-stretch flex justify-center items-center ">
                 <img
                   src={img}
-                  alt=""
+                  alt="blog side bar motorpedia"
                   className=" overflow-hidden object-cover w-[100px]"
                 />
               </div>
