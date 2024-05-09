@@ -44,7 +44,7 @@ function BlogSection() {
                   <div className="flex justify-center items-center w-full overflow-hidden">
                     <img
                       src={img}
-                      alt=""
+                      alt="blog motorpedia"
                       className="object-cover hover:scale-110 duration-500"
                     />
                   </div>
