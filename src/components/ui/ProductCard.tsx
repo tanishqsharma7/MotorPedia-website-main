@@ -28,7 +28,7 @@ function ProductCard({ id, idx, img, name, price }: Props) {
         <div className=" relative overflow-hidden">
           <img
             src={img}
-            alt=""
+            alt="product card cars"
             className="hover:scale-110 duration-500 w-full h-full"
           />
           {!addedToCart ? (

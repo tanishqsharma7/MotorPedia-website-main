@@ -22,12 +22,12 @@ function StepByStepGuide() {
         <div className="flex justify-between items-center gap-6 md:gap-4 lg:gap-6 stp-15 relative max-md:flex-col">
           <img
             src={stepArrow1}
-            alt=""
+            alt="step by step car"
             className="absolute top-28 right-[22%] max-xxl:right-[23%] max-xxl:top-24 max-xxl:w-[200px] max-lg:right-[25%] max-lg:w-[100px] max-md:hidden"
           />
           <img
             src={stepArrow2}
-            alt=""
+            alt="step by step car 2"
             className="absolute top-16 left-[21%] max-xxl:top-20 max-xxl:left-[23%] max-xxl:w-[200px] max-lg:left-[25%] max-lg:w-[100px] max-md:hidden"
           />
           {stepByStepCard.map(({ id, title, desc, icon }) => (

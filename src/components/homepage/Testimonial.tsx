@@ -12,7 +12,7 @@ function Testimonial() {
       <div className=" overflow-hidden">
         <img
           src={sliceIcon}
-          alt=""
+          alt="testimonials motorpedia"
           className="absolute top-0 right-2 -rotate-90 max-md:h-[80px]"
         />
       </div>

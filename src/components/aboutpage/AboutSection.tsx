@@ -8,12 +8,12 @@ function AboutSection() {
     <section className="pt-24 lg:pt-30 sbp-30 bg-[url(/images/texture.png)] bg-repeat stp-30 hero_bg_gradient overflow-hidden relative">
       <img
         src="https://i.ibb.co/KVxXPJH/bg-car.png"
-        alt=""
+        alt="about motorpedia car dealership"
         className="absolute top-35 -right-40 max-xl:h-2 max-sm:hidden"
       />
       <img
         src={vector}
-        alt=""
+        alt="about us page design car"
         className="absolute top-36 right-0 xl:right-28 max-lg:hidden "
       />
       <div className="container pb-10">

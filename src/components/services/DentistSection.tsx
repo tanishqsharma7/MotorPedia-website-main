@@ -17,7 +17,7 @@ function DentistSection() {
           <div className="flex justify-center items-center w-full overflow-hidden">
             <img
               src="https://i.ibb.co/cFjD1yC/img3.webp"
-              alt=""
+              alt="car bg motorpedia"
               className="hover:scale-110 duration-500 w-full h-full"
             />
           </div>

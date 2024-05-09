@@ -22,7 +22,7 @@ function WhyAccoupay() {
                     <img
                       className="h-[250px] w-[400px]  rounded-t-2xl"
                       src={img}
-                      alt=""
+                      alt="whymotorpedia car"
                     />
                   </div>
                   <h4 className="pt-2 text-black heading-4 text-wrap md:pl-3">

@@ -68,7 +68,7 @@ function BreadcrumbSection({
           <FadeRight>
             <img
               src={img}
-              alt=""
+              alt="breadcrump cars"
               className=" object-fit max-sm:max-h-[300px]"
             />
           </FadeRight>

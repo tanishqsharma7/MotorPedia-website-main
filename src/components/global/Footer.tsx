@@ -11,7 +11,7 @@ function Footer() {
       <div className="container grid grid-cols-12  stp-30 sbp-30 gap-6 max-xxl:pr-4">
         <div className=" col-span-12 min-[450px]:col-span-6 lg:col-span-3 flex flex-col gap-6 lg:gap-8">
           <Link to="/" className="">
-            <img src={logo} onClick={backtoTop} alt="" />
+            <img src={logo} onClick={backtoTop} alt="logo motorpedia car" />
           </Link>
           <p className="">
             Expertly curated automotive solutions by automotive professionals.

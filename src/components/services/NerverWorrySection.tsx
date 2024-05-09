@@ -10,7 +10,7 @@ function NerverWorrySection() {
           <FadeLeft>
             <img
               src="https://i.ibb.co/S6sLLm4/image2.jpg"
-              alt=""
+              alt="never worry motorpedia"
               className="hover:scale-110 duration-500 w-screen h-full"
             />
           </FadeLeft>

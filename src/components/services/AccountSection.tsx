@@ -39,7 +39,7 @@ function AccountSection() {
           <FadeRight>
             <img
               src="https://i.ibb.co/bzx6Sw9/challan.jpg"
-              alt=""
+              alt="motorpedia section"
               className="object-fit hover:scale-110 duration-500 w-full h-full"
             />
           </FadeRight>

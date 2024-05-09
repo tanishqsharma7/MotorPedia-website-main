@@ -23,7 +23,7 @@ function CTASectiont() {
       <div className="container bg-[url(/images/counter_bg.jpeg)] py-12 sm:py-20 px-4 sm:px-10 md:px-20 lg:px-40 relative z-10 rounded-2xl shadow-xl">
         <img
           src={icon}
-          alt=""
+          alt="Email motorpedia"
           className="absolute -top-4 sm:-top-6 lg:top-0 right-0 h-[60px] sm:h-[80px] lg:h-[120px] -rotate-90"
         />
         <p className="display-3 text-center text-white !leading-[130%]">
