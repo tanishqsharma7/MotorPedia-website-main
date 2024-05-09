@@ -12,7 +12,7 @@ function FaqSection() {
     <section className="stp-30 sbp-30 relative ">
       <img
         src={sliceIcon}
-        alt=""
+        alt="faqs section"
         className="absolute top-0 left-0 -rotate-90 max-md:h-[80px]"
       />
       <div className="container ">
@@ -25,7 +25,7 @@ function FaqSection() {
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex justify-center items-center overflow-hidden">
             <img
               src={faqIllus}
-              alt=""
+              alt="faq section motorpedia car"
               className="hover:scale-110 duration-500 w-full h-full"
             />
           </div>

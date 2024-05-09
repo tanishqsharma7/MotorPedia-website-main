@@ -42,7 +42,7 @@ function WeHelpSection() {
           <FadeRight>
             <img
               src="https://i.ibb.co/61kxhMw/Digital2.png"
-              alt=""
+              alt="help section motorpedia"
               className="object-fit hover:scale-110 duration-500"
             />
           </FadeRight>

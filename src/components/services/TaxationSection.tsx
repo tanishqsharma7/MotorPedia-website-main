@@ -23,7 +23,7 @@ function TaxationSection() {
               <div className="flex justify-center items-center w-full overflow-hidden">
                 <img
                   src="https://i.ibb.co/BwFD7sd/sale21.png"
-                  alt=""
+                  alt="taxation motorpedia"
                   className="hover:scale-110 duration-500 w-full h-full"
                 />
               </div>

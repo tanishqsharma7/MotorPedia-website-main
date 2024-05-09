@@ -11,12 +11,12 @@ function SolutionsSection() {
     <section className="stp-30 sbp-30 relative">
       <img
         src={circleIcon}
-        alt=""
+        alt="solutions banner motorpedia"
         className="absolute top-10 left-0 max-xxl:hidden xxl:-left-72 xxxl:-left-40"
       />
       <img
         src={sliceIcon}
-        alt=""
+        alt="solutions secondary banner"
         className="absolute right-0 sm:right-2 sm:top-8 lg:right-10 top-5 xl:top-32 max-md:h-[80px]"
       />
       <div className="container z-10 relative">
@@ -49,7 +49,7 @@ function SolutionsSection() {
             <div className="flex justify-center items-center overflow-hidden self-stretch">
               <img
                 src="https://i.ibb.co/p2JNNK5/design2.png"
-                alt=""
+                alt="solutions image car"
                 className=" hover:scale-110 rounded-2xl duration-500 w-full"
               />
             </div>

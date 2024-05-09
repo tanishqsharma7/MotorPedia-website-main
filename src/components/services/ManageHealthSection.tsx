@@ -44,7 +44,7 @@ function ManageHealthSection() {
           <FadeRight>
             <img
               src="https://i.ibb.co/c8rMgv7/noc1.jpg"
-              alt=""
+              alt="motorpedia card"
               className="rounded-2xl"
             />
           </FadeRight>

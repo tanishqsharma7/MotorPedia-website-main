@@ -18,7 +18,7 @@ function WhatWeDo() {
           <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex overflow-hidden justify-center items-center self-stretch">
             <img
               src="https://i.ibb.co/H7SkTkt/lead21.png"
-              alt=""
+              alt="what we do motorpedia used car"
               className=" hover:scale-110 rounded-2xl w-full  duration-500 h-[500px]"
             />
           </div>
