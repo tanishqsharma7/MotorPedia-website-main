@@ -23,16 +23,10 @@ function ContactSection({ isPaddingTop }: { isPaddingTop?: boolean }) {
                   <div className="flex justify-center items-center flex-col">
                     <div className="text-7xl text-s1">{icon}</div>
                     <h4 className="heading-4 pb-4 pt-3">{title}</h4>
-                    <p className="pb-5 text-center">{desc}</p>
+                    <p className="pb-5 text-center ">{desc}</p>
                     <Link to={linkto} className="text-s1 underline font-medium">
                       {linkText}
                     </Link>
-                    {/* <Link
-                    to={"/contact"}
-                    className="text-s1 underline font-medium"
-                  >
-                    {linkText}
-                  </Link> */}
                   </div>
                 </StaggerEffect>
               </div>

@@ -4,9 +4,9 @@ import RootLayout from "./RootLayout";
 import Loader from "./components/ui/Loader";
 import AboutPage from "./pages/AboutPage";
 import AccountingServices from "./pages/RTO";
-import AppointmentPage from "./pages/AppointmentPage";
+//import AppointmentPage from "./pages/AppointmentPage";
 import ContactPage from "./pages/ContactPage";
-import DentistServices from "./pages/DentistServices";
+//import DentistServices from "./pages/DentistServices";
 import ErrorPage from "./pages/Error";
 import FAQPage from "./pages/FAQPage";
 import HealthCareServices from "./pages/HealthCareServices";
@@ -55,14 +55,14 @@ export const router = createBrowserRouter([
         path: "/services/healthcare-services",
         element: <HealthCareServices />,
       },
-      {
-        path: "/services/dentist-services",
-        element: <DentistServices />,
-      },
-      {
-        path: "/appointment",
-        element: <AppointmentPage />,
-      },
+      // {
+      //   path: "/services/dentist-services",
+      //   element: <DentistServices />,
+      // },
+      // {
+      //   path: "/appointment",
+      //   element: <AppointmentPage />,
+      // },
       {
         path: "/faq",
         element: <FAQPage />,

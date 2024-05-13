@@ -1,5 +1,6 @@
 {
-  "name": "motorPediaeact",
+  "homepage": "https://themotorpedia.com",
+  "name": "motorPedia",
   "private": true,
   "version": "0.0.0",
   "type": "module",

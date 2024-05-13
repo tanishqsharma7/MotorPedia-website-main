@@ -19,7 +19,7 @@ function WhatWeDo() {
             <img
               src="https://i.ibb.co/H7SkTkt/lead21.png"
               alt="what we do motorpedia used car"
-              className=" hover:scale-110 rounded-2xl w-full  duration-500 h-[500px]"
+              className=" hover:scale-110 rounded-2xl lg:w-full  duration-500 lg:h-[500px]"
             />
           </div>
 
