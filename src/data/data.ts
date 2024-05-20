@@ -714,7 +714,7 @@ export const coreServices = [
     icon: React.createElement(PiCarSimpleBold),
     title: "RTO Assistance",
     link: "/services/RTO",
-    desc: "Say goodvye to all your RTO related issues with our one-stop solution - be it basic ownership transfer, hypothecation addition and termination, challan clearance or NOC issuance, we have got you covered and all this at superfast TATs",
+    desc: "Say goodbye to all your RTO related issues with our one-stop solution - be it basic ownership transfer, hypothecation addition and termination, challan clearance or NOC issuance, we have got you covered and all this at superfast TATs",
   },
   {
     id: uuidv4(),
