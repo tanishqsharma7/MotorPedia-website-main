@@ -51,9 +51,6 @@ function Hero() {
             >
               Know More
             </Link>
-            {/* <Link to={"/faq"} className=" underline font-medium">
-              Learn More
-            </Link> */}
           </div>
         </div>
         <div className="col-span-9 lg:col-span-6 lg:col-start-7 ">
