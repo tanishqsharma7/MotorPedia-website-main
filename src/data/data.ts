@@ -276,6 +276,12 @@ export const getInTouch = [
         isLink: false,
         icon: React.createElement(MdOutlineLocationOn),
       },
+      {
+        id: uuidv4(),
+        name: "Green Gold 56, Plot 54-P, Opposite Suraj School, Block B, Sector 56, Gurugram, Haryana 122011",
+        isLink: false,
+        icon: React.createElement(MdOutlineLocationOn),
+      },
     ],
   },
 ];
@@ -292,6 +298,12 @@ export const teamContactDetails = [
     name: "+91 9205522250",
     link: "tel:+91 9205522250",
     icon: React.createElement(PiPhoneCallFill),
+  },
+  {
+    id: uuidv4(),
+    name: "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
+    link: "",
+    icon: React.createElement(PiMapPinFill),
   },
   {
     id: uuidv4(),
@@ -1324,6 +1336,8 @@ export const contactPageCard = [
     name: "Visit Our Office",
     address:
       "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
+    address2:
+      "Green Gold 56 ,Plot 54-P, Opposite Suraj School, Block B, Sector 56, Gurugram, Haryana 122011",
   },
 ];
 
