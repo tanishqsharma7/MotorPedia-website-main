@@ -12,8 +12,8 @@ export default {
         xxxl: "1600px",
       },
       colors: {
-        p1: "#07205d", //primary color
-        s1: "#07205d", //secondary color
+        p1: "#121B5B", //primary color
+        s1: "#121B5B", //secondary color
         s2: "#F6C324",
         s3: "#F6C324",
         s4: "#FFB280",

@@ -21,7 +21,7 @@ function CoreServices() {
               <StaggerEffect id={idx}>
                 <Link to={link}>
                   <div className="flex justify-start items-start flex-col p-6 lg:p-10 group border border-strokeColor hover:bg-s2 hover:border-mainTextColor rounded-lg duration-500">
-                    <div className="bg-softBg1 p-4 rounded-full text-s1 group-hover:bg-mainTextColor group-hover:text-white duration-500 text-5xl">
+                    <div className="bg-softBg1 p-4 rounded-full text-s1 group-hover:bg-s1 group-hover:text-white duration-500 text-5xl">
                       {icon}
                     </div>
 

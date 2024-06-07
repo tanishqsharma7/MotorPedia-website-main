@@ -68,7 +68,7 @@ function ContactPage() {
       <section className="container grid grid-cols-12 stp-30 sbp-30">
         <div className=" col-span-12 lg:col-span-8 lg:col-start-3 grid grid-cols-12 gap-4 lg:gap-6">
           {contactPageCard.map(
-            ({ id, icon, name, link, address, linkText, address2 }) => (
+            ({ id, icon, name, link, address, linkText }) => (
               <div
                 className="flex flex-col justify-start items-start p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-gray-200 hover:text-mainTextColor rounded-lg hover:border-mainTextColor duration-500 group"
                 key={id}
@@ -82,8 +82,6 @@ function ContactPage() {
                 <h4 className="heading-4 pt-5 pb-2 ">{name}</h4>
                 {link && <Link to={link}>{linkText}</Link>}
                 {address && <p>{address}</p>}
-                {address2 && <br></br>}
-                {address2 && <p>{address2}</p>}
               </div>
             )
           )}
@@ -171,7 +169,7 @@ function ContactPage() {
 
       <section className="container grid grid-cols-12 gap-6 sbp-30">
         <div className=" col-span-12 md:col-span-5 xl:col-span-4 flex flex-col justify-center items-start">
-          <h2 className="display-4 pb-5">Our Offices</h2>
+          <h2 className="display-4 pb-5">Our Office</h2>
           <p className=" text-bodyText pb-8 lg:pb-15">
             If you prefer an in-person meeting, our office is open during
             business hours.
@@ -183,18 +181,6 @@ function ContactPage() {
                 <PiMapPinFill />
               </div>
               <div className="pb-1">
-                <p>
-                  Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road,
-                  Gurugram, Haryana - 122002
-                </p>
-              </div>
-            </li>
-
-            <li className="flex justify-start items-start gap-3  ">
-              <div className="bg-mainTextColor text-white text-3xl p-3 rounded-full">
-                <PiMapPinFill />
-              </div>
-              <div className="">
                 <p>
                   Green Gold 56, Plot 54-P, Opposite Suraj School, Block B,
                   Sector 56, Gurugram, Haryana 122011
@@ -216,23 +202,10 @@ function ContactPage() {
 
         <div className=" col-span-12 md:col-span-7 xl:col-start-6 overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.00381100687!2d77.08824227528312!3d28.47943187574876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d235576155dc1%3A0xea503c2c1313c609!2sMotorPedia%20%7C%20Automotive%20Solutions%20Provider!5e0!3m2!1sen!2sin!4v1712566651067!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8172437557546!2d77.09824177494909!3d28.42477089348604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23e7cf718c95%3A0x6af0c1faac10cd00!2sGreen%20Gold%2056!5e0!3m2!1sen!2sin!4v1717752355699!5m2!1sen!2sin"
             width="900"
             height="450"
           ></iframe>
-          {/* My map of sec56 and jmd */}
-          {/* <iframe
-            src="https://www.google.com.qa/maps/d/u/0/embed?mid=1gLQMq86l4jlMwnlEKXfzw1iIfSRUy_Q&ehbc=2E312F"
-            width="640"
-            height="480"
-          ></iframe> */}
-
-          {/* Map of sec56 */}
-          {/* <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.819689770247!2d77.1008161!3d28.4246971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23e7cf718c95%3A0x6af0c1faac10cd00!2sGreen%20Gold%2056!5e0!3m2!1sen!2sin!4v1717233161703!5m2!1sen!2sin"
-            width="900"
-            height="450"
-          ></iframe> */}
         </div>
       </section>
       <CTASectiont />

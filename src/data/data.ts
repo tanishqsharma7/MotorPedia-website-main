@@ -272,14 +272,9 @@ export const getInTouch = [
       },
       {
         id: uuidv4(),
-        name: "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122002",
-        isLink: false,
-        icon: React.createElement(MdOutlineLocationOn),
-      },
-      {
-        id: uuidv4(),
         name: "Green Gold 56, Plot 54-P, Opposite Suraj School, Block B, Sector 56, Gurugram, Haryana 122011",
-        isLink: false,
+        link: "https://maps.app.goo.gl/YDAfZKPDowWWKoFA8",
+        isLink: true,
         icon: React.createElement(MdOutlineLocationOn),
       },
     ],
@@ -301,13 +296,7 @@ export const teamContactDetails = [
   },
   {
     id: uuidv4(),
-    name: "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
-    link: "",
-    icon: React.createElement(PiMapPinFill),
-  },
-  {
-    id: uuidv4(),
-    name: "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
+    name: "Green Gold 56, Plot 54-P, Opposite Suraj School, Block B, Sector 56, Gurugram, Haryana 122011",
     link: "",
     icon: React.createElement(PiMapPinFill),
   },
@@ -1335,8 +1324,6 @@ export const contactPageCard = [
     icon: React.createElement(PiMapPinFill),
     name: "Visit Our Office",
     address:
-      "Suite No. 24, 3rd Floor, JMD Empire Square Mall, MG Road, Gurugram, Haryana, India - 122001",
-    address2:
       "Green Gold 56 ,Plot 54-P, Opposite Suraj School, Block B, Sector 56, Gurugram, Haryana 122011",
   },
 ];
