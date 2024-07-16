@@ -649,6 +649,19 @@ function TermsConditions() {
           </li>
         </div>
         <div className="">
+          <h3 className="heading-3 py-6"> Account Deletion Policy : </h3>
+          <ul>
+            <li>
+              Within the Dealer's Profile option in the Dealer App, you can
+              choose to delete your account. This action will mark your account
+              as deleted and inactive in our system, ceasing all further
+              activities, app login, and all interactions. However, as part of
+              our business practices, we will retain the associated data for
+              billing, financial, and audit purposes until final clearance.
+            </li>
+          </ul>
+        </div>
+        <div className="">
           <h3 className="heading-3 py-6"> General Provisions : </h3>
           <ul>
             <li>
